@@ -1,0 +1,2 @@
+# zinets
+Chinese characters
