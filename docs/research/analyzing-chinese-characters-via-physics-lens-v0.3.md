@@ -1,6 +1,7 @@
 # A Physics-Inspired Computational Approach to Chinese Character Analysis: Network Patterns and Semantic Evolution
 
 Wen G. Gong*
+
 *Corresponding author: digital-duck@outlook.com
 
 2025-01-01
