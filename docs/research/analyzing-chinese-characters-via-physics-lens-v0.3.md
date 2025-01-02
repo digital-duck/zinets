@@ -68,9 +68,11 @@ Our physics-inspired approach treats Chinese character composition as a system o
    - Additional dimensions (mid-inner, mid-outer) handle enclosure structures, analogous to how physics adds dimensions to describe complex systems
 
 2. Topological Patterns
+   - Irreducible patterns: independent components like pictograph characters (e.g. 日，月，人)
    - Linear arrangements: Components interact in sequential positions (e.g., 明, 街, 尖, 曼)
    - Enclosure patterns: Outer components create boundary conditions for inner elements (e.g. 回)
    - Triangle patterns: components arranged in triangular positions (e.g. 品, 森)
+   - Quadrant patterns: components arranged in square positions (e.g. 疑，叕)
    - Nested structures: Multiple levels of containment create hierarchical relationships (e.g. 藻)
 
 3. Special Case Handling
@@ -91,16 +93,21 @@ The Fibonacci sequence provides a natural framework for understanding how Chines
    - First pair of naturally contrasting 元字
    - Represents 2 visible solar objects and a fundamental abstraction in the basic dualism philosophy (阴阳)
    - Foundation for temporal and luminance concepts
+   - Both characters can be used as radicals. It is worthwhile to note that 月 means body part meat/flesh 肉 when used as radical. This is likely a historical coincidence where 月 was adopted as the simplified writing form for 肉.
 
 3 (三): 天,地,人 (heaven, earth, human)
    - Tripartite domain 元字
    - Establishes basic spatial and existential framework for human cognitive psychic
    - Core reference for positioning and relationships
+   - Radical form mapping: 土 for 地, 亻for 人.
+
+   ![Heaven-Earth-Human](./images/sun-moon-heaven-human-earth-meditation-morning.jpg)
 
 5 (五): 金,木,水,火,土 (metal, wood, water, fire, earth)
    - Material phase 元字
-   - Fundamental elements for describing physical and materialistic world
+   - Fundamental 5 elements (五行) for describing physical and materialistic world in ancient philosophy.
    - Base components for nature-related characters
+   - Radical form mapping: 钅for 金, 氵for 水, 木,火,土 are often rended in narrower form when used as radicals. The semantic meanings are the same.
 
 8 (八): 东,南,西,北,春,夏,秋,冬 (directions and seasons)
    - Spatiotemporal 元字
@@ -111,6 +118,7 @@ The Fibonacci sequence provides a natural framework for understanding how Chines
    - Biological 元字
    - Complex natural phenomena
    - Base set for describing living things
+   - Radical form mapping: 牜for 牛, 虫 is a radical for 蛇 and other insects, 犭is a radical for many animals (e.g. 猴,狗,猪), 羊,⺶,⺷ are variant radical forms for 羊(Sheep), radical for 马 appears narrower.
 
 21 (二十一): Quantification and Measurement 元字
 This set represents the emergence of systematic measurement and counting:
@@ -131,11 +139,11 @@ This set represents the emergence of systematic measurement and counting:
 34 (三十四): Human Form and Action 元字
 This set introduces fundamental components for describing human existence and behavior:
 
-1. Body Parts, Actions and Identity:
-   - Basic parts: 心,头,首,面,页,口,目,鼻,耳,舌,牙,齿,手,又,足,血,肉,身,尸,骨,皮,毛
-   - Action indicators: 忄,扌,辶,走,立
-   - Expression: 言,讠
-   - Identity: 男,女,子,自,己
+- Basic parts: 心(忄),头,首,面,口,目,眉,鼻,耳,舌,牙,齿,手(扌),又,足,血,肉,身,尸,骨,皮,毛(彡)
+- Action indicators: 看,听,思,食,走(辶),立
+- Expression: 言(讠)
+- Identity: 男,女,子,自,己
+- Radical form mapping: 忄for 心, 扌for 手, 辶 for 足, 讠for 言, often (not always) in action context, e.g. emotional thinking, holding, walking, communicating, praying, respectively. 目, 口, 足, 骨, 耳 appears as radicals too. Some of these characters (like 首, 面) can function as both nouns (head, face) and measure words/classifiers in different contexts.
 
 ### 2.4 Pattern Discovery and Physical Analogies
 
@@ -207,7 +215,9 @@ Our computational analysis of approximately 3,000 commonly used Chinese characte
    - High-frequency components span fundamental conceptual categories
    - Natural selection of most effective semantic encoders
 
-### 3.3 Case Study: The 禺 Family
+### 3.3 Case Studies: 
+
+#### The 禺 Family
 Detailed analysis of the 禺 component family demonstrates our methodology:
 
 Base Component:
@@ -225,6 +235,10 @@ The semantic evolution follows predictable patterns similar to force interaction
 - Temporal joining (遇)
 - Conceptual joining (愚)
 - Physical joining (偶)
+
+#### The 申 毛 Family
+
+
 
 ### 3.4 Computational Pattern Discovery
 
@@ -312,7 +326,7 @@ This work is dedicated to late Professor T.D. Lee, whose pioneering efforts open
 I also dedicate this work to my dear parents, who nurtured my intellectual curiosity through challenging times. Their sacrifices and unwavering support made my life journey possible.
 
 ## Acknowledgements
-This paper represents a collaborative effort between the author and Claude, an AI Assistant from Anthropic. The fusion of human expertise in physics and Chinese language with AI's analytical capabilities enabled the development of novel perspectives and methodologies presented in this work. This collaboration demonstrates the potential of human-AI partnerships in academic research, particularly in interdisciplinary studies bridging traditional knowledge with modern computational approaches.
+This paper represents a collaborative effort between the author and Claude, an AI Assistant from Anthropic. The fusion of human expertise in software development, physics and Chinese language with AI's analytical capabilities enabled the development of novel perspectives and methodologies presented in this work. This collaboration demonstrates the potential of human-AI partnerships in academic research, particularly in interdisciplinary studies bridging traditional knowledge with modern computational approaches.
 
 ## References
 
@@ -330,6 +344,8 @@ This paper represents a collaborative effort between the author and Claude, an A
 ## Appendix
 
 ### ZiNets Web App 
+
+We plan to open-source this web app in the near future. The application visualizes and analyzes character networks using the organizational principles described in this paper. By making this tool publicly available, we aim to support researchers, educators, and language enthusiasts in exploring not only Chinese characters but also other human natural languages as naturally evolving semantic systems. The modular design of ZiNets allows for adaptation to different writing systems, enabling comparative studies of how various languages organize and connect meaning through their basic elements.
 
 - source code : https://github.com/digital-duck/zinets
 
