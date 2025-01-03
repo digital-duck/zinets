@@ -12,35 +12,34 @@ This paper presents a novel perspective on Chinese characters as a naturally evo
 ## 1. Introduction
 Chinese characters [1], as one of the oldest continuously used writing systems, present a unique opportunity for studying how symbolic systems naturally evolve to encode and transmit meaning. 
 
-Historically and traditionally, Chinese characters are categorized into six types (known as 六书) based on their formation.
+Traditional Chinese linguistics classifies characters into six categories (六书) based on their formation principles:
 
-- Pictograms (象形): The earliest forms. These characters are stylized representations of concrete objects. Examples are: 日 (sun), 月 (moon), 山 (mountain), 人 (human)
+- Pictograms (象形): Direct pictorial representations of concrete objects, forming the earliest character types. Examples include 日 (sun), 月 (moon), 山 (mountain), and 人 (human).
 
-- Simple Ideograms (指事): These characters represent abstract concepts through symbolic forms or by adding strokes to pictograms. Examples are: 上 (above), 下 (below), 一 (one), 二 (two)
+- Simple Ideograms (指事): Abstract concepts represented through symbolic forms or modified pictograms. Examples include 上 (above), 下 (below), 一 (one), and 二 (two).
 
-- Compound Ideograms (会意): Combine two or more pictograms or ideograms to create a new meaning. The meaning is derived from the logical combination of the parts. Examples are: 休 (rest, 人 person leaning against 木 tree), 明 (bright, 日 sun and 月 moon)
+- Compound Ideograms (会意): Logical combinations of two or more pictograms or ideograms to create new meanings. For instance, 休 (rest) shows a 人 (person) leaning against a 木 (tree), while 明 (bright) combines 日 (sun) and 月 (moon).
 
-- Phono-semantic Compounds (形声): The most common type. These characters combine a semantic component (giving a hint of meaning) and a phonetic component (giving a hint of pronunciation). Examples are: 媽 (mother; semantic: 女 woman, phonetic: 馬, which was historically pronounced similarly), 湖 (lake; semantic: 氵water, phonetic: 胡 hú)
+- Phono-semantic Compounds (形声): The most prevalent type, combining a semantic component (meaning indicator) with a phonetic component (pronunciation guide). Examples include 妈 (mother; semantic: 女 woman, phonetic: 马) and 湖 (lake; semantic: 氵water, phonetic: 胡 hu).
 
-- Transfer Characters (转注): This category is less clear-cut and more debated among scholars. It generally refers to characters whose meanings have been extended or adapted.
+- Transfer Characters (转注): A debated category describing characters with extended or adapted meanings.
 
-- Loan Characters (假借):  These characters were "borrowed" to represent a different word with a similar pronunciation. Also not as crucial for basic understanding.
+- Loan Characters (假借): Characters borrowed phonetically to represent words with similar pronunciations.
 
-Extensive data and research exists on structural evolution of Chinese characters in terms of writing styles ranging from Oracle, to Bronze, to Seal,  
+While extensive research exists on the structural evolution of Chinese characters through various writing styles - from Oracle Bone Script (甲骨文), Bronze Script (金文), Seal Script (篆书), Clerical Script (隶书), Regular Script (楷书), Semi-cursive Script (行书), to Cursive Script (草书), traditional scholarship has primarily focused on their morphological aspects. This paper proposes a novel perspective: Chinese characters represent a naturally evolved system that follows universal principles of organization and growth observed throughout nature.
 
-While traditional approaches have often viewed characters as designed constructs, this paper proposes that they represent a naturally evolved system following universal principles of organization and growth seen throughout nature.
 
-The key insights of this paper are:
-1. Chinese characters evolved as a coherent system for encoding concepts, following natural principles rather than arbitrary design
-2. Character formation patterns mirror physical and biological growth processes
-3. The system exhibits properties of self-organization and natural evolution
-4. Computational analysis reveals systematic patterns in character composition and development
+Key insights:
+- Chinese characters evolved as a coherent conceptual encoding system through natural principles rather than arbitrary design
+- Character formation patterns parallel physical and biological growth processes
+- The system exhibits self-organization and natural evolution characteristics
+- Computational analysis reveals systematic patterns in character composition
 
-Through our physics-inspired framework, we demonstrate how:
-- Elemental characters (元字) combine following natural patterns
-- Character complexity follows Fibonacci-like growth sequences
-- Component interactions create stable semantic structures
-- The system maintains coherence while enabling evolution
+Our physics-inspired framework demonstrates:
+- Natural combinatorial patterns in elemental characters (元字)
+- Fibonacci-like growth sequences in character complexity
+- Stable semantic structures emerging from component interactions
+- System coherence maintained through evolutionary development
 
 ## 2. Methodology
 
@@ -646,7 +645,7 @@ We plan to open-source this web app in the near future. The application visualiz
 
 - source code : https://github.com/digital-duck/zinets (in preparation for public release)
 
-Below are a few screenshots illustrating its features.
+Below are a few screenshots highlighting its features.
 
 #### Custom-built Dictionary 
 
