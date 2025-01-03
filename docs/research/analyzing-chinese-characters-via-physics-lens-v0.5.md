@@ -206,26 +206,33 @@ The core feature of ZiNets is its hierarchical decomposition visualization:
 
 ### 3.2 Frequency Analysis and Natural Efficiency
 
-Our computational analysis of approximately 3,000 commonly used Chinese characters reveals striking patterns in 元字 usage that support the concept of natural optimization:
+Our computational analysis of approximately 3,000 commonly used Chinese characters reveals striking patterns in 元字 usage that demonstrate natural optimization principles:
 
-1. Frequency Distribution
-   - High-frequency components (>300 occurrences):
-     * 木(510): wood/earth category
-     * 氵(374): water/earth category
-     * 口(334): human/speech category
-   - This distribution suggests natural selection of efficient building blocks. See more examples in Appendix-I.
+1. Distribution of High-frequency Elements (>100 occurrences): 
+   
+   The table presents the 25 most frequently used elemental characters/radicals in commonly used Chinese characters. These elements primarily belong to the 2nd (日,月), 3rd (天地人) and 4th (金木水火土) Fibonacci sequence number sets. While 气 (air/energy) is not present in this list, its conceptual force permeates the character system. The distribution pattern suggests a natural evolution toward efficient structural components, with elements grouped into distinct semantic categories:
 
-2. Semantic Categories
-   - Earth/Nature elements show high frequency
-   - Human-related components are numerous
-   - Abstract concepts build upon concrete elements
-   - Hierarchy from physical to conceptual domains
+- Heaven-related elements (天界): 日, 月
+- Human-related elements (人类): 口, 女, 人(亻), 心 (忄), 目, 手(扌), 辶
+- Natural elements (自然):
+    - Five elements (五行): 金(钅), 木, 水(氵), 火, 土
+    - Earth variations: 阝, 艹, 纟
+    - Living beings (生物): 虫, 鸟, 马
 
-3. Efficiency Principles
-   - Most common 元字 serve as versatile semantic building blocks
-   - System shows optimization between complexity and expressiveness
-   - High-frequency components span fundamental conceptual categories
-   - Natural selection of most effective semantic encoders
+   ![top-25-elemental-character-set](./images/part-frequency.png)    
+
+2. Semantic Distribution
+
+- Predominance of earth and nature elements
+- High representation of human-related components
+- Progressive development from concrete to abstract concepts
+- Clear conceptual hierarchy from physical to abstract domains
+
+3. Efficiency Characteristics
+- Core 元字 function as versatile semantic foundations
+- System balances complexity with expressive power
+- High-frequency components span fundamental categories
+- Evidence of evolutionary selection for optimal semantic encoding
 
 ### 3.3 Case Studies - Composite Characters 
 
@@ -277,10 +284,6 @@ The semantic evolution follows predictable patterns analogous to fundamental for
 This family demonstrates how semantic forces, like physical forces, create stable configurations that persist through time while allowing for evolutionary adaptation to new meanings.
 
 
-Just as matter organizes itself into increasingly complex structures - from atoms to molecules to molecular clusters - language exhibits similar emergent properties at different scales. Individual characters (字) serve as the atomic units, carrying fundamental meanings and combining properties. These form compounds and phrases (词组), analogous to molecules with stable semantic bonds. At a higher level of organization, these linguistic molecules arrange themselves into sophisticated structures like poems, which, like molecular clusters, exhibit properties beyond the sum of their parts. This natural hierarchy of meaning-making demonstrates the living, self-organizing nature of Chinese language.
-
-This self-organization manifests particularly clearly in how the language preserves and transmits wisdom across generations. Characters and their compounds persist not through rigid prescription but through their resonance with human cognition and experience. Similarly, classical poems endure not by institutional mandate but through their ability to encode universal human insights in memorable, emotionally resonant forms. The following case studies examine these organizing principles at two scales: compound phrases and classical poems.
-
 
 ### 3.4 Case Studies - Pinyin - A Counter-Argument
 
@@ -290,6 +293,11 @@ In the Chinese language, sound (声 shēng), form (形 xíng), and meaning (意 
 
 To illustrate this point, consider the word "ma." In Pinyin, it could represent various unrelated concepts such as 妈 (mā, mother), 马 (mǎ, horse), or 骂 (mà, yell or curse). Without the visual distinction provided by characters, the richness and clarity of the language would be diminished, leading to confusion and ambiguity.
 Chinese characters, in their elegance and complexity, encode both visual and auditory information, creating a harmonious balance that has allowed the language to flourish for millennia. Embracing and preserving this heritage, while judiciously integrating modern enhancements like Pinyin, is the path to ensuring the continued vitality and relevance of the Chinese language in the 21st century and beyond.
+
+
+Just as matter organizes itself into increasingly complex structures - from atoms to molecules to molecular clusters - language exhibits similar emergent properties at different scales. Individual characters (字) serve as the atomic units, carrying fundamental meanings and combining properties. These form compounds and phrases (词组), analogous to molecules with stable semantic bonds. At a higher level of organization, these linguistic molecules arrange themselves into sophisticated structures like poems, which, like molecular clusters, exhibit properties beyond the sum of their parts. This natural hierarchy of meaning-making demonstrates the living, self-organizing nature of Chinese language.
+
+This self-organization manifests particularly clearly in how the language preserves and transmits wisdom across generations. Characters and their compounds persist not through rigid prescription but through their resonance with human cognition and experience. Similarly, classical poems endure not by institutional mandate but through their ability to encode universal human insights in memorable, emotionally resonant forms. The following case studies examine these organizing principles at two scales: compound phrases and classical poems.
 
 
 ### 3.5 Case Studies - Phrases and Idioms
@@ -368,13 +376,13 @@ This section examines how classical Chinese poetry achieves remarkable semantic 
 
 Wang Zhihuan's "登鹳雀楼" and Li Bai's "静夜思" represent perfect exemplars of cultural survival through semantic efficiency. Each using exactly 20 characters, these poems have persisted across twelve centuries not through institutional preservation alone, but through their remarkable resonance with fundamental human experiences:
 
-"登鹳雀楼"
+"王之涣 - 登鹳雀楼"
 白日依山尽，
 黄河入海流。
 欲穷千里目，
 更上一层楼。
 
-"静夜思"
+"李白 - 静夜思"
 床前明月光，
 疑是地上霜。
 举头望明月，
@@ -632,7 +640,7 @@ This paper represents a collaborative effort between the author and Claude, an A
 #### Overview
 
 ZiNets Web App is a custom-built tool used to conduct network research and studies on Chinese characters. It allows the author to decompose 3000 characters efficiently.
-It also offers search and report features. Being based in database and network data structure design, it enables one to discover patterns not easily available.
+It also offers search and report features. Being based in database and network data-structure design, it enables one to discover patterns not easily available.
 
 We plan to open-source this web app in the near future. The application visualizes and analyzes character networks using the organizational principles described in this paper. By making this tool publicly available, we aim to support researchers, educators, and language enthusiasts in exploring not only Chinese characters but also other human natural languages as naturally evolving semantic systems. The modular design of ZiNets allows for adaptation to different writing systems, enabling comparative studies of how various languages organize and connect meaning through their basic elements.
 
@@ -659,10 +667,6 @@ Below are a few screenshots illustrating its features.
 #### 元字 Collection
 
 ![元字 Collection](./images/zi-elements.png)
-
-#### 元字 Frequency
-
-![元字 Frequency](./images/part-frequency.png)
 
 #### Search
 
