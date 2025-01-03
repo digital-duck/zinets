@@ -218,7 +218,7 @@ Our computational analysis of approximately 3,000 commonly used Chinese characte
     - Earth variations: 阝, 艹, 纟
     - Living beings (生物): 虫, 鸟, 马
 
-   ![top-25-elemental-character-set](./images/part-frequency.png)    
+   ![top-25-elemental-character-set](./images/part-frequency-top-25.png)    
 
 2. Semantic Distribution
 
