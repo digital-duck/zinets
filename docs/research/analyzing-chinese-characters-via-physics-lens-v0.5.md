@@ -349,10 +349,12 @@ This discovery led to several key insights about language as a living system:
 
 The missing 脑子 compound exemplifies how language evolves to encode fundamental human experiences. Its late discovery in our analysis perfectly illustrates Su Shi's famous observation in "题庐山" (On Lu Mountain):
 
+```
 横看成岭侧成峰，
 远近高低各不同。
 不识庐山真面目，
 只缘身在此山中。
+```
 
 (One cannot recognize the true face of Lu Mountain,
 Because one is standing within it.)
@@ -375,17 +377,21 @@ This section examines how classical Chinese poetry achieves remarkable semantic 
 
 Wang Zhihuan's "登鹳雀楼" and Li Bai's "静夜思" represent perfect exemplars of cultural survival through semantic efficiency. Each using exactly 20 characters, these poems have persisted across twelve centuries not through institutional preservation alone, but through their remarkable resonance with fundamental human experiences:
 
+```
 "王之涣 - 登鹳雀楼"
 白日依山尽，
 黄河入海流。
 欲穷千里目，
 更上一层楼。
+```
 
+```
 "李白 - 静夜思"
 床前明月光，
 疑是地上霜。
 举头望明月，
 低头思故乡。
+```
 
 The survival of these particular poems, out of countless others written during the Tang Dynasty, demonstrates semantic natural selection in action. Their persistence can be attributed to several adaptive advantages:
 
