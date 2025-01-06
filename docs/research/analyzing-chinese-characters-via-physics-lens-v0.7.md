@@ -54,12 +54,18 @@ Our physics-inspired framework demonstrates:
 Unlike traditional radical classification systems that focus primarily on handwriting and structural organization, we introduce the concept of 元字 (elemental characters) as fundamental semantic building blocks, expanding on radicals and phonetic components. These approximately 300-400 elemental characters serve as the "periodic table" of Chinese characters, each carrying independent semantic meaning that contributes to the formation of more complex characters. They may not look as simple as pictograph, but carry distinct conceptual meaning and semantics.
 
 Key characteristics of 元字:
-1. Semantic Independence: Each 元字 carries its own meaningful concept (e.g., 乐 for music/happiness)
-2. Combinatorial Power: They combine to form more complex characters following semantic and structural rules
-3. Frequency Patterns: Their usage follows natural distribution patterns in character formation
-4. Cross-Category Utility: They often participate in multiple semantic domains
+
+- Semantic Independence: <br/> 
+  Each 元字 carries its own meaningful concept (e.g., 乐 for music/happiness)
+- Combinatorial Power: <br/> 
+  They combine to form more complex characters following semantic and structural rules
+- Frequency Patterns: <br/> 
+  Their usage follows natural distribution patterns in character formation
+- Cross-Category Utility: <br/> 
+  They often participate in multiple semantic domains
 
 This approach differs from the traditional radical system in several key ways:
+
 - Focus on meaning rather than just writing structure
 - Inclusion of semantically significant characters that aren't traditional radicals
 - Emphasis on combinatorial patterns rather than categorization
@@ -69,12 +75,12 @@ This approach differs from the traditional radical system in several key ways:
 
 Our physics-inspired approach treats Chinese character composition as a system of components interacting within a well-defined spatial framework:
 
-1. Coordinate Space (九字宫 Enhancement)
+- Coordinate Space (九字宫 Enhancement)
    - The traditional nine-grid system serves as a "coordinate space" for component positioning designed for calligraphy.
    - Components interact across specific positions, similar to particle interactions in physics
    - Additional dimensions (mid-inner, mid-outer) handle enclosure structures, analogous to how physics adds dimensions to describe complex systems
 
-2. Topological Patterns
+- Topological Patterns
    - Irreducible patterns: independent components like pictograph characters (e.g. 日，月，人)
    - Linear arrangements: Components interact in sequential positions (e.g., 明, 街, 尖, 曼)
    - Enclosure patterns: Outer components create boundary conditions for inner elements (e.g. 回)
@@ -82,7 +88,7 @@ Our physics-inspired approach treats Chinese character composition as a system o
    - Quadrant patterns: components arranged in square positions (e.g. 疑，叕)
    - Nested structures: Multiple levels of containment create hierarchical relationships (e.g. 藻)
 
-3. Special Case Handling
+- Special Case Handling
    - Enclosure characters (回, 国) utilize extended spatial dimensions
    - Mid-inner position represents contained elements
    - Mid-outer position represents containing elements
@@ -96,19 +102,19 @@ The Fibonacci sequence (1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...) naturally emerges
 We borrow the Fibonacci sequence to organize Chinese characters in a similar natural progression: from simple pictographs to sophisticated composite characters, from concrete objects to abstract concepts. Just as the Fibonacci spiral demonstrates how complex natural patterns emerge from simple mathematical relationships, our organization reveals how Chinese writing evolved from basic elements (元字) into increasingly complex expressions. Each level introduces new fundamental characters that, like the expanding spiral, serve as building blocks for richer linguistic representations. This approach mirrors nature's own efficiency in developing complex systems from simple foundations.
 
 
-1 (一): 气 (primordial force/energy)
+- 1 (一): 气 (primordial force/energy)
    - The most fundamental 元字
    - Represents the emergence of form from formlessness (无中生有)
    - Base unit for energy and force concepts
    - 炁 is an uncommon and old form for 气, rarely used. But its lower radical (灬) hints its semantic meaning related to fire and energy.
 
-2 (二): 日,月 (sun and moon)
+- 2 (二): 日,月 (sun and moon)
    - First pair of naturally contrasting 元字
    - Represents 2 visible solar objects and a fundamental abstraction in the basic dualism philosophy (阴阳)
    - Foundation for temporal and luminance concepts
    - Both characters can be used as radicals. It is worthwhile to note that 月 means body part meat/flesh 肉 when used as radical. This is likely a historical coincidence where 月 was adopted as the simplified writing form for 肉.
 
-3 (三): 天,地,人 (heaven, earth, human)
+- 3 (三): 天,地,人 (heaven, earth, human)
    - Tripartite domain 元字
    - Establishes basic spatial and existential framework for human cognitive psychic
    - Core reference for positioning and relationships
@@ -117,74 +123,73 @@ We borrow the Fibonacci sequence to organize Chinese characters in a similar nat
 
    ![Heaven-Earth-Human](./images/sun-moon-heaven-human-earth-meditation-morning.jpg)
 
-   This AI generated image embodies 6 元字 (气,日,月,天,地,人) in an integrated visual representation.
+   This AI generated image [4] embodies 6 元字 (气,日,月,天,地,人) in an integrated visual representation.
 
-5 (五): 金,木,水,火,土 (metal, wood, water, fire, earth)
+- 5 (五): 金,木,水,火,土 (metal, wood, water, fire, earth)
    - Material phase 元字
    - Fundamental 5 elements (五行) for describing physical and materialistic world in ancient philosophy.
    - Base components for nature-related characters
    - Radical form mapping: <br/> 
     钅for 金, 氵冫for 水, 灬 for 火, 木, 土 are often rended in narrower form when used as radicals. The semantic meanings are the same.
 
-8 (八): 东,南,西,北,春,夏,秋,冬 (directions and seasons)
+- 8 (八): 东,南,西,北,春,夏,秋,冬 (directions and seasons)
    - Spatiotemporal 元字
    - Complete system of orientation and cyclical change
    - Foundation for location and time-based concepts
 
-13 (十三): 生,鼠,牛,虎,兔,龙,蛇,马,羊,猴,鸡,狗,猪 (basic life forms expressed in 12 Zodiac animals)
+- 13 (十三): 生,鼠,牛,虎,兔,龙,蛇,马,羊,猴,鸡,狗,猪 (basic life forms expressed in 12 Zodiac animals)
    - Biological object 元字
    - Complex natural phenomena
    - Base set for describing living things
    - Radical form mapping: <br/> 
     牜for 牛, 虫 is a radical for 蛇 and other insects, 犭is a radical for many animals (e.g. 猴,狗,猪), 羊,⺶,⺷ are variant radical forms for 羊(Sheep), radical for 马 appears narrower.
 
-21 (二十一): Quantification and Measurement 元字
+- 21 (二十一): Quantification and Measurement 元字
+  - Numerical System (15 characters):
+    - Basic numerals: <br/> 
+      一,二,三,四,五,六,七,八,九,十
+    - Large quantities: <br/> 
+      百,千,万,亿,零
+    - These form the foundation for all quantitative description
+
+  - Physical Units (6 characters):
+    - Time measurement: 秒,分,时
+        - Progression from smallest (second) to largest (hour)
+        - Reflects natural cycles and human activity patterns
+    - Length measurement: 寸,丈,里
+        - Traditional Chinese units of length
+        - Scales from human body reference (寸) to geographic distance (里)
 
 This set represents the emergence of systematic measurement and counting:
 
-1. Numerical System (15 characters):
-   - Basic numerals: <br/> 
-    一,二,三,四,五,六,七,八,九,十
-   - Large quantities: <br/> 
-    百,千,万,亿,零
-   - These form the foundation for all quantitative description
 
-2. Physical Units (6 characters):
-   - Time measurement: 秒,分,时
-      - Progression from smallest (second) to largest (hour)
-      - Reflects natural cycles and human activity patterns
-   - Length measurement: 寸,丈,里
-      - Traditional Chinese units of length
-      - Scales from human body reference (寸) to geographic distance (里)
+- 34 (三十四): Human Form and Action 元字
+  - Basic parts: <br/> 
+      心(忄),头,首,面,口,目,眉,鼻,耳,舌,牙,齿,手(扌),又,足,血,肉,身,尸,骨,皮,毛(彡)
+  - Action indicators: <br/> 
+      言(讠),口, 看,听,思,食(饣),走(辶),立
+  - Identity: <br/> 
+      男,女,子,自,己
+  - Radical form mapping: <br/> 
+      忄for 心, 扌for 手, 辶 for 足, 讠for 言, 饣for 食, often (not always) in action context, e.g. emotional thinking, holding, walking, communicating, respectively. 目, 口, 足, 骨, 耳 appear as radicals too. Some of these characters (like 首, 面) can function as both nouns (head, face) and measure words/classifiers in different contexts.
 
-34 (三十四): Human Form and Action 元字
-
-This set introduces fundamental components for describing human existence and behavior:
-
-- Basic parts: <br/> 
-    心(忄),头,首,面,口,目,眉,鼻,耳,舌,牙,齿,手(扌),又,足,血,肉,身,尸,骨,皮,毛(彡)
-- Action indicators: <br/> 
-    言(讠),口, 看,听,思,食(饣),走(辶),立
-- Identity: <br/> 
-    男,女,子,自,己
-- Radical form mapping: <br/> 
-    忄for 心, 扌for 手, 辶 for 足, 讠for 言, 饣for 食, often (not always) in action context, e.g. emotional thinking, holding, walking, communicating, respectively. 目, 口, 足, 骨, 耳 appear as radicals too. Some of these characters (like 首, 面) can function as both nouns (head, face) and measure words/classifiers in different contexts.
+This set introduces fundamental components for describing human existence and behavior
 
 ### 2.4 Pattern Discovery and Physical Analogies
 
 The systematic analysis of character composition through our spatial framework reveals several key patterns that parallel physical systems:
 
-1. Compositional Rules as Interaction Laws
+- Compositional Rules as Interaction Laws
    - Just as physical particles interact according to fundamental forces, character components combine following specific spatial and semantic rules
    - The nine-grid system acts as a "field" where components interact to form stable configurations
    - Component positions influence each other, similar to how particles create and respond to fields
 
-2. Emergent Patterns
+- Emergent Patterns
    - Regular combinations: Certain components frequently appear in specific relative positions
    - Stability patterns: Some configurations appear more frequently in the character set, suggesting "stable states"
    - Conservation laws: Semantic meaning is preserved across different spatial arrangements
 
-3. Hierarchical Organization
+- Hierarchical Organization
    - Like physical systems exhibiting different scales of organization, characters show multiple levels of structure
    - Local interactions (between adjacent components) lead to global patterns
    - Complex characters emerge from simpler stable configurations
@@ -199,19 +204,19 @@ Our web-based visualization tool, ZiNets (Zi Network System), implements the the
 
 The core feature of ZiNets is its hierarchical decomposition visualization:
 
-1. Network Structure
+- Network Structure
    - Characters are represented as nodes in a directed graph
    - Decomposition relationships are shown as edges
    - Left-to-right layout reflects decomposition hierarchy
    - Visual clarity maintained through spatial organization
 
-2. Hierarchical Analysis
+- Hierarchical Analysis
    - Multiple levels of decomposition shown simultaneously
    - Clear parent-child relationships between components
    - Preservation of structural relationships
    - Explicit visualization of component reuse
 
-3. Component Identification
+- Component Identification
    - Each 元字 and component clearly bounded
    - Consistent visual representation of elements
    - Immediate recognition of basic building blocks
@@ -221,36 +226,36 @@ The core feature of ZiNets is its hierarchical decomposition visualization:
 
 Our computational analysis of approximately 3,000 commonly used Chinese characters reveals striking patterns in 元字 usage that demonstrate natural optimization principles:
 
-1. Distribution of High-frequency Elements (>100 occurrences): 
+- Distribution of High-frequency Elements (>100 occurrences): 
    
    The table presents the 25 most frequently used elemental characters/radicals in commonly used Chinese characters. These elements primarily belong to the 2nd (日,月), 3rd (天地人) and 4th (金木水火土) Fibonacci sequence number sets. While 气 (air/energy) is not present in this list, its conceptual force permeates the character system. The distribution pattern suggests a natural evolution toward efficient structural components, with elements grouped into distinct semantic categories:
 
-- Heaven-related elements (天界): <br/> 
-    日, 月
-- Human-related elements (人类): <br/> 
-    口, 女, 人(亻), 心 (忄), 目, 手(扌), 辶
-- Natural elements (自然):
-    - Five elements (五行): <br/> 
-    金(钅), 木, 水(氵), 火, 土
-    - Earth variations: <br/> 
-    阝, 艹, 纟
-    - Living beings (生物): <br/> 
-    虫, 鸟, 马
+  - Heaven-related elements (天界): <br/> 
+      日, 月
+  - Human-related elements (人类): <br/> 
+      口, 女, 人(亻), 心 (忄), 目, 手(扌), 辶
+  - Natural elements (自然):
+      - Five elements (五行): <br/> 
+      金(钅), 木, 水(氵), 火, 土
+      - Earth variations: <br/> 
+      阝, 艹, 纟
+      - Living beings (生物): <br/> 
+      虫, 鸟, 马
 
    ![top-25-elemental-character-set](./images/part-frequency-top-25.png)    
 
-2. Semantic Distribution
+- Semantic Distribution
 
-- Predominance of earth and nature elements
-- High representation of human-related components
-- Progressive development from concrete to abstract concepts
-- Clear conceptual hierarchy from physical to abstract domains
+  - Predominance of earth and nature elements
+  - High representation of human-related components
+  - Progressive development from concrete to abstract concepts
+  - Clear conceptual hierarchy from physical to abstract domains
 
-3. Efficiency Characteristics
-- Core 元字 function as versatile semantic foundations
-- System balances complexity with expressive power
-- High-frequency components span fundamental categories
-- Evidence of evolutionary selection for optimal semantic encoding
+- Efficiency Characteristics
+  - Core 元字 function as versatile semantic foundations
+  - System balances complexity with expressive power
+  - High-frequency components span fundamental categories
+  - Evidence of evolutionary selection for optimal semantic encoding
 
 ### 3.3 Case Studies - Composite Characters 
 
@@ -259,30 +264,30 @@ Our computational analysis of approximately 3,000 commonly used Chinese characte
 The Chinese character "日" (rì), meaning "sun" or "day", serves as a powerful illustration of how Chinese characters efficiently encode meaning, knowledge and wisdom. By examining composite characters that incorporate "日", we gain insight into the profound ways in which the written language captures essential truths and observations about the world. These simple formulas provide a peek into the rich semantics of the Chinese language.
 Consider the following examples:
 
-- 日+月=明 (míng): <br/>
-  In early civilizations, the sun and moon were the primary sources of illumination. The combination of these two characters to form 明, meaning "bright" or "clear", elegantly captures this fundamental truth.
-- 日+正=是 (shì): <br/>
-  When the sun is directly overhead, it casts no shadows. This character combination, meaning "is/to be", extends the concept to seeing things clearly and objectively, free from distortion. The phrase "实事求是" (shíshìqiúshì) embodies this, urging us to seek truth through facts.
-- 知+日=智 (zhì): <br/> 
-    The character 智, signifying wisdom or knowledge, combines "to know" (知) with "sun" (日). This encapsulates the idea that true wisdom comes from understanding the way of the sun - selflessly radiating light and energy without expectation of reward.
-- 日+日+日=晶 (jīng):  <br/> 
-    The repetition of "日" intensifies the concept of brightness, resulting in a character that means "crystal" or "bright and clear." This character beautifully captures the essence of a crystal's luminosity and transparency.
-- 门+日=间 (jiān):  <br/> 
-    When light shines through a doorway, it illuminates the space or interval between the door frames. This character cleverly represents the idea of a gap, space, or interval by combining the symbols for "door" and "sun."
-- 日+寸=时 (shí):  <br/> 
-    In ancient times, sundials were used to measure time by tracking the length and position of the sun's shadow. This character combines "sun" and "inch," illustrating the concept of time through the metaphor of the sun's movement.
-- 日+生=星 (xīng):  <br/> 
-    The character for "star" combines "sun" and "to be born" or "to produce," suggesting that stars are born from the sun or are suns themselves. This character reflects the ancient understanding of the connection between the sun and the celestial bodies in the sky.
-- 丿+日=白 (bái):  <br/> 
-    The character for "white" combines a stroke (丿) with the sun (日). This represents the scientific understanding that sunlight is composed of all colors, as demonstrated by Newton's prism experiment. The white appearance of sunlight is a result of the combination of all colors in the visible spectrum.
-- 日+一=旦 (dàn):  <br/> 
-    This character combines the sun with the horizontal stroke representing the horizon, capturing the moment when the sun rises above the earth's horizon at dawn. It signifies the beginning of a new day or cycle, as in "元旦" (New Year's Day).
-- 九+日=旭 (xù):  <br/> 
-    The character for "rising sun" or "bright and splendid" combines the symbol for the number nine (i.e. many) with the sun. The idea of nine suns shining together evokes an image of unimaginable brightness and intensity.
-- 日+十=早 (zǎo):  <br/> 
-    Here, the sun is shown above a symbol resembling a treetop, indicating the early morning hours when the sun has risen above the trees. This character encapsulates the concept of "early" or "morning."
-- 日+干=旱 (hàn):  <br/> 
-    The combination of the sun and the character for "dry" or "to dry" creates a character meaning "drought." This illustrates the cause-and-effect relationship between intense sunlight and the drying out of the land, leading to drought conditions.
+  - 日+月=明 (míng): <br/>
+    In early civilizations, the sun and moon were the primary sources of illumination. The combination of these two characters to form 明, meaning "bright" or "clear", elegantly captures this fundamental truth.
+  - 日+正=是 (shì): <br/>
+    When the sun is directly overhead, it casts no shadows. This character combination, meaning "is/to be", extends the concept to seeing things clearly and objectively, free from distortion. The phrase "实事求是" (shíshìqiúshì) embodies this, urging us to seek truth through facts.
+  - 知+日=智 (zhì): <br/> 
+      The character 智, signifying wisdom or knowledge, combines "to know" (知) with "sun" (日). This encapsulates the idea that true wisdom comes from understanding the way of the sun - selflessly radiating light and energy without expectation of reward.
+  - 日+日+日=晶 (jīng):  <br/> 
+      The repetition of "日" intensifies the concept of brightness, resulting in a character that means "crystal" or "bright and clear." This character beautifully captures the essence of a crystal's luminosity and transparency.
+  - 门+日=间 (jiān):  <br/> 
+      When light shines through a doorway, it illuminates the space or interval between the door frames. This character cleverly represents the idea of a gap, space, or interval by combining the symbols for "door" and "sun."
+  - 日+寸=时 (shí):  <br/> 
+      In ancient times, sundials were used to measure time by tracking the length and position of the sun's shadow. This character combines "sun" and "inch," illustrating the concept of time through the metaphor of the sun's movement.
+  - 日+生=星 (xīng):  <br/> 
+      The character for "star" combines "sun" and "to be born" or "to produce," suggesting that stars are born from the sun or are suns themselves. This character reflects the ancient understanding of the connection between the sun and the celestial bodies in the sky.
+  - 丿+日=白 (bái):  <br/> 
+      The character for "white" combines a stroke (丿) with the sun (日). This represents the scientific understanding that sunlight is composed of all colors, as demonstrated by Newton's prism experiment. The white appearance of sunlight is a result of the combination of all colors in the visible spectrum.
+  - 日+一=旦 (dàn):  <br/> 
+      This character combines the sun with the horizontal stroke representing the horizon, capturing the moment when the sun rises above the earth's horizon at dawn. It signifies the beginning of a new day or cycle, as in "元旦" (New Year's Day).
+  - 九+日=旭 (xù):  <br/> 
+      The character for "rising sun" or "bright and splendid" combines the symbol for the number nine (i.e. many) with the sun. The idea of nine suns shining together evokes an image of unimaginable brightness and intensity.
+  - 日+十=早 (zǎo):  <br/> 
+      Here, the sun is shown above a symbol resembling a treetop, indicating the early morning hours when the sun has risen above the trees. This character encapsulates the concept of "early" or "morning."
+  - 日+干=旱 (hàn):  <br/> 
+      The combination of the sun and the character for "dry" or "to dry" creates a character meaning "drought." This illustrates the cause-and-effect relationship between intense sunlight and the drying out of the land, leading to drought conditions.
 
 These examples barely scratch the surface, but this family demonstrates how Chinese characters, through their composition, reveals profound insights and encodes knowledge in a uniquely efficient manner unmatched by other writing systems. Children learning Chinese characters are exposed to basic scientific concepts and knowledge while mastering the language, a feature not found in many other languages.
 
@@ -291,24 +296,23 @@ These examples barely scratch the surface, but this family demonstrates how Chin
 
 Detailed analysis of the 禺 component family demonstrates both semantic bonding patterns and historical evolution principles:
 
-Base Component:
-- 禺: <br/> 
-    Represents fundamental concept of joining/coupling, analogous to a basic force carrier in physics
+Base Component 禺 (元字) <br/> 
+  Represents fundamental concept of joining/coupling, analogous to a basic force carrier in physics
 
 Derivative Characters and Their Bonding Patterns:
-1. 偶 (ǒu): <br/> 
+- 偶 (ǒu): <br/> 
     Person + joining → couple/partner
    Historical evolution: from chance meeting to deliberate pairing
-2. 寓 (yù): <br/> 
+- 寓 (yù): <br/> 
     Roof + joining → dwelling/metaphorical connection
    Shows extension from physical to abstract space
-3. 遇 (yù): <br/> 
+- 遇 (yù): <br/> 
     Movement + joining → encounter/meet
    Demonstrates temporal dimension of joining force
-4. 愚 (yú): <br/> 
+- 愚 (yú): <br/> 
     Heart/mind + joining → inability to make mental connections
    Reveals cognitive dimension of joining concept
-5. 隅 (yú): <br/> 
+- 隅 (yú): <br/> 
     Wall + joining → corner/intersection
    Illustrates spatial manifestation of joining force
 
@@ -340,36 +344,35 @@ This family demonstrates how semantic forces, like physical forces, create stabl
 
 Detailed analysis of the 乍 component family reveals systematic semantic bonding patterns and their evolution:
 
-Base Component:
-- 乍: <br/>
-    Represents fundamental concept of work/labor, functioning as a semantic force carrier for action and transformation
+Base Component 乍 (元字) <br/>
+  Represents fundamental concept of work/labor, functioning as a semantic force carrier for action and transformation
 
 Derivative Characters and Their Bonding Patterns:
-1. 作 (zuò): <br/>
+- 作 (zuò): <br/>
     Person + work → to make/to do
     Most direct expression of the base semantic force
-2. 昨 (zuó): <br/>
+- 昨 (zuó): <br/>
     Sun/day + work → yesterday
     Shows temporal manifestation through work completed
-3. 怎 (zěn): <br/>
+- 怎 (zěn): <br/>
     Work + heart/mind → how?
     Represents active mental work/questioning process
-4. 炸 (zhà): <br/>
+- 炸 (zhà): <br/>
     Fire + work → to explode/to fry
     Dual manifestation: process (cooking work) and result (explosive work)
-5. 诈 (zhà): <br/>
+- 诈 (zhà): <br/>
     Speech + work → to deceive
     Excessive work in communication leading to manipulation
-6. 咋 (zǎ): <br/>
+- 咋 (zǎ): <br/>
     Mouth + work → how (colloquial)
     Verbal expression of mental work/questioning
-7. 酢 (zuò): <br/>
+- 酢 (zuò): <br/>
     Wine + work → vinegar
     Chemical transformation through work process
-8. 笮 (zé): <br/>
+- 笮 (zé): <br/>
     Bamboo + work → to press
     Physical work applied to materials
-9. 窄 (zhǎi): <br/>
+- 窄 (zhǎi): <br/>
     Cave/space + work → narrow
     Spatial transformation through constraining work
 
@@ -408,7 +411,7 @@ This case study examines compound phrases containing the character 子 (zǐ) to 
 
 The character 子 exhibits remarkable semantic versatility, forming compounds across multiple domains:
 
-1. Human Relations
+- Human Relations
   - Inheritance: <br/> 
     子女 (children), 子孙 (descendants)
   - Academic: <br/> 
@@ -418,7 +421,7 @@ The character 子 exhibits remarkable semantic versatility, forming compounds ac
   - Aggressor: <br/> 
     洋鬼子, 毛子, 日本鬼子
 
-2. Scientific Terms
+- Scientific Terms
   - Physics: <br/> 
     光子 (photon), 量子 (quantum), 原子 (atom), 电子 (electron), 粒子 (particle), 分子 (molecule), 玻色子 (boson), 费米子 (fermion)
   - Biology: <br/> 
@@ -426,7 +429,7 @@ The character 子 exhibits remarkable semantic versatility, forming compounds ac
   - Mathematics: <br/> 
     因子 (factor), 系数子 (coefficient)
 
-3. Physical Objects
+- Physical Objects
   - Tools: <br/> 
     筷子 (chopsticks), 梯子 (ladder)
   - Containers: <br/> 
@@ -434,7 +437,7 @@ The character 子 exhibits remarkable semantic versatility, forming compounds ac
   - Furniture: <br/> 
     桌子 (table), 凳子 (stool)
 
-4. Temporal Concepts
+- Temporal Concepts
   - Time: <br/> 
     日子 (days/life), 子时 (midnight hour)
 
@@ -444,17 +447,17 @@ Our systematic network analysis revealed a profound epistemological insight thro
 
 This discovery led to several key insights about language as a living system:
 
-1. The challenge of complete enumeration in language networks
+- The challenge of complete enumeration in language networks
   - Even systematic approaches may miss fundamental elements
   - Network completeness requires multiple analytical perspectives
   - Some nodes are "invisible" from within the system
 
-2. The role of embodied cognition in language understanding
+- The role of embodied cognition in language understanding
   - The brain studying itself faces unique epistemological challenges
   - Language understanding requires both analytical and intuitive approaches
   - Some insights emerge only through lived experience
 
-3. The limitations of purely analytical approaches
+- The limitations of purely analytical approaches
   - Computational methods, while powerful, have inherent blind spots
   - The observer effect in linguistic analysis
   - The need for complementary methodologies
@@ -485,19 +488,50 @@ While the 子 network demonstrates how individual characters form stable semanti
 
 This section examines how classical Chinese poetry achieves remarkable semantic density through minimal character usage. The survival of these poems across millennia demonstrates powerful principles of cultural selection, where maximum meaning with minimum structure creates enduring linguistic configurations.
 
-#### 3.6.1 Complementary Masterpieces in Cultural Evolution
+#### 3.6.1 Plum Blossoms
+
+```
+王安石 - 梅花
+
+墙角数枝梅，
+凌寒独自开。
+遥知不是雪，
+为有暗香来。
+```
+
+This timeless masterpiece by Wang Anshi is a quintessential example of classical Chinese poetry, for its ability to convey profound meaning and beauty in 20 characters: blending artistic elegance with linguistic efficiency to create a work that resonates across cultures and times.
+
+##### 3.6.1.1 Artistic Beauty: A Multi-Sensory Experience**
+The poem opens with a vivid image of "a few branches of plum blossoms by the corner of a wall" (墙角数枝梅), their delicate white or pink petals standing in stark contrast to the cold winter backdrop. This visual simplicity symbolizes purity and resilience, while the "faint fragrance" (暗香) of the blossoms adds an olfactory dimension, evoking subtlety and inner virtue. The plum blossom, blooming "alone in the cold" (凌寒独自开), becomes a metaphor for perseverance and moral strength, embodying the ideals of beauty in adversity.
+
+##### 3.6.1.2 Linguistic Efficiency: Depth in Brevity**
+Composed of only four lines, each with five characters, the poem demonstrates how a few carefully chosen characters can convey complex semantics. Key characters like **梅 (plum)**, **寒 (cold)**, and **香 (fragrance)** are rich in meaning and cultural symbolism, making them ideal for focused study. The poem's concise structure allows learners to grasp both literal and symbolic meanings, while its vivid imagery—such as the contrast between plum blossoms and snow—enhances memory and comprehension.
+
+##### 3.6.1.3 Cultural and Philosophical Resonance**
+Rooted in Chinese cultural traditions, the plum blossom is one of the "Four Gentlemen," symbolizing nobility and integrity. The poem's philosophical depth is evident in lines like "From afar, I know it’s not snow, because of the faint fragrance" (遥知不是雪，为有暗香来), which encourages readers to look beyond appearances and appreciate subtle, enduring qualities. This universal theme of resilience and inner beauty makes the poem accessible and meaningful to a wide audience.
+
+##### 3.6.1.4 A Bridge Between Art and Language**
+"Plum Blossoms" is not only a masterpiece of artistic expression but also a valuable tool for language learning. Its use of high-frequency characters and contextual imagery provides a manageable entry point for learners, while its cultural and philosophical layers offer deeper insights into Chinese thought and aesthetics. The poem's minimalist style demonstrates how simplicity can amplify impact, making it a timeless example of the elegance and efficiency of classical Chinese poetry.
+
+"Plum Blossoms" poem is a testament to the power of Chinese characters in art and language. Through its vivid imagery, cultural symbolism, and concise structure, the poem captures the essence of resilience, beauty, and virtue. It serves as both a literary treasure and a linguistic gem.
+
+
+##### 3.6.2 Complementary Masterpieces in Cultural Evolution
 
 Wang Zhihuan's "登鹳雀楼" and Li Bai's "静夜思" represent perfect exemplars of cultural survival through semantic efficiency. Each using exactly 20 characters, these poems have persisted across twelve centuries not through institutional preservation alone, but through their remarkable resonance with fundamental human experiences:
 
 ```
-"王之涣 - 登鹳雀楼"
+
+(I) 王之涣 - 登鹳雀楼
+
 白日依山尽，
 黄河入海流。
 欲穷千里目，
 更上一层楼。
 
 
-"李白 - 静夜思"
+(II) 李白 - 静夜思
+
 床前明月光，
 疑是地上霜。
 举头望明月，
@@ -506,34 +540,34 @@ Wang Zhihuan's "登鹳雀楼" and Li Bai's "静夜思" represent perfect exempla
 
 The survival of these particular poems, out of countless others written during the Tang Dynasty, demonstrates semantic natural selection in action. Their persistence can be attributed to several adaptive advantages:
 
-1. Semantic Density: Maximum meaning in minimum space
-2. Universal Accessibility: Basic characters carrying profound insights
-3. Cognitive Resonance: Alignment with human thought patterns
-4. Structural Balance: Perfect symmetry in form and meaning
+- Semantic Density: Maximum meaning in minimum space
+- Universal Accessibility: Basic characters carrying profound insights
+- Cognitive Resonance: Alignment with human thought patterns
+- Structural Balance: Perfect symmetry in form and meaning
 
-#### 3.6.2 Yin-Yang Duality in Expression
+##### 3.6.2.1 Yin-Yang Duality in Expression
 
 These poems embody the Yin-Yang duality in multiple dimensions:
 
-1. Celestial Bodies
+- Celestial Bodies
   - Yang (阳): <br/> 
     Sun setting behind mountains (白日依山)
   - Yin (阴): <br/> 
     Moon casting light on earth (明月光)
 
-2. Movement Patterns
+- Movement Patterns
   - Yang: <br/> 
     Continuous upward progression (更上一层楼)
   - Yin: <br/> 
     Circular motion of raising and lowering head (举头...低头)
 
-3. Philosophical Approach
+- Philosophical Approach
   - Yang: <br/> 
     Active pursuit of transcendence through effort
   - Yin: <br/> 
     Passive reception of insight through contemplation
 
-4. Emotional Register
+- Emotional Register
   - Yang: <br/> 
     Aspiration toward broader horizons
   - Yin: <br/> 
@@ -541,11 +575,11 @@ These poems embody the Yin-Yang duality in multiple dimensions:
 
 This complementarity itself represents an evolutionary advantage, as the poems together create a complete cognitive framework for understanding human experience - both active and contemplative approaches to wisdom.
 
-#### 3.6.3 Economy of Expression as Survival Advantage
+##### 3.6.2.2 Economy of Expression as Survival Advantage
 
 Both poems achieve remarkable efficiency in their use of characters:
 
-1. Elementary Characters 
+- Elementary Characters 
   - Basic natural elements: <br/> 
     山, 河, 日, 月
   - Simple actions: <br/> 
@@ -553,35 +587,35 @@ Both poems achieve remarkable efficiency in their use of characters:
   - Fundamental concepts: <br/> 
     目, 光, 头, 楼
 
-2. Progressive Construction
+- Progressive Construction
   - From physical observation to abstract insight
   - From immediate scene to expansive meaning
   - From concrete details to universal themes
 
-3. Spatial Movement
+- Spatial Movement
   - Vertical ascent in "登鹳雀楼"
   - Circular contemplation in "静夜思"
 
-4. Information Compression
+- Information Compression
   - Each character carries multiple layers of meaning
   - Syntactic relationships multiply semantic possibilities
   - Context activation maximizes cognitive engagement
 
-5. Mnemonic Efficiency
+- Mnemonic Efficiency
   - Rhythmic patterns aid memory
   - Image patterns support recall
   - Emotional resonance enhances transmission
 
-#### 3.6.4 Wisdom Encoding
+##### 3.6.2.3 Wisdom Encoding
 
 These poems demonstrate two complementary paths to wisdom:
 
-1. "登鹳雀楼": Transcendence Through Effort
+- "登鹳雀楼": Transcendence Through Effort
   - Physical elevation as metaphor for understanding
   - Continuous striving for broader perspective
   - Active engagement with limitations
 
-2. "静夜思": Insight Through Reflection
+- "静夜思": Insight Through Reflection
   - Quiet observation leading to deep connection
   - Natural phenomena evoking emotional truth
   - Stillness revealing profound understanding
@@ -596,19 +630,19 @@ Our case studies reveal language as a living system shaped by semantic forces an
 
 The Chinese language demonstrates organizing principles that mirror physical systems across scales:
 
-1. Character Level (Atomic Scale)
+- Character Level (Atomic Scale)
   - Components bond through semantic and phonetic attraction (禺 family)
   - Stable configurations emerge through cognitive resonance
   - Selection pressure favors efficient meaning encoding
   - Mutation and adaptation create new meanings while preserving core patterns
 
-2. Phrase Level (Molecular Scale)
+- Phrase Level (Molecular Scale)
   - Characters form compounds through semantic affinity (子-compounds)
   - Stable meanings emerge from component interactions
   - Successful combinations replicate across contexts
   - New compounds evolve to meet changing cognitive needs
 
-3. Poetry Level (Organic Scale)
+- Poetry Level (Organic Scale)
   - Characters self-organize into higher-order structures
   - Emergence of properties beyond component meanings
   - Selection favors maximum meaning in minimum space
@@ -618,17 +652,17 @@ The Chinese language demonstrates organizing principles that mirror physical sys
 
 Cultural transmission operates through selection mechanisms parallel to biological evolution:
 
-1. Variation
+- Variation
   - Multiple expressions compete to encode similar meanings
   - New combinations arise through cultural mutation
   - Innovation occurs at all scales (character, phrase, poem)
 
-2. Selection
+- Selection
   - Efficient expressions survive (20-character poems)
   - Resonant meanings propagate (classical wisdom)
   - Adaptive forms emerge (scientific terminology)
 
-3. Inheritance
+- Inheritance
   - Successful patterns replicate through teaching
   - Core meanings persist across cultural changes
   - Adaptability enables continuous evolution
@@ -647,17 +681,17 @@ The partnership between human insight and artificial intelligence demonstrates h
 
 The ancient Chinese concept of 天人合一 (the unity of heaven and humanity) finds new resonance in our analysis of semantic forces. This principle, traditionally expressing the harmony between human and natural worlds, now reveals itself in the parallel organizing principles we observe across physical and linguistic domains:
 
-1. Self-Organization (自组)
+- Self-Organization (自组)
   - Physical world: atoms → molecules → complex structures
   - Language: characters → phrases → poetry
   - Both: emergence of stable patterns through natural forces
 
-2. Efficiency (效率)
+- Efficiency (效率)
   - Physical world: minimum energy configurations
   - Language: maximum meaning in minimal expression
   - Both: optimization through natural selection
 
-3. Evolution (演化)
+- Evolution (演化)
   - Physical world: adaptation to environmental pressures
   - Language: adaptation to cognitive and cultural needs
   - Both: persistent yet dynamic systems
@@ -668,19 +702,19 @@ The bridge between sciences (天) and humanities (人) becomes particularly visi
 
 The computational power of ZiNets reveals fundamental structures and relationships in Chinese characters, demonstrating deep connections between linguistics, mathematics, and physics:
 
-1. Search and Analysis Framework
+- Search and Analysis Framework
    - Multi-dimensional querying: Component-based, position-based, and pattern-based search
    - Regular expression-like syntax for complex pattern matching
    - Structured data representation through positional columns (zi_left, zi_mid, etc.)
    - Network relationship discovery through component tracking
 
-2. Physical Analogies in Search Results
+- Physical Analogies in Search Results
    - Component Distribution: Similar to particle distribution in quantum states
    - Position Patterns: Analogous to preferred energy states in atomic structures
    - Character Families: Parallel to particle families in physics
    - Interaction Networks: Mirror force carrier networks in particle physics
 
-3. Mathematical Structure
+- Mathematical Structure
    - Grid System: Creates a coordinate space for character composition
    - Position Matrices: Track component relationships systematically
    - Pattern Frequencies: Reveal statistical regularities
@@ -692,19 +726,19 @@ The computational power of ZiNets reveals fundamental structures and relationshi
 
 Our computational and physics-inspired analysis reveals Chinese writing as a living, self-organizing system that mirrors natural growth patterns:
 
-1. Emergent Complexity
+- Emergent Complexity
    - Like biological systems emerging from simple molecular interactions, complex characters emerge from basic 元字 combinations
    - Component relationships evolve naturally based on semantic needs
    - New meanings emerge through systematic combination patterns
    - Character evolution follows principles of natural growth
 
-2. Self-Organization Principles
+- Self-Organization Principles
    - Characters form stable patterns without centralized design
    - Component combinations follow natural efficiency principles
    - Semantic relationships develop through organic usage
    - System exhibits both stability and adaptability
 
-3. Natural Growth Patterns
+- Natural Growth Patterns
    - Character development parallels Fibonacci patterns in nature
    - Component relationships reflect natural force balances
    - Evolution follows paths of least resistance
@@ -712,13 +746,13 @@ Our computational and physics-inspired analysis reveals Chinese writing as a liv
 
 ### 4.2 Practical Implications
 
-1. Understanding:
+- Understanding:
    - Characters as evolved patterns rather than arbitrary symbols
    - System reflects natural organization principles
    - Connection to universal growth patterns
    - Evidence of semantic optimization
 
-2. Learning:
+- Learning:
    - Focus on fundamental 元字 and their concepts
    - Reduce the fundamental 元字 set to lower the entry-barrier in learning Chinese language
    - Understanding natural combination patterns
@@ -727,7 +761,7 @@ Our computational and physics-inspired analysis reveals Chinese writing as a liv
    - Promote concept-based learning and break down artificial subject-barriers among human language, mathematics and science.
    - Make STEM-oriented learning accessible to earlier ages
 
-3. Development:
+- Development:
    - System continues to evolve and adapt
    - New characters follow established patterns
    - Natural selection of effective forms
@@ -737,10 +771,10 @@ Our computational and physics-inspired analysis reveals Chinese writing as a liv
 
 The Chinese writing system represents a remarkable example of natural optimization in language evolution. Through computational analysis and theoretical reframing in terms of basic physics concepts, we reveal how:
 
-1. The system evolved efficient solutions for encoding meaning
-2. Character formation follows universal organization principles
-3. A finite set of elemental characters 元字 generates rich semantic expression
-4. The system maintains stability while enabling growth
+- The system evolved efficient solutions for encoding meaning
+- Character formation follows universal organization principles
+- A finite set of elemental characters 元字 generates rich semantic expression
+- The system maintains stability while enabling growth
 
 This understanding transforms our view of Chinese characters from a designed writing system to a naturally evolved, living language system that continues to develop according to universal principles of organization and growth.
 
@@ -750,7 +784,11 @@ This work is dedicated to late Professor T.D. Lee, whose pioneering efforts open
 I also dedicate this work to my dear parents, who nurtured my intellectual curiosity through challenging times. Their sacrifices and unwavering support made my life journey possible.
 
 ## Acknowledgements
-This paper represents a collaborative effort between the author and Claude, an AI Assistant from Anthropic. The fusion of human expertise in software development, physics and Chinese language with AI's analytical capabilities enabled the development of novel perspectives and methodologies presented in this work. This collaboration demonstrates the potential of human-AI partnerships in academic research, particularly in interdisciplinary studies bridging traditional knowledge with modern computational approaches.
+
+This paper represents a collaborative effort between the author, Claude (an AI assistant from Anthropic), and DeepSeek V3 (an AI assistant from DeepSeek). The fusion of human knowledge in software development, physics, and Chinese language with AI's analytical capabilities enabled the development of the novel perspectives and methodologies presented in this work. This collaboration demonstrates the potential of human-AI partnerships in research, particularly in interdisciplinary studies bridging traditional knowledge with modern computational approaches.
+
+## Disclaimer
+The author is not a professional researcher in the fields of physics, computational linguistics, or Chinese language studies. However, as someone with a deep interest in understanding Chinese characters (汉字), this paper represents an interdisciplinary exploration aimed at simplifying the learning process. Terms such as "physics," "structure," "interaction," "force," and "emergence" are used heuristically and metaphorically to inspire new ways of thinking about Chinese characters. A more accessible title for this paper might be "A Reductionist Approach to Simplify Learning Chinese Characters". The author welcomes criticism, feedback, and suggestions to further our collective understanding of Chinese characters and improve the framework presented here.
 
 ## References
 
@@ -760,14 +798,22 @@ This paper represents a collaborative effort between the author and Claude, an A
 
 [3] Aishani Bal. The Fibonacci Series: A Hidden Order to Nature's Designs (https://teach-technology.org/blog/f/the-fibonacci-series-a-hidden-order-to-natures-designs)
 
+[4] Google ImageFx text-to-image generation tool: https://labs.google/fx/tools/image-fx
+
+[5] 书同文 汉字网 HSK 汉语水平考试汉字列表: https://hanzi.unihan.com.cn/School/HSK
+
+[6] CC-CEDICT dictionary dataset : https://www.mdbg.net/chinese/dictionary?page=cc-cedict
+
 ## Appendix
 
-### ZiNets Web App 
+### ZiNets (字网) Web App 
 
 #### Overview
 
-ZiNets Web App is a custom-built tool used to conduct network research and studies on Chinese characters. It allows the author to decompose 3000 characters efficiently.
+ZiNets Web App is a custom-built tool used to conduct network research and studies on Chinese characters. It allows the author to decompose 3000 commonly used Chinese characters efficiently [5].
 It also offers search and report features. Being based in database and network data-structure design, it enables one to discover patterns not easily available.
+
+It uses CC-CEDICT dataset available at MDBG free online English to Chinese dictionary [6].
 
 We plan to open-source this web app in the near future. The application visualizes and analyzes character networks using the organizational principles described in this paper. By making this tool publicly available, we aim to support researchers, educators, and language enthusiasts in exploring not only Chinese characters but also other human natural languages as naturally evolving semantic systems. The modular design of ZiNets allows for adaptation to different writing systems, enabling comparative studies of how various languages organize and connect meaning through their basic elements.
 
