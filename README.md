@@ -7,6 +7,7 @@ Chinese characters
 
 ```
 conda activate zinet
+cd digital-duck\zinets\docs\research
 
 pip install md2pdf
 
@@ -18,4 +19,15 @@ md2pdf(file_pdf, file_md)
 
 ```
 
-digital-duck\zinets\docs\research\analyzing-chinese-characters-via-physics-lens-v0.5.md
+cd digital-duck\zinets\docs\overleaf\zinets-01
+
+\usepackage[UTF8]{ctex}
+
+pandoc -s zinets-v0.8.md -o zinets-v0.8.tex
+
+https://chat.deepseek.com/a/chat/s/6fec3b04-a747-4e50-9d07-c0646073a22e
+
+
+In Overleaf, click the Menu button (top-left corner).
+
+Under Settings, change the Compiler to XeLaTeX
