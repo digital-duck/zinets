@@ -11,7 +11,8 @@ pypandoc.convert_file(
     outputfile=file_pdf,
     extra_args=[
         '--pdf-engine=xelatex',  # Use XeLaTeX for CJK support
-        '-V', 'CJKmainfont=SimSun',  # Specify a CJK font (e.g., SimSun for Chinese)
+        # '-V', 'CJKmainfont=SimSun',  # Specify a CJK font (e.g., SimSun for Chinese)
+        '-V', 'CJKmainfont="Noto Sans CJK TC Medium"',  # Specify a CJK font (e.g., SimSun for Chinese)
         '-V', 'geometry=margin=0.75in',  # Adjust margins
         '-V', 'fontsize=11pt',  # Set font size
         '-V', 'papersize=letter',  # Set paper size

@@ -1,3 +1,10 @@
+---
+documentclass: article
+CJKmainfont: "Noto Sans CJK TC Medium"
+geometry: margin=1in
+---
+
+
 # A Physics-Inspired Computational Approach to Chinese Character Analysis: Network Patterns and Semantic Evolution
 
 Wen G. Gong*
@@ -8,6 +15,16 @@ Wen G. Gong*
 
 ## Abstract
 This paper presents a novel perspective on Chinese characters as a naturally evolved system for encoding and transmitting concepts and meaning, following universal principles of organization and growth. By treating character components as fundamental elements that interact through "semantic forces", we develop a systematic framework that reveals how Chinese writing mirrors patterns found throughout nature. The approach integrates physics principles, computational analysis, and traditional understanding to demonstrate how characters emerge from elemental characters (元字) through natural combination patterns, similar to physical and biological systems. Using the Fibonacci sequence as an organizing principle, we show how approximately 3,000 Chinese characters can be systematically understood through their evolutionary patterns. Our computational implementation, ZiNets (字网), provides evidence for this perspective by revealing recurring patterns of character composition and semantic development.
+
+## Disclaimer 
+
+A more accessible title for this paper might be **"A Reductionist Approach to Simplify Learning Chinese Characters"**, as the author is not a professional researcher in the fields of physics, computational linguistics, or Chinese language studies. However, with a deep interest in understanding Chinese characters (汉字), the author wishes to share this interdisciplinary exploration aimed at simplifying the learning process.
+
+Terms such as **"physics," "structure," "interaction," "force," "emergence,"** and **"Fibonacci sequence"** are used heuristically and metaphorically to inspire new ways of thinking about Chinese characters. In the computational approach, terms like **"data structure," "node,"** and **"component"** often represent "structure" in physics; **"relationship"** and **"link"** represent "interaction" or "force" in physics; and **"network"** and **"system"** represent "complex matter" in physics.  
+
+The author sincerely welcomes **criticism, feedback, and suggestions** to further our collective understanding of Chinese characters and improve the framework presented here.
+
+
 
 ## 1. Introduction
 Chinese characters [1], as one of the oldest continuously used writing systems, present a unique opportunity for studying how symbolic systems naturally evolve to encode and transmit meaning. 
@@ -210,6 +227,8 @@ Our web-based visualization tool, ZiNets (Zi Network System), implements the the
 
 #### 3.1.1 Character Decomposition Visualization
 
+![Zi Network Pattern](./images/app_decomposing-zi.png)
+
 The core feature of ZiNets is its hierarchical decomposition visualization:
 
 - Network Structure
@@ -268,48 +287,59 @@ Our computational analysis of approximately 3,000 commonly used HSK Chinese char
 
 #### 3.3.1 The 日 Family 
 
-<br/>
+![zi_sun](./images/zi_sun.png)
+
 The Chinese character "日" (rì), meaning "sun" or "day", serves as a powerful illustration of how Chinese characters efficiently encode meaning, knowledge and wisdom. By examining composite characters that incorporate "日", we gain insight into the profound ways in which the written language captures essential truths and observations about the world. These simple formulas provide a peek into the rich semantics of the Chinese language.
 Consider the following examples:
 
   - 日 + 月 = 明 (míng): <br/>
 
     In early civilizations, the sun and moon were the primary sources of illumination. The combination of these two characters to form 明, meaning "bright" or "clear", elegantly captures this fundamental truth.
+
   - 日 + 正 = 是 (shì): <br/>
 
     When the sun is directly overhead, it casts no shadows. This character combination, meaning "is/to be", extends the concept to seeing things clearly and objectively, free from distortion. The phrase "实事求是" (shíshìqiúshì) embodies this, urging us to seek truth through facts.
+
   - 知 + 日 = 智 (zhì): <br/> 
 
     The character 智, signifying wisdom or knowledge, combines "to know" (知) with "sun" (日). This encapsulates the idea that true wisdom comes from understanding the way of the sun - selflessly radiating light and energy without expectation of reward.
+
   - 日 + 日 + 日 = 晶 (jīng):  <br/> 
 
     The repetition of "日" intensifies the concept of brightness, resulting in a character that means "crystal" or "bright and clear." This character beautifully captures the essence of a crystal's luminosity and transparency.
+
   - 门 + 日 = 间 (jiān):  <br/> 
 
     When light shines through a doorway, it illuminates the space or interval between the door frames. This character cleverly represents the idea of a gap, space, or interval by combining the symbols for "door" and "sun."
+
   - 日 + 寸 = 时 (shí):  <br/> 
 
     In ancient times, sundials were used to measure time by tracking the length and position of the sun's shadow. This character combines "sun" and "inch," illustrating the concept of time through the metaphor of the sun's movement.
+
   - 日 + 生 = 星 (xīng):  <br/> 
 
     The character for "star" combines "sun" and "to be born" or "to produce," suggesting that stars are born from the sun or are suns themselves. This character reflects the ancient understanding of the connection between the sun and the celestial bodies in the sky.
+
   - 丿 + 日 = 白 (bái):  <br/> 
 
     The character for "white" combines a stroke (丿) with the sun (日). This represents the scientific understanding that sunlight is composed of all colors, as demonstrated by Newton's prism experiment. The white appearance of sunlight is a result of the combination of all colors in the visible spectrum.
+
   - 日 + 一 = 旦 (dàn):  <br/> 
 
     This character combines the sun with the horizontal stroke representing the horizon, capturing the moment when the sun rises above the earth's horizon at dawn. It signifies the beginning of a new day or cycle, as in "元旦" (New Year's Day).
+
   - 九 + 日 = 旭 (xù):  <br/> 
 
     The character for "rising sun" or "bright and splendid" combines the symbol for the number nine (i.e. many) with the sun. The idea of nine suns shining together evokes an image of unimaginable brightness and intensity.
+
   - 日 + 十 = 早 (zǎo):  <br/> 
 
     Here, the sun is shown above a symbol resembling a treetop, indicating the early morning hours when the sun has risen above the trees. This character encapsulates the concept of "early" or "morning."
+
   - 日 + 干 = 旱 (hàn):  <br/> 
 
     The combination of the sun and the character for "dry" or "to dry" creates a character meaning "drought." This illustrates the cause-and-effect relationship between intense sunlight and the drying out of the land, leading to drought conditions.
 
-![zi_sun](./images/zi_sun.png)
 
 These examples barely scratch the surface, but this family demonstrates how Chinese characters, through their composition, reveals profound insights and encodes knowledge in a uniquely efficient manner unmatched by other writing systems. Children learning Chinese characters are exposed to basic scientific concepts and knowledge while mastering the language, a feature not found in many other languages.
 
@@ -317,7 +347,7 @@ These examples barely scratch the surface, but this family demonstrates how Chin
 
 #### 3.3.2 The 禺 Family
 
-<br/> 
+![zi_join](./images/zi_join.png)
 
 Detailed analysis of the 禺 component family demonstrates both semantic bonding patterns and historical evolution principles:
 
@@ -329,26 +359,31 @@ Derivative Characters and Their Bonding Patterns:
 - 亻 + 禺 = 偶 (ǒu): <br/> 
 
   Person + joining → couple/partner
+
   Historical evolution: from chance meeting to deliberate pairing
 
 - 宀 + 禺 = 寓 (yù): <br/> 
 
   Roof + joining → dwelling/metaphorical connection
+
   Shows extension from physical to abstract space
 
 - 辶 + 禺 = 遇 (yù): <br/> 
 
   Movement + joining → encounter/meet
+
   Demonstrates temporal dimension of joining force
 
 - 禺 + 心 = 愚 (yú): <br/> 
 
   Heart/mind + joining → inability to make mental connections
+
   Reveals cognitive dimension of joining concept
 
 - 阝 + 禺 = 隅 (yú): <br/> 
 
   Wall + joining → corner/intersection
+
   Illustrates spatial manifestation of joining force
 
 - 耒 + 禺 = 耦: <br/> 
@@ -362,14 +397,14 @@ The semantic evolution follows predictable patterns analogous to fundamental for
 - Conceptual joining (愚): Parallels quantum entanglement
 - Physical joining (偶): Resembles strong nuclear force binding
 
-![zi_join](./images/zi_join.png)
 
 This family demonstrates how semantic forces, like physical forces, create stable configurations that persist through time while allowing for evolutionary adaptation to new meanings.
 
 #### 3.3.3 The 乍 Family
 
 
-<br/>
+![zi_work](./images/zi_work.png)
+
 
 乍 means work (as both noun and verb), artifact, thing completed.
 
@@ -382,59 +417,80 @@ Derivative Characters and Their Bonding Patterns:
 - 亻 + 乍 = 作 (zuò): <br/>
 
   Person + work → to make/to do
+
   Most direct expression of the base semantic force
+
 - 日 + 乍 = 昨 (zuó): <br/>
 
   Sun/day + work → yesterday
+
   Shows temporal manifestation through work completed
+
 - 乍 + 心 = 怎 (zěn): <br/>
 
   Work + heart/mind → how?
+
   Represents active mental work/questioning process
+
 - 火 + 乍 = 炸 (zhà): <br/>
 
   Fire + work → to explode/to fry
+
   Dual manifestation: process (cooking work) and result (explosive work)
+
 - 讠 + 乍 = 诈 (zhà): <br/>
 
   Speech + work → to deceive
+
   Excessive work in communication leading to manipulation
+
 - 口 + 乍 = 咋 (zǎ): <br/>
 
   Mouth + work → how (colloquial)
+
   Verbal expression of mental work/questioning
+
 - 酉 + 乍 = 酢 (zuò): <br/>
 
   Wine + work → vinegar
+
   Chemical transformation through work process
+
 - ⺮ + 乍 = 笮 (zé): <br/>
 
   Bamboo + work → to press
+
   Physical work applied to materials
+
 - 穴 + 乍 = 窄 (zhǎi): <br/>
 
   Cave/space + work → narrow
+
   Spatial transformation through constraining work
+
 
 The semantic evolution follows patterns analogous to force interactions in physics:
 
 - Physical work (笮, 炸): <br/>
+
 Like mechanical forces in material transformation
 
 - Mental work (怎, 咋): <br/>
+
 Parallels quantum mechanical state transitions
 
 - Temporal work (昨): <br/>
+
 Similar to time-dependent interactions
 
 - Transformative work (酢, 诈): <br/>
+
 Resembles chemical force interactions
 
 - Spatial work (窄): <br/>
 Analogous to field effects in space
 
 
-![zi_work](./images/zi_work.png)
 
 
 This family demonstrates how the fundamental semantic force of "work" combines with different contextual elements to create a rich spectrum of meanings, from concrete physical actions to abstract temporal and mental concepts. The systematic nature of these combinations suggests underlying principles in character formation that mirror physical force interactions.
@@ -467,27 +523,34 @@ The character 子 exhibits remarkable semantic versatility, forming compounds ac
 
 - Human Relations
   - Inheritance: <br/> 
-    子女 (children), 子孙 (descendants)
+    子女 (children), 子孙 (descendants) 
+
   - Academic: <br/> 
     学子 (student), 弟子 (disciple)
+
   - Honorific: <br/> 
     夫子 (master), 子 as suffix in 孔子, 老子, 墨子 (ancient philosophers)
+
   - Aggressor: <br/> 
     洋鬼子, 毛子, 日本鬼子
 
 - Scientific Terms
   - Physics: <br/> 
     光子 (photon), 量子 (quantum), 原子 (atom), 电子 (electron), 粒子 (particle), 分子 (molecule), 玻色子 (boson), 费米子 (fermion)
+
   - Biology: <br/> 
     孢子 (spore), 种子 (seed)
+
   - Mathematics: <br/> 
     因子 (factor), 系数子 (coefficient)
 
 - Physical Objects
   - Tools: <br/> 
     筷子 (chopsticks), 梯子 (ladder)
+
   - Containers: <br/> 
     箱子 (box), 瓶子 (bottle)
+
   - Furniture: <br/> 
     桌子 (table), 凳子 (stool)
 
@@ -604,28 +667,20 @@ The survival of these particular poems, out of countless others written during t
 These poems embody the Yin-Yang duality in multiple dimensions:
 
 - Celestial Bodies
-  - Yang (阳): <br/> 
-    Sun setting behind mountains (白日依山)
-  - Yin (阴): <br/> 
-    Moon casting light on earth (明月光)
+  - Yang (阳)     Sun setting behind mountains (白日依山)
+  - Yin (阴):     Moon casting light on earth (明月光)
 
 - Movement Patterns
-  - Yang: <br/> 
-    Continuous upward progression (更上一层楼)
-  - Yin: <br/> 
-    Circular motion of raising and lowering head (举头...低头)
+  - Yang (阳):    Continuous upward progression (更上一层楼)
+  - Yin (阴):      Circular motion of raising and lowering head (举头...低头)
 
 - Philosophical Approach
-  - Yang: <br/> 
-    Active pursuit of transcendence through effort
-  - Yin: <br/> 
-    Passive reception of insight through contemplation
+  - Yang (阳):     Active pursuit of transcendence through effort
+  - Yin (阴):     Passive reception of insight through contemplation
 
 - Emotional Register
-  - Yang: <br/> 
-    Aspiration toward broader horizons
-  - Yin: <br/> 
-    Nostalgia and connection to home
+  - Yang (阳):     Aspiration toward broader horizons
+  - Yin (阴):     Nostalgia and connection to home
 
 This complementarity itself represents an evolutionary advantage, as the poems together create a complete cognitive framework for understanding human experience - both active and contemplative approaches to wisdom.
 
@@ -834,21 +889,13 @@ This understanding transforms our view of Chinese characters from a designed wri
 
 ## Dedication
 
-This work is dedicated to late Professor T.D. Lee, whose pioneering efforts opened doors for many Chinese students to pursue research in the United States, fostering a bridge between Eastern and Western scientific traditions. His vision and support have enabled countless scholars like myself to contribute to global scientific discourse.
+This work is dedicated to late Professor T.D. Lee, whose pioneering efforts opened doors for many Chinese students to pursue studies and research in the United States, fostering a bridge between Eastern and Western scientific traditions. His vision and support have enabled countless scholars like myself to contribute to global scientific discourse.
 
-I also dedicate this work to my dear parents, who nurtured my intellectual curiosity through challenging times. Their sacrifices and unwavering support made my life journey possible.
+This work is also dedicated to author's parents, who nurtured his intellectual curiosity through challenging times. Their sacrifices and unwavering support are forever remembered.
 
 ## Acknowledgements
 
 This paper represents a collaborative effort between the author, Claude (an AI assistant from Anthropic), and DeepSeek V3 (an AI assistant from DeepSeek). The fusion of human knowledge in software development, physics, and Chinese language with AI's analytical capabilities enabled the development of the novel perspectives and methodologies presented in this work. This collaboration demonstrates the potential of human-AI partnerships in research, particularly in interdisciplinary studies bridging traditional knowledge with modern computational approaches.
-
-## Disclaimer 
-
-A more accessible title for this paper might be **"A Reductionist Approach to Simplify Learning Chinese Characters"**, as the author is not a professional researcher in the fields of physics, computational linguistics, or Chinese language studies. However, with a deep interest in understanding Chinese characters (汉字), the author wishes to share this interdisciplinary exploration aimed at simplifying the learning process, as presented in this work.  
-
-Terms such as **"physics," "structure," "interaction," "force," "emergence,"** and **"Fibonacci sequence"** are used heuristically and metaphorically to inspire new ways of thinking about Chinese characters. In the computational approach, terms like **"data structure," "node,"** and **"component"** often represent "structure" in physics; **"relationship"** and **"link"** represent "interaction" or "force" in physics; and **"network"** and **"system"** represent "complex matter" in physics.  
-
-The author sincerely welcomes **criticism, feedback, and suggestions** to further our collective understanding of Chinese characters and improve the framework presented here.
 
 
 ## References
@@ -885,24 +932,20 @@ Below are a few screenshots highlighting its features.
 
 #### Custom-built Dictionary 
 
-![ZiNets](./images/zinets.png)
+![ZiNets App](./images/app_zinets.png)
 
-
-#### Chinese Character Network Patterns 
-
-![ZiNets](./images/decomposing-zi.png)
 
 #### De-Compositing Characters
 
-![Decomposition-1](./images/zi-parts.png)
+![Decomposition-1](./images/app_zi-parts-1.png)
 
-![Decomposition-2](./images/zi-parts-2.png)
+![Decomposition-2](./images/app_zi-parts-2.png)
 
 
 #### 元字 Collection
 
-![元字 Collection](./images/zi-elements.png)
+![元字 Collection](./images/app_zi-elements.png)
 
 #### Search
 
-![Search](./images/discover-zi-by-part.png)
+![Search Zi](./images/app_discover-zi-by-part.png)

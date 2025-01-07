@@ -1,24 +1,31 @@
 % Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{space}{xeCJK}
+%
 \documentclass[
+  11pt,
+  letterpaper,
 ]{article}
-\usepackage{xcolor}
-\usepackage{amsmath,amssymb}
-\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
-\usepackage{iftex}
-\ifPDFTeX
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
 \else % if luatex or xetex
-  \usepackage{unicode-math} % this also loads fontspec
+  \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
-\fi
-\usepackage{lmodern}
-\ifPDFTeX\else
-  % xetex/luatex font selection
+  \ifxetex
+    \usepackage{xeCJK}
+    \setCJKmainfont[]{Noto Sans CJK TC Medium}
+  \fi
+  \ifluatex
+    \usepackage[]{luatexja-fontspec}
+    \setmainjfont[]{Noto Sans CJK TC Medium}
+  \fi
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -36,39 +43,44 @@
 }{% if KOMA class
   \KOMAoptions{parskip=half}}
 \makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=0.75in]{geometry}
 \usepackage{graphicx}
 \makeatletter
-\newsavebox\pandoc@box
-\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
-  \sbox\pandoc@box{#1}%
-  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
-  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
-  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
-  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
-  \else\usebox{\pandoc@box}%
-  \fi%
-}
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
 % Set default figure placement to htbp
+\makeatletter
 \def\fps@figure{htbp}
 \makeatother
 \setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\usepackage{bookmark}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same}
-\hypersetup{
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\setCJKmonofont{Noto Sans Mono CJK TC}
+
 
 \author{}
 \date{}
 
 \begin{document}
 
+\hypertarget{a-physics-inspired-computational-approach-to-chinese-character-analysis-network-patterns-and-semantic-evolution}{%
 \section{A Physics-Inspired Computational Approach to Chinese Character
 Analysis: Network Patterns and Semantic
-Evolution}\label{a-physics-inspired-computational-approach-to-chinese-character-analysis-network-patterns-and-semantic-evolution}
+Evolution}\label{a-physics-inspired-computational-approach-to-chinese-character-analysis-network-patterns-and-semantic-evolution}}
 
 Wen G. Gong*
 
@@ -76,7 +88,8 @@ Wen G. Gong*
 
 2025-01-01
 
-\subsection{Abstract}\label{abstract}
+\hypertarget{abstract}{%
+\subsection{Abstract}\label{abstract}}
 
 This paper presents a novel perspective on Chinese characters as a
 naturally evolved system for encoding and transmitting concepts and
@@ -94,7 +107,33 @@ patterns. Our computational implementation, ZiNets (字网), provides
 evidence for this perspective by revealing recurring patterns of
 character composition and semantic development.
 
-\subsection{1. Introduction}\label{introduction}
+\hypertarget{disclaimer}{%
+\subsection{Disclaimer}\label{disclaimer}}
+
+A more accessible title for this paper might be \textbf{``A Reductionist
+Approach to Simplify Learning Chinese Characters''}, as the author is
+not a professional researcher in the fields of physics, computational
+linguistics, or Chinese language studies. However, with a deep interest
+in understanding Chinese characters (汉字), the author wishes to share
+this interdisciplinary exploration aimed at simplifying the learning
+process.
+
+Terms such as \textbf{``physics,'' ``structure,'' ``interaction,''
+``force,'' ``emergence,''} and \textbf{``Fibonacci sequence''} are used
+heuristically and metaphorically to inspire new ways of thinking about
+Chinese characters. In the computational approach, terms like
+\textbf{``data structure,'' ``node,''} and \textbf{``component''} often
+represent ``structure'' in physics; \textbf{``relationship''} and
+\textbf{``link''} represent ``interaction'' or ``force'' in physics; and
+\textbf{``network''} and \textbf{``system''} represent ``complex
+matter'' in physics.
+
+The author sincerely welcomes \textbf{criticism, feedback, and
+suggestions} to further our collective understanding of Chinese
+characters and improve the framework presented here.
+
+\hypertarget{introduction}{%
+\subsection{1. Introduction}\label{introduction}}
 
 Chinese characters {[}1{]}, as one of the oldest continuously used
 writing systems, present a unique opportunity for studying how symbolic
@@ -154,10 +193,12 @@ sequences in character complexity - Stable semantic structures emerging
 from component interactions - System coherence maintained through
 evolutionary development
 
-\subsection{2. Methodology}\label{methodology}
+\hypertarget{methodology}{%
+\subsection{2. Methodology}\label{methodology}}
 
+\hypertarget{the-concept-of-elemental-characters-ux5143ux5b57}{%
 \subsubsection{2.1 The Concept of Elemental Characters
-(元字)}\label{the-concept-of-elemental-characters-ux5143ux5b57}
+(元字)}\label{the-concept-of-elemental-characters-ux5143ux5b57}}
 
 Unlike traditional radical classification systems that focus primarily
 on handwriting and structural organization, we introduce the concept of
@@ -203,8 +244,9 @@ ways:
   Recognition of independent semantic value
 \end{itemize}
 
+\hypertarget{spatial-framework-and-component-interactions}{%
 \subsubsection{2.2 Spatial Framework and Component
-Interactions}\label{spatial-framework-and-component-interactions}
+Interactions}\label{spatial-framework-and-component-interactions}}
 
 Our physics-inspired approach treats Chinese character composition as a
 system of components interacting within a well-defined spatial
@@ -266,8 +308,9 @@ framework:
   \end{itemize}
 \end{itemize}
 
+\hypertarget{fibonacci-organization-and-ux5143ux5b57-emergence}{%
 \subsubsection{2.3 Fibonacci Organization and 元字
-Emergence}\label{fibonacci-organization-and-ux5143ux5b57-emergence}
+Emergence}\label{fibonacci-organization-and-ux5143ux5b57-emergence}}
 
 The Fibonacci sequence (1, 1, 2, 3, 5, 8, 13, 21, 34, 55, \ldots)
 naturally emerges in growth patterns throughout nature. When visualized,
@@ -279,7 +322,7 @@ foundations in a harmonious and balanced way {[}3{]}.
 
 \begin{figure}
 \centering
-\pandocbounded{\includegraphics[keepaspectratio]{./images/fibonacci-spiral.png}}
+\includegraphics{./images/fibonacci-spiral.png}
 \caption{fibonacci-spiral}
 \end{figure}
 
@@ -362,7 +405,7 @@ mapping'' (e.g.~灬 means fire).
 
   \begin{figure}
   \centering
-  \pandocbounded{\includegraphics[keepaspectratio]{./images/sun-moon-heaven-human-earth-meditation-morning.jpg}}
+  \includegraphics{./images/sun-moon-heaven-human-earth-meditation-morning.jpg}
   \caption{Heaven-Earth-Human}
   \end{figure}
 
@@ -492,8 +535,9 @@ counting.
 This set introduces fundamental components for describing human
 existence and behavior.
 
+\hypertarget{pattern-discovery-and-physical-analogies}{%
 \subsubsection{2.4 Pattern Discovery and Physical
-Analogies}\label{pattern-discovery-and-physical-analogies}
+Analogies}\label{pattern-discovery-and-physical-analogies}}
 
 The systematic analysis of character composition through our spatial
 framework reveals several key patterns that parallel physical systems:
@@ -547,10 +591,12 @@ framework reveals several key patterns that parallel physical systems:
   \end{itemize}
 \end{itemize}
 
-\subsection{3. Results}\label{results}
+\hypertarget{results}{%
+\subsection{3. Results}\label{results}}
 
+\hypertarget{web-application-implementation-zinets-ux5b57ux7f51}{%
 \subsubsection{3.1 Web Application Implementation: ZiNets
-(字网)}\label{web-application-implementation-zinets-ux5b57ux7f51}
+(字网)}\label{web-application-implementation-zinets-ux5b57ux7f51}}
 
 Our web-based visualization tool, ZiNets (Zi Network System), implements
 the theoretical framework through an interactive character decomposition
@@ -558,8 +604,15 @@ system. The name ``ZiNets'' reflects its primary function:
 reconstructing Chinese characters (Zi, 字) into networks of their
 elemental components.
 
+\hypertarget{character-decomposition-visualization}{%
 \paragraph{3.1.1 Character Decomposition
-Visualization}\label{character-decomposition-visualization}
+Visualization}\label{character-decomposition-visualization}}
+
+\begin{figure}
+\centering
+\includegraphics{./images/app_decomposing-zi.png}
+\caption{Zi Network Pattern}
+\end{figure}
 
 The core feature of ZiNets is its hierarchical decomposition
 visualization:
@@ -610,8 +663,9 @@ visualization:
   \end{itemize}
 \end{itemize}
 
+\hypertarget{frequency-analysis-and-natural-efficiency}{%
 \subsubsection{3.2 Frequency Analysis and Natural
-Efficiency}\label{frequency-analysis-and-natural-efficiency}
+Efficiency}\label{frequency-analysis-and-natural-efficiency}}
 
 Our computational analysis of approximately 3,000 commonly used HSK
 Chinese characters {[}5{]} reveals striking patterns in 元字 usage that
@@ -653,7 +707,7 @@ demonstrate natural optimization principles:
 
   \begin{figure}
   \centering
-  \pandocbounded{\includegraphics[keepaspectratio]{./images/part-frequency-top-25.png}}
+  \includegraphics{./images/part-frequency-top-25.png}
   \caption{top-25-elemental-character-set}
   \end{figure}
 \item
@@ -686,10 +740,18 @@ demonstrate natural optimization principles:
   \end{itemize}
 \end{itemize}
 
+\hypertarget{case-studies---composite-characters}{%
 \subsubsection{3.3 Case Studies - Composite
-Characters}\label{case-studies---composite-characters}
+Characters}\label{case-studies---composite-characters}}
 
-\paragraph{3.3.1 The 日 Family}\label{the-ux65e5-family}
+\hypertarget{the-ux65e5-family}{%
+\paragraph{3.3.1 The 日 Family}\label{the-ux65e5-family}}
+
+\begin{figure}
+\centering
+\includegraphics{./images/zi_sun.png}
+\caption{zi\_sun}
+\end{figure}
 
 The Chinese character ``日'' (rì), meaning ``sun'' or ``day'', serves as
 a powerful illustration of how Chinese characters efficiently encode
@@ -787,12 +849,6 @@ the Chinese language. Consider the following examples:
   out of the land, leading to drought conditions.
 \end{itemize}
 
-\begin{figure}
-\centering
-\pandocbounded{\includegraphics[keepaspectratio]{./images/zi_sun.png}}
-\caption{zi\_sun}
-\end{figure}
-
 These examples barely scratch the surface, but this family demonstrates
 how Chinese characters, through their composition, reveals profound
 insights and encodes knowledge in a uniquely efficient manner unmatched
@@ -800,7 +856,14 @@ by other writing systems. Children learning Chinese characters are
 exposed to basic scientific concepts and knowledge while mastering the
 language, a feature not found in many other languages.
 
-\paragraph{3.3.2 The 禺 Family}\label{the-ux79ba-family}
+\hypertarget{the-ux79ba-family}{%
+\paragraph{3.3.2 The 禺 Family}\label{the-ux79ba-family}}
+
+\begin{figure}
+\centering
+\includegraphics{./images/zi_join.png}
+\caption{zi\_join}
+\end{figure}
 
 Detailed analysis of the 禺 component family demonstrates both semantic
 bonding patterns and historical evolution principles:
@@ -815,28 +878,33 @@ Derivative Characters and Their Bonding Patterns:
 \item
   亻 + 禺 = 偶 (ǒu):
 
-  Person + joining → couple/partner Historical evolution: from chance
-  meeting to deliberate pairing
+  Person + joining → couple/partner
+
+  Historical evolution: from chance meeting to deliberate pairing
 \item
   宀 + 禺 = 寓 (yù):
 
-  Roof + joining → dwelling/metaphorical connection Shows extension from
-  physical to abstract space
+  Roof + joining → dwelling/metaphorical connection
+
+  Shows extension from physical to abstract space
 \item
   辶 + 禺 = 遇 (yù):
 
-  Movement + joining → encounter/meet Demonstrates temporal dimension of
-  joining force
+  Movement + joining → encounter/meet
+
+  Demonstrates temporal dimension of joining force
 \item
   禺 + 心 = 愚 (yú):
 
-  Heart/mind + joining → inability to make mental connections Reveals
-  cognitive dimension of joining concept
+  Heart/mind + joining → inability to make mental connections
+
+  Reveals cognitive dimension of joining concept
 \item
   阝 + 禺 = 隅 (yú):
 
-  Wall + joining → corner/intersection Illustrates spatial manifestation
-  of joining force
+  Wall + joining → corner/intersection
+
+  Illustrates spatial manifestation of joining force
 \item
   耒 + 禺 = 耦:
 
@@ -859,17 +927,18 @@ fundamental force interactions in physics:
   Physical joining (偶): Resembles strong nuclear force binding
 \end{itemize}
 
-\begin{figure}
-\centering
-\pandocbounded{\includegraphics[keepaspectratio]{./images/zi_join.png}}
-\caption{zi\_join}
-\end{figure}
-
 This family demonstrates how semantic forces, like physical forces,
 create stable configurations that persist through time while allowing
 for evolutionary adaptation to new meanings.
 
-\paragraph{3.3.3 The 乍 Family}\label{the-ux4e4d-family}
+\hypertarget{the-ux4e4d-family}{%
+\paragraph{3.3.3 The 乍 Family}\label{the-ux4e4d-family}}
+
+\begin{figure}
+\centering
+\includegraphics{./images/zi_work.png}
+\caption{zi\_work}
+\end{figure}
 
 乍 means work (as both noun and verb), artifact, thing completed.
 
@@ -884,70 +953,99 @@ Derivative Characters and Their Bonding Patterns:
 \item
   亻 + 乍 = 作 (zuò):
 
-  Person + work → to make/to do Most direct expression of the base
-  semantic force
+  Person + work → to make/to do
+
+  Most direct expression of the base semantic force
 \item
   日 + 乍 = 昨 (zuó):
 
-  Sun/day + work → yesterday Shows temporal manifestation through work
-  completed
+  Sun/day + work → yesterday
+
+  Shows temporal manifestation through work completed
 \item
   乍 + 心 = 怎 (zěn):
 
-  Work + heart/mind → how? Represents active mental work/questioning
-  process
+  Work + heart/mind → how?
+
+  Represents active mental work/questioning process
 \item
   火 + 乍 = 炸 (zhà):
 
-  Fire + work → to explode/to fry Dual manifestation: process (cooking
-  work) and result (explosive work)
+  Fire + work → to explode/to fry
+
+  Dual manifestation: process (cooking work) and result (explosive work)
 \item
   讠 + 乍 = 诈 (zhà):
 
-  Speech + work → to deceive Excessive work in communication leading to
-  manipulation
+  Speech + work → to deceive
+
+  Excessive work in communication leading to manipulation
 \item
   口 + 乍 = 咋 (zǎ):
 
-  Mouth + work → how (colloquial) Verbal expression of mental
-  work/questioning
+  Mouth + work → how (colloquial)
+
+  Verbal expression of mental work/questioning
 \item
   酉 + 乍 = 酢 (zuò):
 
-  Wine + work → vinegar Chemical transformation through work process
+  Wine + work → vinegar
+
+  Chemical transformation through work process
 \item
   ⺮ + 乍 = 笮 (zé):
 
-  Bamboo + work → to press Physical work applied to materials
+  Bamboo + work → to press
+
+  Physical work applied to materials
 \item
   穴 + 乍 = 窄 (zhǎi):
 
-  Cave/space + work → narrow Spatial transformation through constraining
-  work
+  Cave/space + work → narrow
+
+  Spatial transformation through constraining work
 \end{itemize}
 
 The semantic evolution follows patterns analogous to force interactions
 in physics:
 
 \begin{itemize}
+\tightlist
 \item
-  Physical work (笮, 炸): Like mechanical forces in material
-  transformation
+  Physical work (笮, 炸):
+\end{itemize}
+
+Like mechanical forces in material transformation
+
+\begin{itemize}
+\tightlist
 \item
-  Mental work (怎, 咋): Parallels quantum mechanical state transitions
+  Mental work (怎, 咋):
+\end{itemize}
+
+Parallels quantum mechanical state transitions
+
+\begin{itemize}
+\tightlist
 \item
-  Temporal work (昨): Similar to time-dependent interactions
+  Temporal work (昨):
+\end{itemize}
+
+Similar to time-dependent interactions
+
+\begin{itemize}
+\tightlist
 \item
-  Transformative work (酢, 诈): Resembles chemical force interactions
+  Transformative work (酢, 诈):
+\end{itemize}
+
+Resembles chemical force interactions
+
+\begin{itemize}
+\tightlist
 \item
   Spatial work (窄): Analogous to field effects in space
 \end{itemize}
-
-\begin{figure}
-\centering
-\pandocbounded{\includegraphics[keepaspectratio]{./images/zi_work.png}}
-\caption{zi\_work}
-\end{figure}
 
 This family demonstrates how the fundamental semantic force of ``work''
 combines with different contextual elements to create a rich spectrum of
@@ -961,8 +1059,9 @@ evolve into increasingly sophisticated meanings while maintaining its
 core semantic force, providing insights into both historical character
 development and cognitive linguistics patterns.
 
+\hypertarget{case-studies---pinyin---a-counter-argument}{%
 \subsubsection{3.4 Case Studies - Pinyin - A
-Counter-Argument}\label{case-studies---pinyin---a-counter-argument}
+Counter-Argument}\label{case-studies---pinyin---a-counter-argument}}
 
 While the Pinyin romanization system has undeniably augmented the
 Chinese language by integrating Latin phonetic components, relying
@@ -1009,15 +1108,17 @@ ability to encode universal human insights in memorable, emotionally
 resonant forms. The following case studies examine these organizing
 principles at two scales: compound phrases and classical poems.
 
+\hypertarget{case-studies---phrases-and-idioms}{%
 \subsubsection{3.5 Case Studies - Phrases and
-Idioms}\label{case-studies---phrases-and-idioms}
+Idioms}\label{case-studies---phrases-and-idioms}}
 
 This case study examines compound phrases containing the character 子
 (zǐ) to demonstrate how network analysis reveals semantic patterns and
 cognitive insights in Chinese language evolution.
 
+\hypertarget{the-ux5b50-network-analysis}{%
 \paragraph{3.5.1 The 子 Network
-Analysis}\label{the-ux5b50-network-analysis}
+Analysis}\label{the-ux5b50-network-analysis}}
 
 The character 子 exhibits remarkable semantic versatility, forming
 compounds across multiple domains:
@@ -1028,7 +1129,6 @@ compounds across multiple domains:
   Human Relations
 
   \begin{itemize}
-  \tightlist
   \item
     Inheritance: 子女 (children), 子孙 (descendants)
   \item
@@ -1043,7 +1143,6 @@ compounds across multiple domains:
   Scientific Terms
 
   \begin{itemize}
-  \tightlist
   \item
     Physics: 光子 (photon), 量子 (quantum), 原子 (atom), 电子
     (electron), 粒子 (particle), 分子 (molecule), 玻色子 (boson), 费米子
@@ -1057,7 +1156,6 @@ compounds across multiple domains:
   Physical Objects
 
   \begin{itemize}
-  \tightlist
   \item
     Tools: 筷子 (chopsticks), 梯子 (ladder)
   \item
@@ -1075,8 +1173,9 @@ compounds across multiple domains:
   \end{itemize}
 \end{itemize}
 
+\hypertarget{network-analysis-insights}{%
 \paragraph{3.5.2 Network Analysis
-Insights}\label{network-analysis-insights}
+Insights}\label{network-analysis-insights}}
 
 Our systematic network analysis revealed a profound epistemological
 insight through an unexpected discovery. Despite extensive computational
@@ -1168,7 +1267,8 @@ remarkable efficiency in encoding human wisdom and experience. The
 following analysis examines how two 20-character poems create meaning
 through complementary organizing principles.
 
-\subsubsection{3.6 Case Studies - Poems}\label{case-studies---poems}
+\hypertarget{case-studies---poems}{%
+\subsubsection{3.6 Case Studies - Poems}\label{case-studies---poems}}
 
 This section examines how classical Chinese poetry achieves remarkable
 semantic density through minimal character usage. The survival of these
@@ -1176,7 +1276,8 @@ poems across millennia demonstrates powerful principles of cultural
 selection, where maximum meaning with minimum structure creates enduring
 linguistic configurations.
 
-\paragraph{3.6.1 Plum Blossoms}\label{plum-blossoms}
+\hypertarget{plum-blossoms}{%
+\paragraph{3.6.1 Plum Blossoms}\label{plum-blossoms}}
 
 \begin{verbatim}
 (I) 王安石 - 梅花
@@ -1192,8 +1293,9 @@ classical Chinese poetry, for its ability to convey profound meaning and
 beauty in 20 characters: blending artistic elegance with linguistic
 efficiency to create a work that resonates across cultures and times.
 
+\hypertarget{artistic-beauty-a-multi-sensory-experience}{%
 \subparagraph{3.6.1.1 Artistic Beauty: A Multi-Sensory
-Experience**}\label{artistic-beauty-a-multi-sensory-experience}
+Experience**}\label{artistic-beauty-a-multi-sensory-experience}}
 
 The poem opens with a vivid image of ``a few branches of plum blossoms
 by the corner of a wall'' (墙角数枝梅), their delicate white or pink
@@ -1204,8 +1306,9 @@ subtlety and inner virtue. The plum blossom, blooming ``alone in the
 cold'' (凌寒独自开), becomes a metaphor for perseverance and moral
 strength, embodying the ideals of beauty in adversity.
 
+\hypertarget{linguistic-efficiency-depth-in-brevity}{%
 \subparagraph{3.6.1.2 Linguistic Efficiency: Depth in
-Brevity**}\label{linguistic-efficiency-depth-in-brevity}
+Brevity**}\label{linguistic-efficiency-depth-in-brevity}}
 
 Composed of only four lines, each with five characters, the poem
 demonstrates how a few carefully chosen characters can convey complex
@@ -1216,8 +1319,9 @@ learners to grasp both literal and symbolic meanings, while its vivid
 imagery---such as the contrast between plum blossoms and snow---enhances
 memory and comprehension.
 
+\hypertarget{cultural-and-philosophical-resonance}{%
 \subparagraph{3.6.1.3 Cultural and Philosophical
-Resonance**}\label{cultural-and-philosophical-resonance}
+Resonance**}\label{cultural-and-philosophical-resonance}}
 
 Rooted in Chinese cultural traditions, the plum blossom is one of the
 ``Four Gentlemen,'' symbolizing nobility and integrity. The poem's
@@ -1227,8 +1331,9 @@ which encourages readers to look beyond appearances and appreciate
 subtle, enduring qualities. This universal theme of resilience and inner
 beauty makes the poem accessible and meaningful to a wide audience.
 
+\hypertarget{a-bridge-between-art-and-language}{%
 \subparagraph{3.6.1.4 A Bridge Between Art and
-Language**}\label{a-bridge-between-art-and-language}
+Language**}\label{a-bridge-between-art-and-language}}
 
 ``Plum Blossoms'' is not only a masterpiece of artistic expression but
 also a valuable tool for language learning. Its use of high-frequency
@@ -1244,8 +1349,9 @@ in art and language. Through its vivid imagery, cultural symbolism, and
 concise structure, the poem captures the essence of resilience, beauty,
 and virtue. It serves as both a literary treasure and a linguistic gem.
 
+\hypertarget{complementary-masterpieces-in-cultural-evolution}{%
 \subparagraph{3.6.2 Complementary Masterpieces in Cultural
-Evolution}\label{complementary-masterpieces-in-cultural-evolution}
+Evolution}\label{complementary-masterpieces-in-cultural-evolution}}
 
 Wang Zhihuan's ``登鹳雀楼'' and Li Bai's ``静夜思'' represent perfect
 exemplars of cultural survival through semantic efficiency. Each using
@@ -1287,8 +1393,9 @@ advantages:
   Structural Balance: Perfect symmetry in form and meaning
 \end{itemize}
 
+\hypertarget{yin-yang-duality-in-expression}{%
 \subparagraph{3.6.2.1 Yin-Yang Duality in
-Expression}\label{yin-yang-duality-in-expression}
+Expression}\label{yin-yang-duality-in-expression}}
 
 These poems embody the Yin-Yang duality in multiple dimensions:
 
@@ -1300,7 +1407,7 @@ These poems embody the Yin-Yang duality in multiple dimensions:
   \begin{itemize}
   \tightlist
   \item
-    Yang (阳): Sun setting behind mountains (白日依山)
+    Yang (阳) Sun setting behind mountains (白日依山)
   \item
     Yin (阴): Moon casting light on earth (明月光)
   \end{itemize}
@@ -1310,9 +1417,10 @@ These poems embody the Yin-Yang duality in multiple dimensions:
   \begin{itemize}
   \tightlist
   \item
-    Yang: Continuous upward progression (更上一层楼)
+    Yang (阳): Continuous upward progression (更上一层楼)
   \item
-    Yin: Circular motion of raising and lowering head (举头\ldots 低头)
+    Yin (阴): Circular motion of raising and lowering head
+    (举头\ldots 低头)
   \end{itemize}
 \item
   Philosophical Approach
@@ -1320,9 +1428,9 @@ These poems embody the Yin-Yang duality in multiple dimensions:
   \begin{itemize}
   \tightlist
   \item
-    Yang: Active pursuit of transcendence through effort
+    Yang (阳): Active pursuit of transcendence through effort
   \item
-    Yin: Passive reception of insight through contemplation
+    Yin (阴): Passive reception of insight through contemplation
   \end{itemize}
 \item
   Emotional Register
@@ -1330,9 +1438,9 @@ These poems embody the Yin-Yang duality in multiple dimensions:
   \begin{itemize}
   \tightlist
   \item
-    Yang: Aspiration toward broader horizons
+    Yang (阳): Aspiration toward broader horizons
   \item
-    Yin: Nostalgia and connection to home
+    Yin (阴): Nostalgia and connection to home
   \end{itemize}
 \end{itemize}
 
@@ -1340,8 +1448,9 @@ This complementarity itself represents an evolutionary advantage, as the
 poems together create a complete cognitive framework for understanding
 human experience - both active and contemplative approaches to wisdom.
 
+\hypertarget{economy-of-expression-as-survival-advantage}{%
 \subparagraph{3.6.2.2 Economy of Expression as Survival
-Advantage}\label{economy-of-expression-as-survival-advantage}
+Advantage}\label{economy-of-expression-as-survival-advantage}}
 
 Both poems achieve remarkable efficiency in their use of characters:
 
@@ -1407,7 +1516,8 @@ Both poems achieve remarkable efficiency in their use of characters:
   \end{itemize}
 \end{itemize}
 
-\subparagraph{3.6.2.3 Wisdom Encoding}\label{wisdom-encoding}
+\hypertarget{wisdom-encoding}{%
+\subparagraph{3.6.2.3 Wisdom Encoding}\label{wisdom-encoding}}
 
 These poems demonstrate two complementary paths to wisdom:
 
@@ -1444,8 +1554,9 @@ Classical Chinese to encode complex wisdom through minimal means,
 achieving maximum impact through careful character selection and
 arrangement.
 
+\hypertarget{reflection-on-semantic-forces-across-scales}{%
 \subsubsection{3.7 Reflection on Semantic Forces Across
-Scales}\label{reflection-on-semantic-forces-across-scales}
+Scales}\label{reflection-on-semantic-forces-across-scales}}
 
 Our case studies reveal language as a living system shaped by semantic
 forces analogous to physical forces. These forces not only bind
@@ -1453,8 +1564,9 @@ linguistic elements across different scales but also drive their
 evolution through processes remarkably similar to biological natural
 selection.
 
+\hypertarget{hierarchy-of-semantic-bonds}{%
 \paragraph{3.7.1 Hierarchy of Semantic
-Bonds}\label{hierarchy-of-semantic-bonds}
+Bonds}\label{hierarchy-of-semantic-bonds}}
 
 The Chinese language demonstrates organizing principles that mirror
 physical systems across scales:
@@ -1506,8 +1618,9 @@ physical systems across scales:
   \end{itemize}
 \end{itemize}
 
+\hypertarget{natural-selection-of-meaning}{%
 \paragraph{3.7.2 Natural Selection of
-Meaning}\label{natural-selection-of-meaning}
+Meaning}\label{natural-selection-of-meaning}}
 
 Cultural transmission operates through selection mechanisms parallel to
 biological evolution:
@@ -1552,8 +1665,9 @@ biological evolution:
   \end{itemize}
 \end{itemize}
 
+\hypertarget{ai-enhanced-pattern-recognition}{%
 \paragraph{3.7.3 AI-Enhanced Pattern
-Recognition}\label{ai-enhanced-pattern-recognition}
+Recognition}\label{ai-enhanced-pattern-recognition}}
 
 Modern computational approaches, particularly through AI analysis,
 reveal previously invisible patterns: - Network analysis uncovers hidden
@@ -1565,8 +1679,9 @@ The partnership between human insight and artificial intelligence
 demonstrates how new tools can illuminate ancient patterns, revealing
 the deep structure of language as a living system.
 
+\hypertarget{ux5929ux4ebaux5408ux4e00-the-unity-of-natural-and-human-systems}{%
 \paragraph{3.7.4 天人合一: The Unity of Natural and Human
-Systems}\label{ux5929ux4ebaux5408ux4e00-the-unity-of-natural-and-human-systems}
+Systems}\label{ux5929ux4ebaux5408ux4e00-the-unity-of-natural-and-human-systems}}
 
 The ancient Chinese concept of 天人合一 (the unity of heaven and
 humanity) finds new resonance in our analysis of semantic forces. This
@@ -1621,8 +1736,9 @@ boundaries. This collaboration between human insight and artificial
 intelligence opens new pathways for understanding the deep unity
 underlying both physical and semantic worlds.
 
+\hypertarget{computational-pattern-discovery}{%
 \subsubsection{3.8 Computational Pattern
-Discovery}\label{computational-pattern-discovery}
+Discovery}\label{computational-pattern-discovery}}
 
 The computational power of ZiNets reveals fundamental structures and
 relationships in Chinese characters, demonstrating deep connections
@@ -1679,11 +1795,13 @@ between linguistics, mathematics, and physics:
   \end{itemize}
 \end{itemize}
 
+\hypertarget{discussion-and-implications}{%
 \subsection{4. Discussion and
-Implications}\label{discussion-and-implications}
+Implications}\label{discussion-and-implications}}
 
+\hypertarget{chinese-writing-as-a-living-system}{%
 \subsubsection{4.1 Chinese Writing as a Living
-System}\label{chinese-writing-as-a-living-system}
+System}\label{chinese-writing-as-a-living-system}}
 
 Our computational and physics-inspired analysis reveals Chinese writing
 as a living, self-organizing system that mirrors natural growth
@@ -1736,7 +1854,9 @@ patterns:
   \end{itemize}
 \end{itemize}
 
-\subsubsection{4.2 Practical Implications}\label{practical-implications}
+\hypertarget{practical-implications}{%
+\subsubsection{4.2 Practical
+Implications}\label{practical-implications}}
 
 \begin{itemize}
 \tightlist
@@ -1794,7 +1914,8 @@ patterns:
   \end{itemize}
 \end{itemize}
 
-\subsection{5. Conclusion}\label{conclusion}
+\hypertarget{conclusion}{%
+\subsection{5. Conclusion}\label{conclusion}}
 
 The Chinese writing system represents a remarkable example of natural
 optimization in language evolution. Through computational analysis and
@@ -1818,19 +1939,22 @@ designed writing system to a naturally evolved, living language system
 that continues to develop according to universal principles of
 organization and growth.
 
-\subsection{Dedication}\label{dedication}
+\hypertarget{dedication}{%
+\subsection{Dedication}\label{dedication}}
 
 This work is dedicated to late Professor T.D. Lee, whose pioneering
-efforts opened doors for many Chinese students to pursue research in the
-United States, fostering a bridge between Eastern and Western scientific
-traditions. His vision and support have enabled countless scholars like
-myself to contribute to global scientific discourse.
+efforts opened doors for many Chinese students to pursue studies and
+research in the United States, fostering a bridge between Eastern and
+Western scientific traditions. His vision and support have enabled
+countless scholars like myself to contribute to global scientific
+discourse.
 
-I also dedicate this work to my dear parents, who nurtured my
+This work is also dedicated to author's parents, who nurtured his
 intellectual curiosity through challenging times. Their sacrifices and
-unwavering support made my life journey possible.
+unwavering support are forever remembered.
 
-\subsection{Acknowledgements}\label{acknowledgements}
+\hypertarget{acknowledgements}{%
+\subsection{Acknowledgements}\label{acknowledgements}}
 
 This paper represents a collaborative effort between the author, Claude
 (an AI assistant from Anthropic), and DeepSeek V3 (an AI assistant from
@@ -1841,31 +1965,8 @@ this work. This collaboration demonstrates the potential of human-AI
 partnerships in research, particularly in interdisciplinary studies
 bridging traditional knowledge with modern computational approaches.
 
-\subsection{Disclaimer}\label{disclaimer}
-
-A more accessible title for this paper might be \textbf{``A Reductionist
-Approach to Simplify Learning Chinese Characters''}, as the author is
-not a professional researcher in the fields of physics, computational
-linguistics, or Chinese language studies. However, with a deep interest
-in understanding Chinese characters (汉字), the author wishes to share
-this interdisciplinary exploration aimed at simplifying the learning
-process, as presented in this work.
-
-Terms such as \textbf{``physics,'' ``structure,'' ``interaction,''
-``force,'' ``emergence,''} and \textbf{``Fibonacci sequence''} are used
-heuristically and metaphorically to inspire new ways of thinking about
-Chinese characters. In the computational approach, terms like
-\textbf{``data structure,'' ``node,''} and \textbf{``component''} often
-represent ``structure'' in physics; \textbf{``relationship''} and
-\textbf{``link''} represent ``interaction'' or ``force'' in physics; and
-\textbf{``network''} and \textbf{``system''} represent ``complex
-matter'' in physics.
-
-The author sincerely welcomes \textbf{criticism, feedback, and
-suggestions} to further our collective understanding of Chinese
-characters and improve the framework presented here.
-
-\subsection{References}\label{references}
+\hypertarget{references}{%
+\subsection{References}\label{references}}
 
 {[}1{]} https://www.wikiwand.com/en/articles/Chinese\_characters
 
@@ -1885,11 +1986,15 @@ https://hanzi.unihan.com.cn/School/HSK
 {[}6{]} CC-CEDICT dictionary dataset :
 https://www.mdbg.net/chinese/dictionary?page=cc-cedict
 
-\subsection{Appendix}\label{appendix}
+\hypertarget{appendix}{%
+\subsection{Appendix}\label{appendix}}
 
-\subsubsection{ZiNets (字网) Web App}\label{zinets-ux5b57ux7f51-web-app}
+\hypertarget{zinets-ux5b57ux7f51-web-app}{%
+\subsubsection{ZiNets (字网) Web
+App}\label{zinets-ux5b57ux7f51-web-app}}
 
-\paragraph{Overview}\label{overview}
+\hypertarget{overview}{%
+\paragraph{Overview}\label{overview}}
 
 ZiNets Web App is a custom-built tool used to conduct network research
 and studies on Chinese characters. It allows the author to decompose
@@ -1920,51 +2025,46 @@ and connect meaning through their basic elements.
 
 Below are a few screenshots highlighting its features.
 
-\paragraph{Custom-built Dictionary}\label{custom-built-dictionary}
+\hypertarget{custom-built-dictionary}{%
+\paragraph{Custom-built Dictionary}\label{custom-built-dictionary}}
 
 \begin{figure}
 \centering
-\pandocbounded{\includegraphics[keepaspectratio]{./images/app_zinets.png}}
-\caption{ZiNets}
+\includegraphics{./images/app_zinets.png}
+\caption{ZiNets App}
 \end{figure}
 
-\paragraph{Chinese Character Network
-Patterns}\label{chinese-character-network-patterns}
+\hypertarget{de-compositing-characters}{%
+\paragraph{De-Compositing Characters}\label{de-compositing-characters}}
 
 \begin{figure}
 \centering
-\pandocbounded{\includegraphics[keepaspectratio]{./images/app_decomposing-zi.png}}
-\caption{ZiNets}
-\end{figure}
-
-\paragraph{De-Compositing Characters}\label{de-compositing-characters}
-
-\begin{figure}
-\centering
-\pandocbounded{\includegraphics[keepaspectratio]{./images/app_zi-parts-1.png}}
+\includegraphics{./images/app_zi-parts-1.png}
 \caption{Decomposition-1}
 \end{figure}
 
 \begin{figure}
 \centering
-\pandocbounded{\includegraphics[keepaspectratio]{./images/app_zi-parts-2.png}}
+\includegraphics{./images/app_zi-parts-2.png}
 \caption{Decomposition-2}
 \end{figure}
 
-\paragraph{元字 Collection}\label{ux5143ux5b57-collection}
+\hypertarget{ux5143ux5b57-collection}{%
+\paragraph{元字 Collection}\label{ux5143ux5b57-collection}}
 
 \begin{figure}
 \centering
-\pandocbounded{\includegraphics[keepaspectratio]{./images/app_zi-elements.png}}
+\includegraphics{./images/app_zi-elements.png}
 \caption{元字 Collection}
 \end{figure}
 
-\paragraph{Search}\label{search}
+\hypertarget{search}{%
+\paragraph{Search}\label{search}}
 
 \begin{figure}
 \centering
-\pandocbounded{\includegraphics[keepaspectratio]{./images/app_discover-zi-by-part.png}}
-\caption{Search}
+\includegraphics{./images/app_discover-zi-by-part.png}
+\caption{Search Zi}
 \end{figure}
 
 \end{document}
