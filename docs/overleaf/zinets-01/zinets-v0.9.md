@@ -146,7 +146,7 @@ Traditional radicals with independent meaning are noted under "Radical form mapp
   - Radical form mapping: <br/> 
   土 for 地, 亻for 人.
 
-  ![Heaven-Earth-Human](./images/sun-moon-heaven-human-earth-meditation-morning.jpg)
+![Heaven-Earth-Human](./images/sun-moon-heaven-human-earth-meditation-morning.jpg)
 
   This AI generated image [4] embodies 6 元字 (气,日,月,天,地,人) in an integrated visual representation.
 
@@ -156,6 +156,8 @@ Traditional radicals with independent meaning are noted under "Radical form mapp
   - Base components for nature-related characters
   - Radical form mapping: <br/> 
   钅for 金, 氵冫for 水, 灬 for 火, 木, 土 are often rended in narrower form when used as radicals. The semantic meanings are the same.
+
+![5-Elements](./images/five-elements.jpg)
 
 - 8 (八): 东,南,西,北,春,夏,秋,冬 (directions and seasons)
   - Spatiotemporal 元字
@@ -168,6 +170,8 @@ Traditional radicals with independent meaning are noted under "Radical form mapp
   - Base set for describing living things
   - Radical form mapping: <br/> 
   牜for 牛, 虫 is a radical for 蛇 and other insects, 犭is a radical for many animals (e.g. 猴,狗,猪), 羊,⺶,⺷ are variant radical forms for 羊(Sheep), radical for 马 appears narrower.
+
+![12-Animals](./images/12-zodiac-animals.png)
 
 - 21 (二十一): Quantification and Measurement 元字
   - Numerical System (15 characters):
@@ -187,6 +191,7 @@ Traditional radicals with independent meaning are noted under "Radical form mapp
 
 This set represents the emergence of systematic measurement and counting.
 
+![10-Figures](./images/10-fingers.jpg)
 
 - 34 (三十四): Human Form and Action 元字
   - Basic parts: <br/> 
@@ -199,6 +204,9 @@ This set represents the emergence of systematic measurement and counting.
       忄for 心, 扌for 手, 辶 for 足, 讠for 言, 饣for 食, often (not always) in action context, e.g. emotional thinking, holding, walking, communicating, respectively. 目, 口, 足, 骨, 耳 appear as radicals too. Some of these characters (like 首, 面) can function as both nouns (head, face) and measure words/classifiers in different contexts.
 
 This set introduces fundamental components for describing human existence and behavior.
+
+![Plato](./images/plato.png)
+
 
 ### 2.4 Pattern Discovery and Physical Analogies
 
