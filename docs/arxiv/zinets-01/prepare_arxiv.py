@@ -2,6 +2,18 @@ import re
 import os
 import shutil
 import subprocess
+import pypandoc
+
+def convert_md_to_tex(md_filename):
+    """Convert markdown to tex"""
+    base_name = md_filename.rsplit('.', 1)[0]
+    pypandoc.convert_file(
+        md_filename,
+        'latex',
+        outputfile=f"{base_name}.tex",
+        extra_args=['--standalone']
+    )
+    return base_name
 
 def prepare_arxiv_package(base_filename):
     """Prepare files for arXiv submission"""
@@ -44,6 +56,7 @@ def prepare_arxiv_package(base_filename):
     
     print(f"\nSubmission package created: {base_filename}_arxiv.zip")
 
-# Run the preparation
-file_name = "zinets-v0.8"
-prepare_arxiv_package(file_name)
+# Modified running section
+md_file = "zinets-v0.9.md"  # Your markdown file
+base_name = convert_md_to_tex(md_file)
+prepare_arxiv_package(base_name)

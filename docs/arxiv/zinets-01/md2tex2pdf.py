@@ -1,12 +1,12 @@
 import pypandoc
 import subprocess
 
-file_name = "zinets-v0.8"
+file_name = "zinets-v0.9" # "zinets-v0.8"
 file_tex = f"{file_name}.tex"
 file_md = f"{file_name}.md"
 file_pdf = f"{file_name}.pdf"
 
-# First convert MD to TEX
+# First convert MD to TEX  Noto Sans CJK SC
 pypandoc.convert_file(
     file_md, 
     'latex', 
@@ -15,7 +15,8 @@ pypandoc.convert_file(
         '--pdf-engine=xelatex',
         '--standalone',
         '-V', 'documentclass=article',
-        '-V', 'CJKmainfont=Noto Sans CJK TC Medium',
+        '-V', 'CJKmainfont=Noto Sans CJK SC',           # papagame
+        # '-V', 'CJKmainfont=Noto Sans CJK TC Medium',  # gongai
         '-V', 'geometry=margin=0.75in',
         '-V', 'fontsize=11pt',
         '-V', 'papersize=letter'
