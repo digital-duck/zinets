@@ -41,5 +41,35 @@ sudo apt install texlive-full
 sudo texhash
 sudo mktexlsr
 
+
+### Final manual editing for submission of zinets-v0.9.md
+```
 python md2tex2pdf.py
+python prepare_arxiv-v1.py
+cp -rf zinets-v0.9_arxiv zinets_arxiv
+```
+
+ToDo:
+- line breaking
+
+line 624
+
+- resize image
+
+- edit figure caption
+
+\usepackage{xeCJK}
+\setCJKmainfont{Noto Sans CJK SC}
+
+```
+sudo apt-get update
+sudo apt-get install texlive-xetex
+sudo apt-get install texlive-lang-chinese
+sudo apt-get install fonts-noto-cjk
+
+xelatex zinets.tex
+
+zip -r zinets_arxiv.zip zinets_arxiv
+
+```
 
