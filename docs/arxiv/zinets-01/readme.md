@@ -73,3 +73,11 @@ zip -r zinets_arxiv.zip zinets_arxiv
 
 ```
 
+
+Failed to submit at arxiv.org
+due to PDFLATEX
+submit/6121470
+
+contacted Tech Support at arxiv.org
+
+Your reference is AH-125704.
