@@ -1,0 +1,38 @@
+<mxfile host="Electron"
+  agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36"
+  version="24.7.8">
+  <diagram name="Page-1" id="Ubuo156wxUqqybgZAEo1">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1"
+      arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0"
+      shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rraX06ucM7AwQiWW7n5B-5" value=""
+          style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="269" y="260" width="730" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="rraX06ucM7AwQiWW7n5B-1" value=""
+          style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAoYAAAKgCAYAAAAGf7xSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAEo/SURBVHhe7d0HnFXF2cfxkd6LgPQidVGaFAVBWBBQihXBqCAkEqMoKIrGvBoDMWgiWAFbNAi2IEYEUQREqlSRjlTpSpXei6/P+Nx1xWX33t1bzpnz+34+57PzzCV534Au/31mzsx5P/;"
+          vertex="1" parent="1">
+          <mxGeometry x="341.85" y="273" width="292.31" height="304" as="geometry" />
+        </mxCell>
+        <mxCell id="rraX06ucM7AwQiWW7n5B-2" value=""
+          style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAkEAAAK+CAYAAAClwMphAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAD8+SURBVHhe7d0JlFTVtf/xw9w0g8j0EBUQEWdxAAWVSQWMRnGIojijojE+o/==;"
+          vertex="1" parent="1">
+          <mxGeometry x="668" y="280" width="258.08" height="314" as="geometry" />
+        </mxCell>
+        <mxCell id="rraX06ucM7AwQiWW7n5B-3" value=""
+          style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAjcAAAI3CAYAAABnKHquAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAP+lSURBVHhenP1Jr3VJlp6Jna/vvInISGapyCKKFDhgFSAB0kwDAdJEv4u/S39BA2kuCCyoikxmZmSEh/;"
+          vertex="1" parent="1">
+          <mxGeometry x="320" y="594" width="336" height="336" as="geometry" />
+        </mxCell>
+        <mxCell id="rraX06ucM7AwQiWW7n5B-4" value=""
+          style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAATEAAAFQCAYAAADXzUmXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAADTnSURBVHhe7d35szx1df/;"
+          vertex="1" parent="1">
+          <mxGeometry x="650" y="594" width="305" height="336" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
