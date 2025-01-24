@@ -1,7 +1,7 @@
 import pypandoc
 import subprocess
 
-file_name = "zinets-v0.9" # "zinets-v0.8"
+file_name = "zinets-v0.9a" # gongai # "zinets-v0.9" # papagame # "zinets-v0.8"
 file_tex = f"{file_name}.tex"
 file_md = f"{file_name}.md"
 file_pdf = f"{file_name}.pdf"
