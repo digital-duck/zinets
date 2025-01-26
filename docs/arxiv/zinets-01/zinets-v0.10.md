@@ -404,7 +404,7 @@ Derivative Characters and Their Bonding Patterns:
 
   Shows how structural efficiency reduces mass through essential components
 
-In summary, 坙 (𢀖), as an elemental character (元字), contributes to the semantic meaning of its derived characters through multiple aspects: core/essential structure, connecting/supporting function, power generation, inherent strength, and structural efficiency.
+This family demonstrates how its composite characters derives the semantic meaning through multiple aspects: core/essential structure, connecting/supporting function, power generation, inherent strength, and structural efficiency.
 
 #### 3.3.3 The 禺 Family
 
