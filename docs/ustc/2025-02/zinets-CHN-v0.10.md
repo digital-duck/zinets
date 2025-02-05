@@ -83,6 +83,8 @@ This approach differs from the traditional radical system in several key ways:
 
 Our physics-inspired approach treats Chinese character composition as a system of components interacting within a well-defined spatial framework:
 
+![zi-matrix-CHN](./images/zi-matrix-CHN.png)
+
 - Coordinate Space (九字宫 Enhancement)
   - The traditional nine-grid system serves as a "coordinate space" for component positioning designed for calligraphy.
   - Components interact across specific positions, similar to particle interactions in physics
@@ -198,7 +200,7 @@ This set represents the emergence of systematic measurement and counting.
 
 This set introduces fundamental components for describing human existence and behavior.
 
-![Plato](./images/plato.png)
+![Laozi](./images/laozi-qwen-max.png)
 
 
 List of all the elemental characters (元字) identified by our ZiNets web application:
@@ -275,7 +277,7 @@ Our computational analysis of about 3,000 commonly-used HSK Chinese characters [
       - Living beings (生物): 
       虫, 鸟, 马
 
-   ![top-25-elemental-character-set](./images/part-frequency-top-25.png)    
+   ![top-25-elemental-character-set](./images/top-elemental-zi-CHN.png)    
 
 - Semantic Distribution
   - Predominance of earth and nature elements
@@ -294,6 +296,7 @@ Our computational analysis of about 3,000 commonly-used HSK Chinese characters [
 #### 3.3.1 The 日 Family 
 
 ![zi_sun](./images/zi_sun.png)
+![zi_spring](./images/zi_spring.png)
 
 The Chinese character "日" (rì), meaning "sun" or "day" (a time-unit derived from daily cycle of solar movement), serves as a powerful illustration of how Chinese characters efficiently encode meaning, knowledge and wisdom. By examining composite characters that incorporate "日", we gain insight into the profound ways in which the written language captures essential truths and observations about the world. These simple formulas provide a peek into the rich semantics of the Chinese language.
 
@@ -865,7 +868,7 @@ The bridge between sciences (天) and humanities (人) becomes particularly visi
 
 To celebrate this relationship, the author composed a poem with an image of Sun. 
 
-![sun-heart](./images/sunset-luo-jiebo.jpg)
+![sun-heart](./images/sunset-qwen-max.png)
 
 ```
 太阳
@@ -963,9 +966,9 @@ This understanding transforms our view of Chinese characters from a designed wri
 
 ## Dedication
 
-This work is dedicated to late Professor T.D. Lee, whose pioneering efforts opened doors for many Chinese students to pursue studies and research in the United States, fostering a bridge between Eastern and Western scientific traditions. His vision and support have enabled countless scholars like myself to contribute to global scientific discourse.
+This work is dedicated to late Professor T.D. Lee（李政道）, whose pioneering efforts opened doors for many Chinese students to pursue studies and research in the United States, fostering a bridge between Eastern and Western scientific traditions. His vision and support have enabled countless scholars like myself to contribute to global scientific discourse.
 
-This work is also dedicated to author's parents, who nurtured his intellectual curiosity through challenging times. Their sacrifices and unwavering support are forever remembered.
+This work is also dedicated to author's parents (龚永权，文国芳), who nurtured his intellectual curiosity through challenging times. Their sacrifices and unwavering support are forever remembered.
 
 ## Acknowledgements
 
