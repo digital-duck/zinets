@@ -100,7 +100,7 @@ Our physics-inspired approach treats Chinese character composition as a system o
 
 ### 2.3 Fibonacci Organization and 元字 Emergence
 
-The Fibonacci sequence (1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...) naturally emerges in growth patterns throughout nature. When visualized, it creates an elegant spiral known as the golden spiral, seen in countless natural forms - from the arrangement of sunflower seeds to the shell of a nautilus, and to the spiral galaxy. This pattern represents nature's efficient approach to growth and organization, where complex structures build upon simpler foundations in a harmonious and balanced way [3].
+The Fibonacci sequence (1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...) naturally emerges in growth patterns throughout nature. When visualized, it creates an elegant spiral known as the golden spiral, seen in countless natural forms - from the arrangement of sunflower seeds to the shell of a nautilus, and to the spiral galaxy. This pattern represents nature's efficient approach to growth and organization, where complex structures build upon simpler foundations in a harmonious and balanced way [7].
 
 ![fibonacci-spiral](./images/fibonacci-spiral-2.png)
 
@@ -140,7 +140,7 @@ Traditional radicals with independent meaning are noted under "Radical form mapp
 
 ![Heaven-Earth-Human](./images/sun-moon-heaven-human-earth-meditation-morning.jpg)
 
-  This AI generated image [4] embodies 6 元字 (气,日,月,天,地,人) in an integral and wholistic visual-representation.
+  This AI generated image [6] embodies 6 元字 (气,日,月,天,地,人) in an integral and wholistic visual-representation.
 
 - 5 (五): 金,木,水,火,土 (metal, wood, water, fire, earth)
   - Material phase 元字
@@ -235,7 +235,7 @@ Our web-based visualization tool, ZiNets (Zi Network System), implements the the
 
 #### 3.1.1 Character Decomposition Visualization
 
-![Zi Network Pattern](./images/app_decomposing-zi-2.png)
+![Zi Network Pattern](./images/app_decomposing-zi.png)
 
 The core feature of ZiNets is its hierarchical decomposition visualization:
 
@@ -259,7 +259,7 @@ The core feature of ZiNets is its hierarchical decomposition visualization:
 
 ### 3.2 Frequency Analysis and Natural Efficiency
 
-Our computational analysis of about 3,000 commonly-used HSK Chinese characters [5] reveals striking patterns in 元字 usage that demonstrate natural optimization principles:
+Our computational analysis of about 6000 Chinese characters [3] reveals striking patterns in 元字 usage that demonstrate natural optimization principles:
 
 - Distribution of High-frequency Elements (>100 occurrences): 
    
@@ -542,6 +542,38 @@ The semantic evolution follows patterns analogous to force interactions in physi
 This family demonstrates how the fundamental semantic force of "work" combines with different contextual elements to create a rich spectrum of meanings, from concrete physical actions to abstract temporal and mental concepts. The systematic nature of these combinations suggests underlying principles in character formation that mirror physical force interactions.
 
 The 乍 family particularly illustrates how a basic action concept can evolve into increasingly sophisticated meanings while maintaining its core semantic force, providing insights into both historical character development and cognitive linguistics patterns.
+
+#### 3.3.5 The 寺 Family
+
+
+![zi_work](./images/zi_temple.png)
+
+日 + 寺 = 時
+
+牜 + 寺 = 特
+
+亻 + 寺 = 侍
+
+扌 + 寺 = 持
+
+彳 + 寺 = 待
+
+⺮ + 寺 = 等
+
+山 + 寺 = 峙
+
+忄 + 寺 = 恃
+
+讠 + 寺 = 诗
+
+寺 + 阝 = 邿
+
+广 + 寺 = 庤
+
+田 + 寺 = 畤
+
+疒 + 寺 = 痔
+
 
 
 ### 3.4 Case Studies - Pinyin - A Counter-Argument
@@ -981,13 +1013,14 @@ This paper represents a collaborative effort between the author, Claude (an AI a
 
 [2] Sears, Richard. Chinese Etymology research website at https://hanziyuan.net/
 
-[3] https://www.wikiwand.com/en/articles/Fibonacci_sequence
+[3] CC-CEDICT dictionary dataset : https://www.mdbg.net/chinese/dictionary?page=cc-cedict
 
-[4] Google ImageFx text-to-image generation tool: https://labs.google/fx/tools/image-fx
+[4] 书同文 汉字网 HSK 汉语水平考试汉字列表: https://hanzi.unihan.com.cn/School/HSK
 
-[5] 书同文 汉字网 HSK 汉语水平考试汉字列表: https://hanzi.unihan.com.cn/School/HSK
+[6] Google ImageFx text-to-image generation tool: https://labs.google/fx/tools/image-fx
 
-[6] CC-CEDICT dictionary dataset : https://www.mdbg.net/chinese/dictionary?page=cc-cedict
+[7] https://www.wikiwand.com/en/articles/Fibonacci_sequence
+
 
 
 ## Disclaimer 
@@ -1008,11 +1041,10 @@ The author sincerely welcomes **criticism, feedback, and suggestions** to furthe
 
 ![ZiNets App](./images/app_zinets.png)
 
-ZiNets Web App is a custom-built tool used to conduct network research and studies on Chinese characters. It allows the author to decompose 3000 commonly used Chinese characters efficiently [5].
+ZiNets Web App is a custom-built tool used to conduct network research and studies on Chinese characters. It allows the author to decompose 6000 characters fron MDBG online dictionary [3] (including 3000 HSK commonly used ones [4]).
 It also offers search and report features. Being based in database and network data-structure design, it enables one to discover patterns not easily available.
 The application visualizes and analyzes character networks using the organizational principles described in this paper. 
 
-This app uses CC-CEDICT dataset available at MDBG free online English to Chinese dictionary [6].
 
 We plan to open-source this web app in future at https://github.com/digital-duck/zinets (currently being prepared for release). By making this tool publicly available, 
 
@@ -1038,17 +1070,23 @@ Analyze a composite character by its components - 愚 (Example-2)
 ![Decomposition-2](./images/app_zi-parts_2.png)
 
 
-#### List of 元字
-
-- (1 stroke) 一丨乛丶丿乀乁乙乚亅 
-- (2 strokes) 二亠人亻儿入八丷冂讠冖冫几凵刂刁刀乃力丁了乂龴勹匕匚匸十九七卜卩㔾厂厶又⺀⺁ 
-- (3 strokes) 氵兀乡已犭纟艹辶阝门⻏飞饣马三丸坙才习勺刃叉乞千万下上亡亏久丈于口也及囗个之土与义士夂亍夊夕大女子宀寸小⺌⺍尢尸屮山川巛工己巾干幺广廴廾弋弓彐彑么彡彳忄扌丬 
-- (4 strokes) 毛氏气水火灬爪爫父爻爿片牙牛牜⺧犬王瓦礻禸罓耂月见贝车长韦风斥云天冈井丰夫仓勾公区友匀元六五今中内午分丑少不巨勿凶升太为尺匹乌亢介屯巴尤专以开办毋⺩心戈户戶手支攴攵文斗斤方无犭旡日曰朩木欠止歹殳 
-- (5 strokes) 比氺玄玉瓜甘生用田疋𤴔疒癶白皮皿目矛矢石示禾穴立罒衤钅巨鸟龙且旦电本兄头布乐令台包术业市击四古央北东冬由出失申正半宁平未戋末只丘占句必可去乍并它甲丙尼刍乎兰斥⺪卡另匹母 
-- (6 strokes) ⺮竹米糸缶网羊⺶⺷羽而耒耳聿肉臣自至臼舌舟艮色虍虫血行衣覀并幷西页齐屰共曲庄向交吉各合尧囟吕式寺 
-- (7 strokes) 坙舛角言谷豆豕豸赤走足身辛辰邑酉釆里卤麦龟员良甫肙孚佥夆呙奂㐬㕻 
-- (8 strokes) 東金阜隶隹雨青非鱼黾齿易其尚奉幷责龺 
-- (9 strokes) 面革韭音食首香骨鬼畐咸柬畏
+#### 元字 table
 
 
+| 笔画数 | 元字 | 
+|----------|----------|
+|1|	丨丶丿乀乁乚乛亅一乙|
+|2|	⺀丷乂龴亠亻冂冖冫凵⺈刂勹匚匸卩㔾⺁厶讠丁七乃九了二人儿入八几刀刁力匕十卜厂又|
+|3|	亍兀夂夊宀⺌⺍尢屮巛廴彐彑彡彳忄扌氵丬纟艹辶⻏阝饣万丈三上下与个丸义久么之乞也习于亏亡刃勺千叉及口囗土士夕大女子寸小尸山川工己已巾干乡幺广廾弋弓才犭门飞马|
+|4|	攴攵旡朩殳灬爫爻爿⺧牜⺩礻禸罓耂不丑专中丰为乌云五井亢今介仓以元公六内冈凶分办勾勿匀匹区升午友天太夫少尤尺屯巨巴开心戈戶户手支文斗斤方无日曰月木欠止歹毋比毛氏气水火爪父片牙牛犬王瓦见贝车长韦风|
+|5|	乍刍戋氺疋𤴔疒癶罒衤钅且丘丙业东乎乐令兄兰冬出击包北半占卡去古句另只可台四央失头宁它尼市布平必斥旦未末本术正母玄玉瓜甘生用田由甲申电白皮皿目矛矢石示禾穴立鸟龙|
+|6|	囟尧屰⺮⺶⺷聿艮虍覀交共各合吉向吕寺并庄式曲竹米糸缶网羊羽老而耒耳肉臣自至臼舌舟色虫血行衣西页齐|
+|7|	㐬佥呙坙夆奂孚肙豕豸酉卤员㕻甫舛良角言谷豆赤走足身辛辰邑釆里麦龟|
+|8|	龺幷隹黾其奉尚易東责金阜隶雨青非鱼齿|
+|9|	畐咸柬畏禺 面革韭音食首香骨鬼|
+|10|	高鬥|
+|11|	麻鹿|
+|12|	黍黄黑|
+|13|	鼓|
+|14|	鼻|
 
