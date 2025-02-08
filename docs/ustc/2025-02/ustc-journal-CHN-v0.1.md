@@ -1,3 +1,27 @@
+
+---
+documentclass: article
+CJKmainfont: "Noto Sans CJK SC"
+geometry: margin=1in
+---
+
+
+After manually decomposing 6190 Chinese characters using the Zi Matrix method, a set of 413 unique, irreducible components were identified as "elemental characters" (元字). These components emerged as the indivisible units in the hierarchical decomposition process. Figure 3 presents the majority of these elemental characters. A small number of elemental characters with exceptionally high stroke counts (greater than 10) are not displayed in the figure for space considerations, but are included in the Appendix section.
+
+*Figure 3:* The set of elemental characters (元字) identified through Zi Matrix decomposition, organized by stroke count. Characters with more than 10 strokes are excluded from this figure due to space limit.
+
+The 214 Kangxi radicals form a subset of these 413 elemental characters. The remaining elemental characters, approximately 200 in number, function as phonetic and/or semantic components within more complex characters. While these components serve as crucial building blocks, they are often not explicitly recognized as such in standard dictionaries. For example, components like 禺 and 乍 are typically not assigned independent semantic meanings. However, as our case studies in Section [Section Number] will demonstrate, these components carry consistent semantic roles, suggesting their validity as semantic radicals.
+
+As can be seen in Figure 3, the elemental character set exhibits a finer granularity than the traditional Kangxi radicals. The set includes not only many familiar semantic radicals (e.g., 氵, 木, 日, 月, 心, 手, 口), but also numerous structural components (e.g., 一, 丨, 丿, 丶, 乙, 口, 凵, 冂) and frequently occurring components that likely serve phonetic and/or semantic roles in compound characters (e.g., 方, 占, 且, 㕣, 戋, 乍, 禺, 尧, 佥, 呙, 孚, 夆, 隹). The characters are organized by increasing stroke count, from simple one-stroke components to more complex elements. This more comprehensive set provides a richer basis for understanding the compositional nature of Chinese characters.
+
+
+# 汉字：从简化到深化的新探索
+
+## 缘起
+
+对于母语使用字母文字的人来说，学习汉字和中文常常是一个不小的挑战。汉字的难点主要在于它的“图形”特性：每个字代表一个意思或者一个词，而不是单纯的发音。和拼音文字不一样，汉字的写法和读音之间，常常看不出直接的联系，需要大家下功夫记住几千个不同的字，才能基本读懂、会写。另外，中文（特别是普通话）说话还有不同的声调，同一个字，声调不一样，意思就完全不同，这又增加了一层难度。再加上汉字数量特别多，写的时候笔画顺序、字的结构都有讲究，还有繁体字和简体字的区别，所有这些，都让学习中文变成了一件需要长期坚持、花很多时间和精力才能做好的事情。
+
+# =============================================================
 # Outline
 
 **标题:** 汉字：从简化到深化的新探索

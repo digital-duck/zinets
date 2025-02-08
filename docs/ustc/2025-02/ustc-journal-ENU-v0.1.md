@@ -4,7 +4,7 @@ CJKmainfont: "Noto Sans CJK SC"
 geometry: margin=1in
 ---
 
-# A New Exploration into Chinese characters: from Simplification to Deeper Understanding
+# A New Exploration into Chinese Characters: from Simplification to Deeper Understanding
 
 ## Motivation
 
@@ -38,11 +38,55 @@ To systematically analyze the structure of Chinese characters, we introduce a no
 
 The decomposition of each character into the Zi Matrix is performed manually using a hierarchical approach. This process involves a series of decomposition steps. First, the character is broken down into its major components, assigning each to its appropriate position within the matrix. If a component itself is complex, it is further decomposed, recursively, into its constituent parts, again assigning them to positions within a sub-matrix representing that component. This hierarchical decomposition continues until the most fundamental components – those that cannot be reasonably further divided – are identified. These fundamental components become candidates for the "elemental character" set. This manual, hierarchical approach ensures a consistent and considered analysis of character structure, leveraging expert linguistic knowledge to guide the decomposition.
 
+
+
 ![zi-matrix-CHN](./images/app_decomposing-zi.png)
+
 
 ## Elemental Characters Analysis
 
 
+Through manual decomposition of 6190 Chinese characters using the Zi Matrix method, we identified 422 unique, irreducible components as "elemental characters" (元字). These components represent the fundamental building blocks that emerged during our hierarchical decomposition process. Table 1 presents these elemental characters organized by stroke count, ranging from simple single-stroke elements to more complex components.
+
+### Elemental Characters (元字) by Stroke Count - Table 1
+
+| 笔画数 (Stroke Count) | 元字 (Elemental Characters) | 
+|----------|----------|
+|1|	丨丶丿乀乁乚乛亅一乙|
+|2|	⺀丷乂龴亠亻冂冖冫凵⺈刂勹匚匸卩㔾⺁厶讠丁七乃九了二人儿入八几刀刁力匕十卜厂又|
+|3|	亍兀夂夊宀⺌⺍尢屮巛廴彐彑彡彳忄扌氵丬纟艹辶⻏阝饣万丈三上下与个丸义久么之乞也习于亏亡刃勺千叉及口囗土士夕大女子寸小尸山川工己已巾干乡幺广廾弋弓才犭门飞马|
+|4|	攴攵旡朩殳灬爫爻爿⺧牜⺩礻禸罓耂不丑专中丰为乌云五井亢今介仓以元公六内冈凶分办勾勿匀匹区升午友天太夫少尤尺屯巨巴开心戈戶户手支文斗斤方无日曰月木欠止歹毋比毛氏气水火爪父片牙牛犬王瓦见贝车长韦风|
+|5|	乍刍戋氺疋𤴔疒癶罒衤钅且丘丙业东乎乐令兄兰冬出击包北半占卡去古句另只可台四央失头宁它尼市布平必斥旦未末本术正母玄玉瓜甘生用田由甲申电白皮皿目矛矢石示禾穴立鸟龙|
+|6|	囟尧屰⺮⺶⺷聿艮虍覀交共各合吉向吕寺并庄式曲竹米糸缶网羊羽老而耒耳肉臣自至臼舌舟色虫血行衣西页齐|
+|7|	㐬佥呙坙夆奂孚肙豕豸酉卤员㕻甫舛良角言谷豆赤走足身辛辰邑釆里麦龟|
+|8|	龺幷隹黾其奉尚易東责金阜隶雨青非鱼齿|
+|9|	畐咸柬畏禺 面革韭音食首香骨鬼|
+|10|	高鬥|
+|11|	麻鹿|
+|12|	黍黄黑|
+|13|	鼓|
+|14|	鼻|
+
+The identified elemental character set subsumes the traditional 214 Kangxi radicals while introducing approximately 200 additional components. These additional components, though not traditionally recognized as independent units in standard dictionaries, serve crucial phonetic and/or semantic roles in character formation. For instance, components like 禺 and 乍, while not classified as radicals in traditional systems, demonstrate consistent semantic contributions in compound characters, as we will explore in our case studies (Section [Section Number]).
+
+Our elemental character set reveals a finer granularity in Chinese character composition than the traditional Kangxi system. It encompasses three main types of components: familiar semantic radicals (e.g., 氵[water], 木[wood], 日[sun], 月[moon], 心[heart], 手[hand], 口[mouth]), basic structural elements (e.g., 一, 丨, 丿, 丶, 乙, 口, 凵, 冂), and frequently occurring components that carry both phonetic and semantic information (e.g., 方, 占, 且, 戋, 乍, 禺, 尧, 佥). Some components inherited from the Kangxi system, such as 鼓(drum), while historically significant, may be reconsidered for practical modern applications. This comprehensive set of elemental characters provides a more nuanced foundation for understanding and teaching Chinese character composition, potentially simplifying the learning process while maintaining semantic integrity.
+
+### Elemental Characters: Occurrence Frequency and Categorization
+
+Analysis of high-frequency elemental characters (with occurrences ≥ 23, a threshold chosen to include 气 [qi/breath/energy], given its fundamental importance in Chinese philosophy and culture) reveals clear patterns in character composition. The frequency distribution shows strong clustering around fundamental human concepts and natural elements. For instance, in human-related categories (人-), elements like 口 (mouth, 300 occurrences) and 手 (hand, 261 occurrences) show remarkably high usage rates, reflecting their importance in expressing human actions and experiences. Similarly, in the natural world categories, 水 (water, 377 occurrences) and 木 (wood, 324 occurrences) demonstrate high frequencies, indicating their crucial role in character formation related to natural phenomena. Notably, 亻(human radical, 213 occurrences) and 女 (female, 137 occurrences) also show high frequencies, underlining the human-centric nature of character formation.
+
+![top-elemental-zi](./images/top-elemental-zi-ENU.png)
+
+The categorization system reveals a hierarchical organization centered on major conceptual domains. The system distinguishes between human-centered categories (人-系列) including physiological (生理), psychological (心理), and behavioral (行) aspects; natural elements (天文-) including the traditional five elements (金木水火土); and categories for flora (植物-), fauna (动物-), mathematical concepts (数理-), and abstract concepts (概念-). This classification not only reflects traditional Chinese philosophical understanding of the world but also provides a systematic framework for understanding character composition. Notably, the frequency distribution within these categories suggests that characters related to human experience and basic natural elements form the core building blocks of the writing system, while more specialized or abstract concepts show lower frequencies. The inclusion of 气 (24 occurrences) in this analysis proves particularly significant, as it represents a threshold case that bridges fundamental philosophical concepts with practical character formation patterns.
+
+### Visualizing Categorization
+
+![visual-category](./images/zi_category_histogram.png)
+*Figure 4: Distribution of Chinese characters across conceptual categories, showing frequency of occurrence ordered from cosmic to human to abstract realms.*
+
+The visualization reveals a remarkable pattern in the distribution of Chinese characters that reflects ancient Chinese cosmological understanding. Beginning with celestial elements (天文-), the categories flow through natural phenomena to human experience, creating a narrative that resonates deeply with traditional Chinese philosophical principles. The striking prominence of human-related physiological characters (人-生理, 1106 occurrences) at the center of this distribution, bridged between natural elements and social constructs, echoes the classical Chinese view of humans as the connecting point between Heaven and Earth (天人合一). This central position is flanked by substantial representations in both natural domains—flora (植物-, 558 occurrences) and fauna (动物-, 466 occurrences)—and social spheres (社会-, 815 occurrences).
+
+Within the astronomical/natural elements category (天文-), water (水, 406 occurrences) and wood (木, 324 occurrences) show notably higher frequencies than fire (火), metal (金), and earth (土), suggesting their greater significance in character formation. The systematic progression from celestial phenomena through natural elements, human experience, and finally to abstract mathematical concepts (数理-) reveals an elegant hierarchical structure that mirrors traditional Chinese cosmological ordering. This distribution pattern suggests an underlying organizational principle in Chinese character evolution that reflects both human cognitive development and natural world observations, a relationship that will be further explored through its connection to the Fibonacci sequence.
 
 
 ## Storytelling Characters
