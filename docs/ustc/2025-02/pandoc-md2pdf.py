@@ -1,6 +1,6 @@
 import pypandoc
 
-file_name = "zinets-v0.8" # "zinets-v0.8" # "zinets-v0.5"
+file_name = "ustc-journal-ENU-v0.5" # "zinets-v0.8" # "zinets-v0.5"
 file_pdf = f"{file_name}.pdf"
 file_md = f"{file_name}.md"
 

@@ -3,8 +3,8 @@ pandoc --version
 xelatex --version
 fc-list :lang=zh
 
-pandoc ustc-journal-ENU-v0.5.md -o ustcj2025.tex --pdf-engine=xelatex
-pandoc ustc-journal-ENU-v0.5.md -o ustcj2025.pdf --pdf-engine=xelatex
+pandoc ustc-journal-ENU-v0.5.md -o ustcj2025-2.tex --pdf-engine=xelatex
+pandoc ustc-journal-ENU-v0.5.md -o ustcj2025-2.pdf --pdf-engine=xelatex
 
 # pandoc zinets-v0.8.md -o zinets.tex --pdf-engine=xelatex
 # pandoc zinets-v0.8.md -o zinets.pdf --pdf-engine=xelatex

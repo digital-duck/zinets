@@ -1,6 +1,6 @@
 import pypandoc
 
-file_name = "zinets-v0.8"  # Replace with your .tex file name (without extension)
+file_name = "ustcj2025-2"  # Replace with your .tex file name (without extension)
 file_pdf = f"{file_name}.pdf"
 file_tex = f"{file_name}.tex"
 
