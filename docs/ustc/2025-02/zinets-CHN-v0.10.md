@@ -100,7 +100,7 @@ Our physics-inspired approach treats Chinese character composition as a system o
 
 ### 2.3 Fibonacci Organization and 元字 Emergence
 
-The Fibonacci sequence (1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...) naturally emerges in growth patterns throughout nature. When visualized, it creates an elegant spiral known as the golden spiral, seen in countless natural forms - from the arrangement of sunflower seeds to the shell of a nautilus, and to the spiral galaxy. This pattern represents nature's efficient approach to growth and organization, where complex structures build upon simpler foundations in a harmonious and balanced way [7].
+The Fibonacci sequence (1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...) naturally emerges in growth patterns throughout nature. When visualized, it creates an elegant spiral known as the golden spiral, seen in countless natural forms - from the arrangement of sunflower seeds to the shell of a nautilus, and to the spiral galaxy. This pattern represents nature's efficient approach to growth and organization, where complex structures build upon simpler foundations in a harmonious and balanced way [8].
 
 ![fibonacci-spiral](./images/fibonacci-spiral-2.png)
 
@@ -1015,11 +1015,15 @@ This paper represents a collaborative effort between the author, Claude (an AI a
 
 [3] CC-CEDICT dictionary dataset : https://www.mdbg.net/chinese/dictionary?page=cc-cedict
 
-[4] 书同文 汉字网 HSK 汉语水平考试汉字列表: https://hanzi.unihan.com.cn/School/HSK
+[4] 书同文 汉字网 HSK 汉语水平考试汉字列表 : https://hanzi.unihan.com.cn/School/HSK
+
+[5] 漢語拆字字典 : https://github.com/kfcd/chaizi
 
 [6] Google ImageFx text-to-image generation tool: https://labs.google/fx/tools/image-fx
 
-[7] https://www.wikiwand.com/en/articles/Fibonacci_sequence
+[7] Qwen2.5-MAX text-to-image generation tool: https://chat.qwenlm.ai/
+
+[8] https://www.wikiwand.com/en/articles/Fibonacci_sequence
 
 
 
