@@ -15,7 +15,9 @@ pandoc ustc-journal-ENU-v0.5.md -o ustcj2025-2.pdf --pdf-engine=xelatex
 # python3 pandoc-md2latex.py
 
 # added preamble by hand 
-xelatex -interaction=nonstopmode -shell-escape ustcj2025-2b.tex
+cd docs/ustc/2025-02
+xelatex -interaction=nonstopmode -shell-escape ustcj2025-2c.tex
+
 
 
 
