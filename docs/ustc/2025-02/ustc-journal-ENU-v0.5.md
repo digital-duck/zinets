@@ -40,22 +40,22 @@ By combining these computational and AI-driven approaches with a reductionist pe
 ## Computational Network Analysis on Chinese Characters
 
 
-The foundational work Shuowen Jiezi (《说文解字》), compiled by Xu Shen (许慎) during the Eastern Han Dynasty, represents the first systematic attempt to analyze the structure and etymology of Chinese characters [r_zi, r_xushen, r_sears]. Xu Shen identified 540 radicals (部首, bùshǒu) and used his "six scripts" (六书, liùshū) theory to explain character formation, categorizing characters based on their composition: pictographs (象形), ideographs (指事), compound ideographs (会意), phono-semantic compounds (形声), and two less-common categories (转注 and 假借). While groundbreaking, the Shuowen Jiezi's analysis, focused on the Small Seal Script (小篆), doesn't perfectly reflect the modern forms of many characters, and its 540 radicals, while valuable, do not always represent the smallest, irreducible components. 
+The foundational work Shuowen Jiezi (《说文解字》), compiled by Xu Shen (许慎) during the Eastern Han Dynasty, represents the first systematic attempt to analyze the structure and etymology of Chinese characters [1, 2, 3]. Xu Shen identified 540 radicals (部首, bùshǒu) and used his "six scripts" (六书, liùshū) theory to explain character formation, categorizing characters based on their composition: pictographs (象形), ideographs (指事), compound ideographs (会意), phono-semantic compounds (形声), and two less-common categories (转注 and 假借). While groundbreaking, the Shuowen Jiezi's analysis, focused on the Small Seal Script (小篆), doesn't perfectly reflect the modern forms of many characters, and its 540 radicals, while valuable, do not always represent the smallest, irreducible components. 
 
-The later Zihui dictionary and the Kangxi Dictionary (康熙字典) refined and reduced this system, ultimately settling on the 214 Kangxi radicals [r_kangxi], which serve as a standard indexing system. These radicals, based primarily on shared visual components, often relating to meaning (semantic radicals, or 形旁, xíngpáng), provide a method for dictionary lookups. While many radicals also hint at pronunciation (phonetic radicals, or 声旁, shēngpáng), this is not always reliable. The Kangxi system, though widely used, has limitations: ambiguous categorization, inconsistent semantic and phonetic roles, and some radicals that, due to their complexity or low frequency of occurrence, are not always the most informative units for understanding character structure. 
+The later Zihui dictionary and the Kangxi Dictionary (康熙字典) refined and reduced this system, ultimately settling on the 214 Kangxi radicals [4], which serve as a standard indexing system. These radicals, based primarily on shared visual components, often relating to meaning (semantic radicals, or 形旁, xíngpáng), provide a method for dictionary lookups. While many radicals also hint at pronunciation (phonetic radicals, or 声旁, shēngpáng), this is not always reliable. The Kangxi system, though widely used, has limitations: ambiguous categorization, inconsistent semantic and phonetic roles, and some radicals that, due to their complexity or low frequency of occurrence, are not always the most informative units for understanding character structure. 
 
 Building upon the legacy of Xu Shen and Kangxi systems, the author has developed a web application called "ZiNets".
-With this tool and computational network structure, we decomposed 6190 chinese characters [r_mdbg] (including 3910 HSK common characters [r_hsk]). Elemental characters were identified as those components appearing with a frequency above a defined threshold.
+With this tool and computational network structure, we decomposed 6190 chinese characters [5] (including 3910 HSK common characters [6]). Elemental characters were identified as those components appearing with a frequency above a defined threshold.
 
 To systematically analyze the structure of Chinese characters, we introduce a novel spatial decomposition model, the "Zi-Matrix." This model represents each character as a matrix of up to eleven distinct positional components. These positions are defined as: Top (上), Bottom (下), Left (左), Right (右), Center (中), Top-Left (左上), Top-Right (右上), Bottom-Left (左下), Bottom-Right (右下), Center-Inside (中内), and Center-Outside (中外). Each position within the matrix can be either occupied by a specific character component (a radical, a stroke, or a more complex sub-component) or remain empty. This 11-component matrix allows for a consistent and structured representation of the spatial relationships between the constituent parts of any Chinese character, regardless of its complexity.
 
-![zi-matrix-CHN](./images/zi-matrix-CHN.png)
+![Schematic representation of the Zi-Matrix spatial decomposition model for Chinese character network analysis.](./images/zi-matrix.png)
+
 
 The decomposition of each character into the Zi-Matrix is performed manually using a hierarchical approach. This process involves a series of decomposition steps. First, the character is broken down into its major components, assigning each to its appropriate position within the matrix. If a component itself is complex, it is further decomposed, recursively, into its constituent parts, again assigning them to positions within a sub-matrix representing that component. This hierarchical decomposition continues until the most fundamental components – those that cannot be reasonably further divided – are identified. These fundamental components become candidates for the "elemental character" set. This manual, hierarchical approach ensures a consistent and considered analysis of character structure, leveraging expert linguistic knowledge to guide the decomposition.
 
 
-
-![zi-matrix-CHN](./images/app_decomposing-zi.png)
+![The diagram of hierarchical decomposition tree illustrates the progressive breakdown of the character into its constituent components, reading from left to right. This visualization demonstrates the multi-level structural composition typical of complex Chinese characters.](./images/app_decomposing-zi.png)
 
 
 ## Elemental Characters Analysis
@@ -88,30 +88,30 @@ Our elemental character set reveals a finer granularity in Chinese character com
 
 ### Elemental Characters: Occurrence Frequency and Categorization
 
-Analysis of high-frequency elemental characters (with occurrences ≥ 23, a threshold chosen to include 气 [qi/breath/energy], given its fundamental importance in Chinese philosophy and culture) reveals clear patterns in character composition. The frequency distribution shows strong clustering around fundamental human concepts and natural elements. For instance, in human-related categories (人-), elements like 口 (mouth, 300 occurrences) and 手 (hand, 261 occurrences) show remarkably high usage rates, reflecting their importance in expressing human actions and experiences. Similarly, in the natural world categories, 水 (water, 377 occurrences) and 木 (wood, 324 occurrences) demonstrate high frequencies, indicating their crucial role in character formation related to natural phenomena. Notably, 亻(human radical, 213 occurrences) and 女 (female, 137 occurrences) also show high frequencies, underlining the human-centric nature of character formation.
+Analysis of high-frequency elemental characters (with occurrences above 23, a threshold chosen to include 气 [qi/breath/energy], given its fundamental importance in Chinese philosophy and culture) reveals clear patterns in character composition. The frequency distribution shows strong clustering around fundamental human concepts and natural elements. For instance, in human-related categories (人-), elements like 口 (mouth, 300 occurrences) and 手 (hand, 261 occurrences) show remarkably high usage rates, reflecting their importance in expressing human actions and experiences. Similarly, in the natural world categories, 水 (water, 377 occurrences) and 木 (wood, 324 occurrences) demonstrate high frequencies, indicating their crucial role in character formation related to natural phenomena. Notably, 亻(human radical, 213 occurrences) and 女 (female, 137 occurrences) also show high frequencies, underlining the human-centric nature of character formation.
 
-![top-elemental-zi](./images/top-elemental-zi-ENU.png)
+![Frequency distribution and categorization of top elemental characters with occurrences above 23.](./images/top-elemental-zi-ENU.png)
+
 
 The categorization system reveals a hierarchical organization centered on major conceptual domains. The system distinguishes between human-centered categories (人-系列) including physiological (生理), psychological (心理), and behavioral (行) aspects; natural elements (天文-) including the traditional five elements (金木水火土); and categories for flora (植物-), fauna (动物-), mathematical concepts (数理-), and abstract concepts (概念-). This classification not only reflects traditional Chinese philosophical understanding of the world but also provides a systematic framework for understanding character composition. Notably, the frequency distribution within these categories suggests that characters related to human experience and basic natural elements form the core building blocks of the writing system, while more specialized or abstract concepts show lower frequencies. The inclusion of 气 (24 occurrences) in this analysis proves particularly significant, as it represents a threshold case that bridges fundamental philosophical concepts with practical character formation patterns.
 
 ### Visualizing Categorization
 
-![visual-category](./images/zi_category_histogram.png)
-
-*Figure 4: Distribution of Chinese characters across conceptual categories, showing frequency of occurrence ordered from cosmic to human to abstract realms.*
-
 The visualization reveals a remarkable pattern in the distribution of Chinese characters that reflects ancient Chinese cosmological understanding. Beginning with celestial elements (天文-), the categories flow through natural phenomena to human experience, creating a narrative that resonates deeply with traditional Chinese philosophical principles. The striking prominence of human-related physiological characters (人-生理, 1106 occurrences) at the center of this distribution, bridged between natural elements and social constructs, echoes the classical Chinese view of humans as the connecting point between Heaven and Earth (天人合一). This central position is flanked by substantial representations in both natural domains—flora (植物-, 558 occurrences) and fauna (动物-, 466 occurrences)—and social spheres (社会-, 815 occurrences).
+
+![Distribution of elemental characters across conceptual categories, showing frequency of occurrence ordered from cosmic to human to abstract realms.](./images/zi_category_histogram.png)
+
 
 Within the astronomical/natural elements category (天文-), water (水, 406 occurrences) and wood (木, 324 occurrences) show notably higher frequencies than fire (火), metal (金), and earth (土), suggesting their greater significance in character formation. The systematic progression from celestial phenomena through natural elements, human experience, and finally to abstract mathematical concepts (数理-) reveals an elegant hierarchical structure that mirrors traditional Chinese cosmological ordering. This distribution pattern suggests an underlying organizational principle in Chinese character evolution that reflects both human cognitive development and natural world observations, a relationship that will be further explored through its connection to the Fibonacci sequence.
 
 
 ### Character Compositional Patterns
 
-![compositional_pattern](./images/app_compositional_pattern.png)
-
-*Figure 5: Distribution of Chinese character compositional patterns, showing frequency of each pattern type.*
 
 Analysis of character compositions reveals patterns remarkably similar to molecular organization in nature. Just as atoms combine through fundamental interactions, elemental characters (元字) interact spatially to form more complex characters. The most prevalent arrangements mirror basic two-body interactions, appearing as phonetic-semantic compounds in various orientations: left-middle (L-M, 3,033 characters), up-down (U-D, 727 characters), up-middle (U-M, 688 characters), and left-right (L-R, 534 characters). These relative positions, while described in modern directional terms, reflect more fundamental spatial relationships that transcend the historical evolution from vertical to horizontal writing systems.
+
+![Distribution of elemental character compositional patterns, showing frequency of each pattern type.](./images/app_compositional_pattern.png)
+
 
 More complex patterns demonstrate sophisticated geometric arrangements analogous to multi-body interactions in physics. Three-component interactions manifest in triangular configurations like down-left_up-right_up (D-LU-RU, 45 characters) and left_up-left_down-right (LU-LD-R, 28 characters), while four-component interactions appear in symmetrical enclosure patterns, though less frequently (6 characters). This three-dimensional spatial organization distinguishes Chinese characters from the linear sequence of alphabetic writing systems, reflecting instead the multi-dimensional interactions observed in natural systems. The clear preference for simpler two-body arrangements, followed by decreasing frequency of more complex geometric patterns, mirrors nature's tendency toward efficient, stable configurations. This distribution provides valuable insights for both understanding character formation principles and developing effective learning strategies based on fundamental spatial relationships.
 
@@ -123,10 +123,6 @@ Chinese characters are not merely symbols for recording language; they are sophi
 ### 3.1 Case Studies - Composite Characters 
 
 #### 3.1.1 The 日 Family 
-
-![zi_sun](./images/zi_sun.png)
-
-*Figure 6: Evolution of the character 日 (sun) from oracle bone pictograph to modern form, alongside actual solar image*
 
 The Chinese character "日" (rì), meaning "sun" or "day", serves as a powerful illustration of how Chinese characters efficiently encode natural observations and knowledge. The character's evolution from its oracle bone pictograph—depicting a circular sun with a central dot—to its modern form demonstrates remarkable preservation of core visual concepts while gaining calligraphic efficiency.
 
@@ -147,17 +143,15 @@ The Chinese character "日" (rì), meaning "sun" or "day", serves as a powerful 
 | 日 + 干 = 旱 | drought | Intense sun causing dryness | hàn |
 | 三 + 八 + 日 = 春 | spring | Sunlight causing seeds to break soil | chūn |
 
-![zi_spring](./images/zi_spring.png)
+![Evolution of the character 日 (sun) from oracle bone pictograph to modern form, alongside actual solar image.](./images/zi_sun.png)
 
-*Figure 7: The character 春 (spring) captures multiple aspects of seasonal transition*
+
+![The character 春 (spring) captures multiple aspects of seasonal transition.](./images/zi_spring.png)
 
 The character 春 (spring) exemplifies efficient semantic encoding through its components: 三 (representing multiple aspects - abundance of sprouting life, layers of frozen earth), 八 (break/split), and 日 (sun). Together, these elements capture the dynamics of spring's arrival - the interaction between strengthening sunlight, earth's layers, and emerging life. This structure demonstrates how Chinese characters can layer multiple related meanings within a single, coherent form.
 
 
 #### 3.1.2 The 坙 Family
-
-![zi_stem](./images/zi_stem.png)
-*Figure 8: The character 坙 encodes the evolution from material mass to structural efficiency*
 
 The character 坙 exemplifies how Chinese writing preserves fundamental principles of human innovation. Beyond its basic meaning of "core" and "lightness," this character documents a critical transition in human understanding: the discovery that effectiveness comes from optimized structure rather than raw mass. The progression from solid stone wheels to spoked wooden designs represents both technological advancement and conceptual breakthrough - the recognition that core principles often emerge through reduction rather than addition.
 
@@ -171,13 +165,13 @@ The character 坙 exemplifies how Chinese writing preserves fundamental principl
 | 彳 + 坙 = 径 | path/radius | Most direct route from center to periphery | jìng |
 | 车 + 坙 = 轻 | light(weight) | Structural efficiency through essential components | qīng |
 
+![The character 坙 encodes the evolution from material mass to structural efficiency.](./images/zi_stem.png)
+
+
 This character family demonstrates the Chinese writing system's capacity to encode and transmit complex principles across generations. Each derivative character extends the core concept of structural efficiency into different domains, from atomic physics (氢) to biological systems (茎), preserving not just the end results but the underlying principles of innovation.
 
 
 #### 3.1.3 The 禺 Family
-
-![zi_join](./images/zi_join.png)
-*Figure 9: The character 禺 evolution, depicting fundamental concept of joining/coupling*
 
 The character 禺 represents a fundamental concept of joining or coupling in Chinese writing, functioning as a semantic force carrier for various types of connections and interactions.
 
@@ -190,13 +184,14 @@ The character 禺 represents a fundamental concept of joining or coupling in Chi
 | 阝 + 禺 = 隅 | corner/intersection | Spatial manifestation of joining | yú |
 | 耒 + 禺 = 耦 | linked roots | Natural systems demonstrating connection | ǒu |
 
+![The character 禺 evolution, depicting fundamental concept of joining/coupling.](./images/zi_join.png)
+
+
+
 This character family demonstrates how Chinese writing conceptualizes different types of connections - from physical joining to spatial relationships to cognitive associations - all derived from a single fundamental concept of coupling.
 
 
 #### 3.1.4 The 乍 Family
-
-![zi_work](./images/zi_work.png)
-*Figure 10: Evolution of character 乍 (work/make) from oracle bone to modern form*
 
 The character 乍 represents fundamental concepts of work, creation, and transformation. Its historical forms suggest the process of making or transforming materials, functioning as a semantic force carrier for various types of productive activity.
 
@@ -212,14 +207,13 @@ The character 乍 represents fundamental concepts of work, creation, and transfo
 | ⺮ + 乍 = 笮 | to press | Physical work applied to materials | zé |
 | 穴 + 乍 = 窄 | narrow | Spatial transformation through constraint | zhǎi |
 
+![Evolution of character 乍 (work/make) from oracle bone to modern form.](./images/zi_work.png)
+
 This family demonstrates how a basic concept of work/transformation generates characters spanning physical, chemical, mental, temporal, and social domains - much like how energy manifests in different forms throughout nature.
 
 
 #### 3.1.5 The 寺 Family
 
-![zi_temple](./images/zi_temple.png)
-
-*Figure 11: Evolution of character 寺 (temple) from oracle bone script to modern form, with example of traditional temple architecture*
 
 The character 寺, originally depicting a temple or place of authority, functions as a semantic carrier representing ordered structure and measured interaction. Its architectural origins in temple design suggest principles of balance, hierarchy, and measured sacred space.
 
@@ -234,6 +228,9 @@ The character 寺, originally depicting a temple or place of authority, function
 | 山 + 寺 = 峙 | to tower with dignity | Embodies temple pagoda's vertical presence as symbol of spiritual and moral elevation | zhì |
 | 忄 + 寺 = 恃 | to depend upon with confidence | Like temple foundations, represents reliable structural support extended to mental realm | shì |
 | 讠 + 寺 = 诗 | poetry as sacred architecture | Words arranged with temple-like precision to create spaces of transcendent meaning | shī |
+
+![Evolution of character 寺 (temple) from oracle bone script to modern form, with example of traditional temple architecture.](./images/zi_temple.png)
+
 
 The 寺 family reveals how temple architecture's principles of structure and order extend into cosmic time (時), ritual significance (特), social hierarchies (侍), and artistic expression (诗). This progression from physical to abstract domains demonstrates the sophisticated metaphorical thinking in Chinese character formation.
 
@@ -250,7 +247,6 @@ In the Chinese language, sound (声 shēng), form (形 xíng), and meaning (意 
 2. Compound-word disambiguation:
    - "xiansheng" in Pinyin could represent:
      - 先生 (teacher/mister)
-     - 现生 (present life)
      - 献身 (sacrifice oneself)
 
 Chinese characters, in their elegance and complexity, encode both visual and auditory information while preserving crucial semantic distinctions. This harmonious integration of form and function has sustained the language for millennia. The path forward lies in preserving this sophisticated writing system while thoughtfully incorporating modern tools like Pinyin as complementary aids rather than replacements.
@@ -261,9 +257,6 @@ Just as matter organizes itself into increasingly complex structures - from atom
 
 #### 3.3.1 The 子 Family
 
-![zi_child](./images/zi_child.png)
-
-*Figure 12: Evolution of character 子 (child) from oracle bone script to modern form, with visual metaphor of a baby with outstretched arms*
 
 | Formula | Meaning | Natural/Cultural Insight | Pinyin |
 |---------|---------|-------------------------|---------|
@@ -276,13 +269,13 @@ Just as matter organizes itself into increasingly complex structures - from atom
 | 宀 + 子 = 字 | character | Child under roof represents nurturing of knowledge | zì |
 | 小 + 冖 + 子 = 学 | to learn/study | Child (子) under shelter (冖) starting small (小) captures the essence of education | xué |
 
+![Evolution of character 子 (child) from oracle bone script to modern form, with visual metaphor of a baby with outstretched arms.](./images/zi_child.png)
+
+
 The character 子 (zǐ), originally depicting a child with outstretched arms, functions as both a semantic and phonetic component in character formation. Its visual evolution preserves the core meaning of offspring while extending into broader domains of growth and nurturing.
 
 #### 3.3.2 The 子 Network
 
-![zi_network](./images/zi_child-phrase.png)
-
-*Figure 13: Semantic extensions of 子 across various domains*
 
 | Category | Compounds | Semantic Extension | Examples |
 |----------|-----------|-------------------|-----------|
@@ -296,6 +289,9 @@ The character 子 (zǐ), originally depicting a child with outstretched arms, fu
 | Time Concepts | 日子, 子时, 甲子 | Temporal cycles | Days, midnight hour, 60-year cycle |
 | Aggressor | 日本鬼子, 毛子 | Nicknames | Japanese soldier, northern invader |
 
+![Semantic extensions of 子 across various domains [12].](./images/zi_child-phrase.png)
+
+
 This analysis reveals how 子 extends from its concrete meaning of "child" into an extraordinarily rich semantic network spanning natural, social, and abstract domains. At the foundational level, it captures core human relationships (父子, 子女) and biological growth (种子, 子宫). Its semantic scope then expands remarkably to encompass everything from the cosmic scale of fundamental particles (量子, 原子) to the precision of mathematical abstractions (因子, 子集). The character's versatility is further demonstrated in its application to everyday objects (筷子, 房子), temporal concepts (日子, 甲子), and even cultural-historical contexts (日本鬼子). What's particularly striking is how 子 maintains its core associations with growth, fundamentality, and belonging across these diverse domains - whether describing a physical descendant (孙子), an intellectual lineage (弟子), or the smallest units of matter (原子). This semantic radiation from concrete to abstract meanings, while preserving core conceptual links, exemplifies the sophisticated metaphorical thinking embedded in Chinese character evolution and compound formation.
 
 ### 3.4 Case Studies - Poems: Temple of Words
@@ -306,7 +302,8 @@ This section examines how classical Chinese poetry achieves remarkable semantic 
 
 `讠 + 寺 = 诗`: This elegant formation captures the essence of poetry - the construction of linguistic temples where carefully chosen words create spaces of meaning that transcend their components. Just as temples transform physical space into sacred realm through architectural principles, classical Chinese poems create meaning through precise structural arrangement.
 
-![Huang He Lou](./images/poem_huang-he-lou.png)
+When this author queries AI systems for exemplary Chinese poems, these two masterpieces emerge with remarkable frequency, suggesting their special status in the corpus of Chinese literature.
+
 
 ```
 (III) 王之涣 - 登鹳雀楼
@@ -317,8 +314,6 @@ This section examines how classical Chinese poetry achieves remarkable semantic 
 更上一层楼。
 ```
 
-![Moonlight](./images/poem_moonlight.jpg)
-
 ```
 (IV) 李白 - 静夜思
 
@@ -328,7 +323,10 @@ This section examines how classical Chinese poetry achieves remarkable semantic 
 低头思故乡。
 ```
 
-When this author queries AI systems for exemplary Chinese poems, these two masterpieces emerge with remarkable frequency, suggesting their special status in the corpus of Chinese literature.
+![A magnificiant view of Huang-He-Lou 鹳雀楼.](./images/poem_huang-he-lou.png)
+
+![An artistic illustration depicting Li Bai in deep comtemplation under moonlight.](./images/poem_moonlight.jpg)
+
 
 #### 3.4.2 Architectural Principles of Poetic Construction
 
@@ -417,8 +415,7 @@ Just as natural systems evolve from simple to complex through predictable patter
 
 The accompanying images of Fibonacci patterns in nature - from sunflower seed arrangements to nautilus shells, from fern fronds to spiral galaxies - reveal this universal principle of growth and organization. This same principle can illuminate our understanding of how Chinese characters evolved from Cangjie's initial inspiration to their current form.
 
-![fibonacci-spiral](./images/fibonacci-spiral-2.png)
-
+![Natural manifestations of the Fibonacci spiral. The composite shows nine examples of spiral patterns found in nature and mathematics: (top row) a sunflower seed arrangement with overlaid golden spiral, a geometric spiral pattern, and a succulent plant's leaf arrangement; (middle row) a garden snail shell displaying logarithmic spiral patterning, the Fibonacci rectangle construction showing the sequence 21:13:8:5, and a cross-section of a nautilus shell; (bottom row) an unfurling fern frond (fiddlehead), a satellite image of a tropical cyclone, and a spiral galaxy. These diverse examples demonstrate how the Fibonacci sequence and associated spiral patterns appear repeatedly across different scales in natural phenomena, from botanical growth patterns to astronomical structures.](./images/fibonacci-spiral-2.png)
 
 Inspired by universal natural growth pattern like Fibonacci sequence, this author borrows the sequence to organize Chinese characters in a similar natural progression: from simple pictographs to sophisticated composite characters, from concrete objects to abstract concepts. This natural progression is not just an organizational framework - it reflects how human cognition itself evolved from basic perceptions to complex abstractions. Just as the Fibonacci spiral demonstrates how complex natural patterns emerge from simple mathematical relationships, our organization reveals how Chinese writing evolved from basic elements (元字) into increasingly complex expressions. Each level introduces new fundamental characters that, like the expanding spiral, serve as building blocks for richer linguistic representations. This approach mirrors nature's own efficiency in developing complex systems from simple foundations.
 
@@ -457,9 +454,8 @@ Traditional radicals with independent meaning are noted under "Radical form mapp
   - Radical form mapping: 
   土 for 地, 亻for 人.
 
-![Heaven-Earth-Human](./images/sun-moon-heaven-human-earth-meditation-morning.jpg)
+![This AI generated composition [9] embodies the concept of mindfulness and the harmonious connection between human consciousness and natural surroundings, containing 6 元字 (气,日,月,天,地,人) in one frame.](./images/sun-moon-heaven-human-earth-meditation-morning.jpg)
 
-  This AI generated image [6] embodies 6 元字 (气,日,月,天,地,人) in an integral and wholistic visual-representation.
 
 - 5 (五): 金,木,水,火,土 (metal, wood, water, fire, earth)
   - Material phase 元字
@@ -468,15 +464,14 @@ Traditional radicals with independent meaning are noted under "Radical form mapp
   - Radical form mapping: 
   钅for 金, 氵冫for 水, 灬 for 火, 木, 土 are often rended in narrower form when used as radicals. The semantic meanings are the same.
 
-![5-Elements](./images/five-elements.jpg)
+![This AI generated [9] artistic representation of the Five Elements (五行) in Chinese philosophy, emphasizing the dynamic and cyclical nature of these interconnected elements in early cosmology.](./images/five-elements.jpg)
 
 - 8 (八): 东,南,西,北,春,夏,秋,冬 (directions and seasons)
   - Spatiotemporal 元字
   - Complete system of orientation and cyclical change
   - Foundation for location/directional and time-based concepts
 
-![8-directions-seasons](./images/8-directions-seasons.png)
-
+![This AI generated [9] view of fundamental spatial and temporal orientations. Left: A traditional compass rose showing the four cardinal directions (North, South, East, West) and four intercardinal directions (NE, SE, SW, NW); Right: A circular diagram depicting the cyclical nature of the four seasons.](./images/8-directions-seasons.png)
 
 - 13 (十三): 生,鼠,牛,虎,兔,龙,蛇,马,羊,猴,鸡,狗,猪 (basic life forms expressed in 12 Zodiac animals)
   - Biological object 元字
@@ -485,7 +480,7 @@ Traditional radicals with independent meaning are noted under "Radical form mapp
   - Radical form mapping: 
   牜for 牛, 虫 is a radical for 蛇 and other insects, 犭is a radical for many animals (e.g. 猴,狗,猪), 羊,⺶,⺷ are variant radical forms for 羊(Sheep), radical for 马 appears narrower.
 
-![12-Animals](./images/12-zodiac-animals.png)
+![These twelve animals represent the complete cycle of the Chinese zodiac (十二生肖), with each animal corresponding to a year in the twelve-year astronomical cycle.](./images/12-zodiac-animals.png)
 
 - 21 (二十一): Quantification and Measurement 元字
   - Numerical System (15 characters):
@@ -503,9 +498,9 @@ Traditional radicals with independent meaning are noted under "Radical form mapp
       - Traditional Chinese units of length
       - Scales from human body reference (寸) to geographic distance (里)
 
-This set represents the emergence of systematic measurement and counting.
+This level represents the emergence of systematic measurement and counting.
 
-![10-Fingers](./images/10-fingers.jpg)
+![The anatomical basis of counting may explain why base-10 systems emerged independently across various civilizations and why the Arabic numeral system (0-9) became globally dominant over other numerical systems in history.](./images/10-fingers.jpg)
 
 - 34 (三十四): Human Form and Action 元字
   - Basic parts: 
@@ -517,9 +512,9 @@ This set represents the emergence of systematic measurement and counting.
   - Radical form mapping: 
       忄for 心, 扌,又 for 手, 辶 for 足, 讠for 言, 饣for 食, often (not always) in action context, e.g. emotional thinking, holding, walking, communicating, respectively. 目, 口, 足, 骨, 耳 appear as radicals too. Some of these characters (like 首, 面) can function as both nouns (head, face) and measure words/classifiers in different contexts.
 
-This set introduces fundamental components for describing human existence and behavior.
+This level introduces fundamental components for describing human existence and behavior.
 
-![Laozi](./images/laozi-qwen-max.png)
+![An AI-generated [12] artistic portrait depicting Laozi (老子, also known as Lao Tzu), the legendary 6th century BCE Chinese philosopher and reputed author of the Tao Te Ching (道德經).](./images/laozi-qwen-max.png)
 
 These nine levels demonstrate how Chinese characters evolved naturally from fundamental concepts to sophisticated human expression, mirroring the complexity gradients found in natural systems.
 
@@ -655,34 +650,34 @@ This work is also dedicated to author's parents (龚永权，文国芳), who nur
 
 ## Acknowledgements
 
-This paper represents a collaborative effort between the author, and a team of AI assistants including Claude 3.3 from Anthropic [r_claude_35], Gemini 2 from Google [r_gemini_20], Qwen2.5-Max from Alibaba [r_qwen_25]. The fusion of human knowledge and insight in software development, physics, and Chinese language with AI's analytical capabilities enabled the development of the novel perspectives and methodologies presented in this work. This collaboration demonstrates the potential of human-AI partnerships in research and learning, particularly in interdisciplinary studies bridging traditional knowledge with modern computational technologies.
+This paper represents a collaborative effort between the author, and a team of AI assistants including Claude 3.3 from Anthropic [10], Gemini 2 from Google [11], Qwen2.5-Max from Alibaba [12]. The fusion of human knowledge and insight in software development, physics, and Chinese language with AI's analytical capabilities enabled the development of the novel perspectives and methodologies presented in this work. This collaboration demonstrates the potential of human-AI partnerships in research and learning, particularly in interdisciplinary studies bridging traditional knowledge with modern computational technologies.
 
 
 ## References
 
-[r_zi] https://www.wikiwand.com/en/articles/Chinese_characters
+[1] https://www.wikiwand.com/en/articles/Chinese_characters
 
-[r_xushen] 說文解字 : https://www.shuowen.org/
+[2] 說文解字 : https://www.shuowen.org/
 
-[r_kangxi] Kangxi radicals : https://en.wikipedia.org/wiki/Kangxi_radicals
+[3] Sears, Richard. Chinese Etymology research website at https://hanziyuan.net/
 
-[r_sears] Sears, Richard. Chinese Etymology research website at https://hanziyuan.net/
+[4] Kangxi radicals : https://en.wikipedia.org/wiki/Kangxi_radicals
 
-[r_mdbg] CC-CEDICT dictionary dataset : https://www.mdbg.net/chinese/dictionary?page=cc-cedict
+[5] CC-CEDICT dictionary dataset : https://www.mdbg.net/chinese/dictionary?page=cc-cedict
 
-[r_hsk] 书同文 汉字网 HSK 汉语水平考试汉字列表 : https://hanzi.unihan.com.cn/School/HSK
+[6] 书同文 汉字网 HSK 汉语水平考试汉字列表 : https://hanzi.unihan.com.cn/School/HSK
 
-[r_chaizi] 漢語拆字字典 : https://github.com/kfcd/chaizi
+[7] 漢語拆字字典 : https://github.com/kfcd/chaizi
 
-[r_fibonacci] https://www.wikiwand.com/en/articles/Fibonacci_sequence
+[8] https://www.wikiwand.com/en/articles/Fibonacci_sequence
 
-[r_google_img] Google ImageFx text-to-image generation tool: https://labs.google/fx/tools/image-fx
+[9] Google ImageFx text-to-image generation tool: https://labs.google/fx/tools/image-fx
 
-[r_claude_35] Claude AI : https://claude.ai/
+[10] Claude 3.5 Sonnet : https://claude.ai/
 
-[r_gemini_20] Gemini 2.0 : https://gemini.google.com/app
+[11] Gemini 2.0 : https://gemini.google.com/app
 
-[r_qwen_25] Qwen2.5-MAX : https://chat.qwenlm.ai/
+[12] Qwen 2.5-Max : https://chat.qwenlm.ai/
 
 
 
