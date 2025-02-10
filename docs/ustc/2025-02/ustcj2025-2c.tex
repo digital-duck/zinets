@@ -197,6 +197,16 @@ regardless of its complexity.
 model for Chinese character network analysis.}
 \end{figure}
 
+\begin{figure}
+  \centering
+  \includegraphics[width=0.85\textwidth]{./images/app_decomposing-zi.png}
+  \caption{The diagram of hierarchical decomposition tree illustrates the
+  progressive breakdown of the character into its constituent components,
+  reading from left to right. This visualization demonstrates the
+  multi-level structural composition typical of complex Chinese
+  characters.}
+\end{figure}
+
 The decomposition of each character into the Zi-Matrix is performed
 manually using a hierarchical approach. This process involves a series
 of decomposition steps. First, the character is broken down into its
@@ -206,20 +216,12 @@ recursively, into its constituent parts, again assigning them to
 positions within a sub-matrix representing that component. This
 hierarchical decomposition continues until the most fundamental
 components -- those that cannot be reasonably further divided -- are
-identified. These fundamental components become candidates for the
+identified, as illustrated by Figure 2. These fundamental components become candidates for the
 ``elemental character'' set. This manual, hierarchical approach ensures
-a consistent and considered analysis of character structure, leveraging
+a consistent analysis of character structure, leveraging
 expert linguistic knowledge to guide the decomposition.
 
-\begin{figure}
-\centering
-\includegraphics[width=0.85\textwidth]{./images/app_decomposing-zi.png}
-\caption{The diagram of hierarchical decomposition tree illustrates the
-progressive breakdown of the character into its constituent components,
-reading from left to right. This visualization demonstrates the
-multi-level structural composition typical of complex Chinese
-characters.}
-\end{figure}
+
 
 \section{Elemental Characters Analysis}\label{elemental-characters-analysis}
 
@@ -308,8 +310,8 @@ learning process while maintaining semantic integrity.
 Categorization}\label{elemental-characters-occurrence-frequency-and-categorization}
 
 Analysis of high-frequency elemental characters (with occurrences above
-23, a threshold chosen to include 气 {[}qi/breath/energy{]}, given its
-fundamental importance in Chinese philosophy and culture) reveals clear
+23, a threshold chosen to include 气 (qi meaning air, breath and energy), 
+given its fundamental importance in Chinese philosophy and culture) reveals clear
 patterns in character composition. The frequency distribution shows
 strong clustering around fundamental human concepts and natural
 elements. For instance, in human-related categories (人-), elements like
@@ -456,24 +458,19 @@ visual concepts while gaining calligraphic efficiency.
 \hline
 \textbf{Formula} & \textbf{Meaning} & \textbf{Natural Insight} & \textbf{Pinyin} \\
 \hline
-日 + 月 = 明 & bright & Sun and moon as primary celestial light sources
-& míng \\
+日 + 月 = 明 & bright & Sun and moon as primary celestial light sources & míng \\
 \hline
-日 + 正 = 是 & to be/truth & Overhead sun casts no shadows, revealing
-true form & shì \\
+日 + 正 = 是 & to be/truth & Overhead sun casts no shadows, revealing true form & shì \\
 \hline
 知 + 日 = 智 & wisdom & The sun radiates energy without depletion,
 demonstrating how true wisdom transcends accumulated knowledge to
 understand principles of sustainable benefit & zhì \\
 \hline
-日 + 日 + 日 = 晶 & crystal/bright & Intensification of light/clarity
-through repetition & jīng \\
+日 + 日 + 日 = 晶 & crystal/bright & Intensification of light/clarity through repetition & jīng \\
 \hline
-门 + 日 = 间 & space/interval & Light revealing space between door
-frames & jiān \\
+门 + 日 = 间 & space/interval & Light revealing space between door frames & jiān \\
 \hline
-日 + 寸 = 时 & time & Sun's shadow measure in ancient timekeeping &
-shí \\
+日 + 寸 = 时 & time & Sun's shadow measure in ancient timekeeping & shí \\
 \hline
 日 + 生 = 星 & star & Stars as celestial light producers & xīng \\
 \hline
@@ -487,7 +484,7 @@ shí \\
 \hline
 日 + 干 = 旱 & drought & Intense sun causing dryness & hàn \\
 \hline
-三 + 八 + 日 = 春 & spring & Sunlight causing seeds to break soil &
+三 + 八 + 日 = 春 & spring & Sunlight causing seeds to break soil, implying the Spring season &
 chūn \\
 \hline
 \end{longtable}
@@ -529,26 +526,19 @@ emerge through reduction rather than addition.
 \hline
 \textbf{Formula} & \textbf{Meaning} & \textbf{Natural Insight} & \textbf{Pinyin} \\
 \hline
-气 + 坙 = 氢 & hydrogen & Simplest element with single proton core &
-qīng \\
+气 + 坙 = 氢 & hydrogen & Simplest element with single proton core & qīng \\
 \hline
-艹 + 坙 = 茎 & plant stem & Essential structural support maintaining
-plant integrity & jīng \\
+艹 + 坙 = 茎 & plant stem & Essential structural support maintaining plant integrity & jīng \\
 \hline
-纟 + 坙 = 经 & classic texts/meridian & Core texts that weave through
-cultural/anatomical fabric & jīng \\
+纟 + 坙 = 经 & classic texts/meridian & Core texts that weave through cultural/anatomical fabric & jīng \\
 \hline
-坙 + 力 = 劲 & strength/vigor & How core fibers generate physical power
-& jìn \\
+坙 + 力 = 劲 & strength/vigor & How core fibers generate physical power and strength & jìn \\
 \hline
-坙 + 页 = 颈 & neck & Crucial connecting structure between body and
-brain & jǐng \\
+坙 + 页 = 颈 & neck & Crucial connecting structure between body and brain & jǐng \\
 \hline
-彳 + 坙 = 径 & path/radius & Most direct route from center to periphery
-& jìng \\
+彳 + 坙 = 径 & path/radius & Most direct route from center to periphery & jìng \\
 \hline
-车 + 坙 = 轻 & light(weight) & Structural efficiency through essential
-components & qīng \\
+车 + 坙 = 轻 & light-weight & Structural efficiency through essential components & qīng \\
 \hline
 \end{longtable}
 
@@ -576,24 +566,19 @@ types of connections and interactions.
 \hline
 \textbf{Formula} & \textbf{Meaning} & \textbf{Natural Insight} & \textbf{Pinyin} \\
 \hline
-亻 + 禺 = 偶 & 1. couple/partner; 2. chance/accident; 3. even number &
-Captures both intentional pairing and chance encounters, while `even
-numbers' suggests balanced states & ǒu \\
+亻 + 禺 = 偶 & 1. couple, partner; 2. chance, accident; 3. even number &
+Captures both intentional pairing and chance encounters, while "even
+numbers" suggests balanced states & ǒu \\
 \hline
-宀 + 禺 = 寓 & dwelling/metaphor & Physical space enabling connections &
-yù \\
+宀 + 禺 = 寓 & dwelling, metaphor & Physical space enabling connections & yù \\
 \hline
-辶 + 禺 = 遇 & encounter/meet & Dynamic interaction through movement &
-yù \\
+辶 + 禺 = 遇 & encounter, meet & Dynamic interaction through movement & yù \\
 \hline
-禺 + 心 = 愚 & inability to connect & Cognitive dimension of connection
-& yú \\
+禺 + 心 = 愚 & inability to connect & Cognitive dimension of connection & yú \\
 \hline
-阝 + 禺 = 隅 & corner/intersection & Spatial manifestation of joining &
-yú \\
+阝 + 禺 = 隅 & corner, intersection & Spatial manifestation of joining & yú \\
 \hline
-耒 + 禺 = 耦 & linked roots & Natural systems demonstrating connection &
-ǒu \\
+耒 + 禺 = 耦 & linked roots & Natural systems demonstrating connection & ǒu \\
 \hline
 \end{longtable}
 
@@ -620,26 +605,25 @@ various types of productive activity.
 \hline
 \textbf{Formula} & \textbf{Meaning} & \textbf{Natural Insight} & \textbf{Pinyin} \\
 \hline
-亻 + 乍 = 作 & to make/to do & Direct human productive activity & zuò \\
+亻 + 乍 = 作 & to make, to do & Direct human productive activity & zuò \\
 \hline
 日 + 乍 = 昨 & yesterday & Time transformed through work completed &
 zuó \\
 \hline
 乍 + 心 = 怎 & how? & Mental process of problem-solving & zěn \\
 \hline
-火 + 乍 = 炸 & to explode/to fry & Energy transformation in different
-scales & zhà \\
+火 + 乍 = 炸 & to explode, to fry & Energy transformation in different
+scales and shapes & zhà \\
 \hline
 讠 + 乍 = 诈 & to deceive & Misuse of effort in communication & zhà \\
 \hline
-口 + 乍 = 咋 & how (colloquial) & Verbal expression of questioning
-process & zǎ \\
+口 + 乍 = 咋 & how  & Verbal expression of questioning process & zǎ \\
 \hline
 酉 + 乍 = 酢 & vinegar & Chemical transformation through work & zuò \\
 \hline
 ⺮ + 乍 = 笮 & to press & Physical work applied to materials & zé \\
 \hline
-穴 + 乍 = 窄 & narrow & Spatial transformation through constraint &
+穴 + 乍 = 窄 & to hallow, to narrow & Spatial transformation through constraint &
 zhǎi \\
 \hline
 \end{longtable}
@@ -662,6 +646,14 @@ The character 寺, originally depicting a temple or place of authority,
 functions as a semantic carrier representing ordered structure and
 measured interaction. Its architectural origins in temple design suggest
 principles of balance, hierarchy, and measured sacred space.
+
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\textwidth]{./images/zi_temple.png}
+  \caption{Evolution of character 寺 (temple) from oracle bone script to
+  modern form, with example of traditional temple architecture.}
+\end{figure}
 
 \begin{longtable}{|p{3cm}|p{3cm}|p{6cm}|p{2cm}|}
 \hline
@@ -703,12 +695,7 @@ temple-like precision to create spaces of transcendent meaning & shī \\
 \hline
 \end{longtable}
 
-\begin{figure}
-\centering
-\includegraphics[width=0.5\textwidth]{./images/zi_temple.png}
-\caption{Evolution of character 寺 (temple) from oracle bone script to
-modern form, with example of traditional temple architecture.}
-\end{figure}
+
 
 The 寺 family reveals how temple architecture's principles of structure
 and order extend into cosmic time (時), ritual significance (特), social
@@ -720,7 +707,7 @@ thinking in Chinese character formation.
 Counter-Argument}\label{case-studies---pinyin---a-counter-argument}
 
 In the Chinese language, sound (声 shēng), form (形 xíng), and meaning
-(意 yì) are all integral components of a vibrant, living system.
+(意 yì) are all integral components of a vibrant and living system.
 Over-emphasizing any single aspect at the expense of the others would be
 inefficient, misguided, and unwise. While the Pinyin romanization system
 has undeniably augmented the Chinese language by integrating Latin
@@ -767,7 +754,7 @@ and auditory information while preserving crucial semantic distinctions.
 This harmonious integration of form and function has sustained the
 language for millennia. The path forward lies in preserving this
 sophisticated writing system while thoughtfully incorporating modern
-tools like Pinyin as complementary aids rather than replacements.
+tools like Pinyin and AI as complementary aids rather than replacements.
 
 \subsection{Case Studies - Characters and Phrases}\label{case-studies---characters-and-phrases}
 
@@ -780,7 +767,7 @@ to molecules with stable semantic bonds. At a higher level of
 organization, these linguistic molecules arrange themselves into
 sophisticated structures like poems, which, like molecular clusters,
 exhibit properties beyond the sum of their parts. This natural hierarchy
-of meaning-making demonstrates the living, self-organizing nature of
+of meaning-making demonstrates the living and self-organizing nature of
 Chinese language.
 
 \subsubsection{The 子 Family}\label{the-ux5b50-family}
@@ -789,27 +776,21 @@ Chinese language.
 \hline
 \textbf{Formula} & \textbf{Meaning} & \textbf{Natural Insight} & \textbf{Pinyin} \\
 \hline
-女 + 子 = 好 & good/well & Child with mother represents fundamental
-goodness & hǎo \\
+女 + 子 = 好 & good, well, fine & Child with mother represents fundamental goodness & hǎo \\
 \hline
-耂 + 子 = 孝 & filial piety & Elder above child shows respect and care &
-xiào \\
+耂 + 子 = 孝 & filial piety & Elder above child shows respect and care & xiào \\
 \hline
-子 + 小 = 孙 & grandson & Small child represents generational
-continuation & sūn \\
+子 + 小 = 孙 & grandson & Small child represents generational continuation & sūn \\
 \hline
 木 + 子 = 李 & plum tree & Fruit as nature's offspring & lǐ \\
 \hline
-米 + 子 = 籽 & seed & Grain's offspring, agricultural reproduction &
-zǐ \\
+米 + 子 = 籽 & seed & Grain's offspring, agricultural reproduction & zǐ \\
 \hline
 禾 + 子 = 季 & season & Crop cycle marked by growth stages & jì \\
 \hline
-宀 + 子 = 字 & character & Child under roof represents nurturing of
-knowledge & zì \\
+宀 + 子 = 字 & character & Child under roof represents nurturing of knowledge & zì \\
 \hline
-小 + 冖 + 子 = 学 & to learn/study & Child (子) under shelter (冖)
-starting small (小) captures the essence of education & xué \\
+小 + 冖 + 子 = 学 & to learn, to study & Child (子) under shelter (冖) starting small (小) captures the essence of education & xué \\
 \hline
 \end{longtable}
 
@@ -832,31 +813,23 @@ while extending into broader domains of growth and nurturing.
 \hline
 \textbf{Category} & \textbf{Compounds} & \textbf{Semantic Extension} & \textbf{Examples} \\
 \hline
-Human Relations & 父子, 子女, 子孙, 弟子 & Core family ties &
-father-and-son, children, descendants, disciple \\
+Human Relations & 父子, 子女, 子孙, 弟子 & Core family ties & father-and-son, children, descendants, disciple \\
 \hline
-Honorific Terms & 老子, 孔子, 墨子, 孙子, 君子 & Respect and wisdom &
-Master, great teachers, gentlement \\
+Honorific Terms & 老子, 孔子, 墨子, 孙子, 君子 & Respect and wisdom & Master, great teachers, gentlement \\
 \hline
-Scientific Objects & 量子, 光子, 原子, 电子 & Fundamental particles &
-Atom, quantum, electron \\
+Scientific Objects & 量子, 光子, 原子, 电子 & Fundamental particles & Quantum, photon, atom,  electron \\
 \hline
-Mathematical Objects & 因子, 子集, 子空间 & Math concepts & factor,
-subset, sub-space \\
+Mathematical Objects & 因子, 子集, 子空间 & Math concepts & factor, subset, sub-space \\
 \hline
-Natural Elements & 种子, 脑子, 芽子, 子宫 & Biological growth & Seed,
-brain, sprout, womb \\
+Natural Elements & 种子, 脑子, 芽子, 子宫 & Biological growth & Seed, brain, sprout, womb \\
 \hline
 Animals & 狮子, 兔子, 蚊子 & living objects & Lion, rabbit, mosquito \\
 \hline
-Tools/Objects & 筷子, 梯子, 桌子, 房子, 子弹 & Functional items &
-Chopsticks, ladder, table, house, bullet \\
+Tools/Objects & 筷子, 梯子, 桌子, 房子, 子弹 & Functional items & Chopsticks, ladder, table, house, bullet \\
 \hline
-Time Concepts & 日子, 子时, 甲子 & Temporal cycles & Days, midnight
-hour, 60-year cycle \\
+Time Concepts & 日子, 子时, 甲子 & Temporal cycles & Days, midnight hour, 60-year cycle \\
 \hline
-Aggressor & 日本鬼子, 毛子 & Nicknames & Japanese soldier, northern
-invader \\
+Aggressor & 日本鬼子, 毛子 & Nicknames & Japanese soldier, northern invader \\
 \hline
 \end{longtable}
 
@@ -975,12 +948,25 @@ under moonlight.}
   Each level adds new dimension of meaning
 \end{itemize}
 
-\paragraph{5.4.2.3 Sacred Space
-(空间)}\label{sacred-space-ux7a7aux95f4}
+\paragraph{5.4.2.3 Sacred Space (空间)}\label{sacred-space-ux7a7aux95f4}
 
-Both poems create vast mental landscapes through minimal means: -
-Horizontal expanse: 千里目, 入海流 - Vertical dimension: 一层楼, 举头望
-- Internal realm: 思故乡
+\begin{itemize}
+  \tightlist
+  \item
+Both poems create vast mental landscapes through minimal means: 
+
+  \begin{itemize}
+    \tightlist
+    \item 
+    Horizontal expanse: 千里目, 入海流 
+    \item 
+    Vertical dimension: 一层楼, 举头望
+    \item 
+    Internal realm: 思故乡
+  \end{itemize}
+
+\end{itemize}
+
 
 \subsubsection{Yin-Yang Duality in Expression}\label{yin-yang-duality-in-expression}
 
@@ -1087,7 +1073,7 @@ These masterpieces encode two essential approaches to understanding:
   \end{itemize}
 \end{itemize}
 
-\subsubsection{Summary}\label{summary}
+\subsubsection{Summary Remark}\label{summary}
 
 These poems demonstrate the sophisticated architecture of classical
 Chinese poetry, where careful arrangement of minimal elements creates
@@ -1103,21 +1089,24 @@ culture and civilization.
 In our earlier sections on ``Visualizing Categorization'' and
 ``Character Compositional Patterns'', we observed how elemental
 characters reflect human cognition about nature, how elemental
-characters interact like simple objects in the physical world. Here we
+characters interact like atomic objects in the physical world. Here we
 explore how Chinese characters may have evolved naturally.
 
 \subsection{Historical Context}\label{historical-context}
 
-According to legend, Cangjie invented Chinese characters. Cangjie was a
-historian to the Yellow Emperor of China in the 27th century BCE. -
+According to legend, Cangjie (仓颉) invented Chinese characters, who was a
+historian to the Yellow Emperor of China in the 27th century BCE. 
+
 Cangjie was inspired by the natural world, including animal tracks,
-landscapes, and the stars. - He believed that if he could capture the
+landscapes, and the stars. He believed that if he could capture the
 unique features of everything in a single painting, he could create a
-writing system. - Cangjie was frustrated with the limitations of
-knotting, which was the previous method of recording information. As a
-milestone event, Cangjie undoubtedly contributed to the creation of
+writing system. He was frustrated with the limitations of
+knotting, which was the previous method of recording information. 
+
+As a milestone event, Cangjie undoubtedly contributed to the creation of
 Chinese writing system. In the grand scheme of a human language, Chinese
-characters may have evolved naturally, generation after generation.
+characters may have evolved naturally, generation after generation, 
+contratory to popular belief that it was a magic artificial design by Cangjie.
 
 \subsection{Natural Growth Patterns in Character
 Evolution}\label{natural-growth-patterns-in-character-evolution}
@@ -1552,7 +1541,7 @@ Applications}\label{educational-applications}
 
 The methodologies and insights developed in this analysis of Chinese
 characters suggest promising directions for studying other natural
-languages:
+languages.
 
 \paragraph{6.4.3.1 Computational Approaches}\label{computational-approaches}
 
