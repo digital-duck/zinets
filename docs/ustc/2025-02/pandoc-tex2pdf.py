@@ -1,6 +1,6 @@
 import pypandoc
 
-file_name = "ustcj2025-2"  # Replace with your .tex file name (without extension)
+file_name = "ustcj2025-2c"  # Replace with your .tex file name (without extension)
 file_pdf = f"{file_name}.pdf"
 file_tex = f"{file_name}.tex"
 
@@ -12,7 +12,7 @@ pypandoc.convert_file(
     extra_args=[
         '--pdf-engine=xelatex',  # Use XeLaTeX for CJK support
         # '-V', 'CJKmainfont=SimSun',  # Specify a CJK font (e.g., SimSun for Chinese)
-        '-V', 'CJKmainfont="Noto Sans CJK TC Medium"',  # Specify a CJK font (e.g., SimSun for Chinese)
+        # '-V', 'CJKmainfont="Noto Sans CJK SC"',  # Specify a CJK font (e.g., SimSun for Chinese)
         '-V', 'geometry=margin=0.75in',  # Adjust margins
         '-V', 'fontsize=11pt',  # Set font size
         '-V', 'papersize=letter',  # Set paper size

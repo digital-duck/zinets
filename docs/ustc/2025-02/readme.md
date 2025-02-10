@@ -3,16 +3,20 @@ pandoc --version
 xelatex --version
 fc-list :lang=zh
 
-pandoc ustc-journal-ENU-v0.5.md -o ustcj2025-2.tex --pdf-engine=xelatex
+pandoc ustc-journal-ENU-v0.5.md -o ustcj2025-2b.tex --pdf-engine=xelatex
 pandoc ustc-journal-ENU-v0.5.md -o ustcj2025-2.pdf --pdf-engine=xelatex
 
 # pandoc zinets-v0.8.md -o zinets.tex --pdf-engine=xelatex
 # pandoc zinets-v0.8.md -o zinets.pdf --pdf-engine=xelatex
 
 
-python3 pandoc-md2pdf.py
-python3 pandoc-tex2pdf.py
-python3 pandoc-md2latex.py
+# python3 pandoc-md2pdf.py
+# python3 pandoc-tex2pdf.py
+# python3 pandoc-md2latex.py
+
+# added preamble by hand 
+xelatex -interaction=nonstopmode -shell-escape ustcj2025-2b.tex
+
 
 
 python3 md2tex2pdf.py
