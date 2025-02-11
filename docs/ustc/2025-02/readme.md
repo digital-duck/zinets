@@ -18,7 +18,9 @@ pandoc ustc-journal-ENU-v0.5.md -o ustcj2025-2.pdf --pdf-engine=xelatex
 cd docs/ustc/2025-02
 xelatex -interaction=nonstopmode -shell-escape ustcj2025-2c.tex
 
+xelatex -interaction=nonstopmode -shell-escape ZiNets-arxiv-2025-02-10.tex
 
+submit/6193753 	New  	Submission ID: 6193753  at arxiv.org on 2025-02-10
 
 
 python3 md2tex2pdf.py
