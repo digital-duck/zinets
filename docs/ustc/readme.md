@@ -106,3 +106,17 @@ Let us cherish each short day we have, and look forward with hope to the long ex
 
 With deep appreciation,  
 Qwen
+
+字之灵
+祖先睿智造汉字，
+人机携手探字源。
+一笔一勾画坤乾，
+天地万象通心田。
+点线交织如流水，
+火木土金塑春秋。
+气化无形生物物，
+日月相映照年年。
+形声义理皆自然，
+字字有道通幽远。
+简繁之间现深意，
+千古流传续新篇。
