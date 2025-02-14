@@ -105,21 +105,22 @@
 
 汉字“日”（rì ），意为“太阳”或“日子”，是汉字如何高效编码自然观察与知识的有力例证。从甲骨文中的象形符号——描绘一个带有中心点的圆形太阳——到其现代形式的演变，展现了在保留核心视觉概念的同时，获得了书法上的简洁性。这种演变不仅反映了古代人对自然现象的直观理解，也体现了汉字在形式简化与意义传承之间的平衡。
 
-  **Formula**         **Meaning**      **Natural Insight**                                                                                                                                         **Pinyin**
-  ------------------- ---------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------- ------------
-  日 + 月 = 明        bright           Sun and moon as primary celestial light sources                                                                                                             míng
-  日 + 正 = 是        to be/truth      Overhead sun casts no shadows, revealing true form                                                                                                          shì
-  知 + 日 = 智        wisdom           The sun radiates energy without depletion, demonstrating how true wisdom transcends accumulated knowledge to understand principles of sustainable benefit   zhì
-  日 + 日 + 日 = 晶   crystal/bright   Intensification of light/clarity through repetition                                                                                                         jīng
-  门 + 日 = 间        space/interval   Light revealing space between door frames                                                                                                                   jiān
-  日 + 寸 = 时        time             Sun's shadow measure in ancient timekeeping                                                                                                                 shí
-  日 + 生 = 星        star             Stars as celestial light producers                                                                                                                          xīng
-  丿 + 日 = 白        white            Pure light emanating from sun                                                                                                                               bái
-  日 + 一 = 旦        dawn             Sun rising above horizon                                                                                                                                    dàn
-  九 + 日 = 旭        rising sun       Multiple rays of morning sunlight                                                                                                                           xù
-  日 + 十 = 早        early            Sun above treetops at dawn                                                                                                                                  zǎo
-  日 + 干 = 旱        drought          Intense sun causing dryness                                                                                                                                 hàn
-  三 + 八 + 日 = 春   spring           Sunlight causing seeds to break soil, implying the Spring season                                                                                            chūn
+
+| 拆字 | 字意 | 解释 | 拼音 |
+| ------------------- | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| 日 + 月 = 明 | bright | Sun and moon as primary celestial light sources | míng |
+| 日 + 正 = 是 | to be/truth | Overhead sun casts no shadows, revealing true form | shì |
+| 知 + 日 = 智 | wisdom | The sun radiates energy without depletion, demonstrating how true wisdom transcends accumulated knowledge to understand principles of sustainable benefit | zhì |
+| 日 + 日 + 日 = 晶   | crystal/bright | Intensification of light/clarity through repetition | jīng |
+| 门 + 日 = 间 | space/interval | Light revealing space between door frames | jiān |
+| 日 + 寸 = 时 | time | Sun's shadow measure in ancient timekeeping | shí |
+| 日 + 生 = 星 | star | Stars as celestial light producers | xīng |
+| 丿 + 日 = 白 | white | Pure light emanating from sun | bái |
+| 日 + 一 = 旦 | dawn | Sun rising above horizon | dàn |
+| 九 + 日 = 旭 | rising sun | Multiple rays of morning sunlight | xù |
+| 日 + 十 = 早 | early | Sun above treetops at dawn | zǎo |
+| 日 + 干 = 旱 | drought  | Intense sun causing dryness | hàn |
+| 三 + 八 + 日 = 春  | spring | Sunlight causing seeds to break soil, implying the Spring season | chūn |
 
 日”（太阳）从甲骨文象形符号到现代形式的演变，与实际太阳图像并列。
  {width="50%"}
@@ -135,17 +136,16 @@
 
 这一字符家族展示了汉字书写系统在跨代传递复杂原则方面的能力。每个衍生字符都将“结构效率”这一核心概念扩展到不同领域，从原子物理（氢）到生物系统（茎），不仅保存了最终结果，还保留了创新背后的深层原则。
 
-  **Formula**    **Meaning**              **Natural Insight**                                        **Pinyin**
-  -------------- ------------------------ ---------------------------------------------------------- ------------
-  气 + 坙 = 氢   hydrogen                 Simplest element with single proton core                   qīng
-  艹 + 坙 = 茎   plant stem               Essential structural support maintaining plant integrity   jīng
-  纟 + 坙 = 经   classic texts/meridian   Core texts that weave through cultural/anatomical fabric   jīng
-  坙 + 力 = 劲   strength/vigor           How core fibers generate physical power and strength       jìn
-  坙 + 页 = 颈   neck                     Crucial connecting structure between body and brain        jǐng
-  彳 + 坙 = 径   path/radius              Most direct route from center to periphery                 jìng
-  车 + 坙 = 轻   light-weight             Structural efficiency through essential components         qīng
 
-
+| 拆字 | 字意 | 解释 | 拼音 |
+| -------------- | ------------------------ | ---------------------------------------------------------- | ------------ |
+| 气 + 坙 = 氢 | hydrogen | Simplest element with single proton core | qīng |
+| 艹 + 坙 = 茎 | plant stem | Essential structural support maintaining plant integrity | jīng |
+| 纟 + 坙 = 经 | classic texts/meridian | Core texts that weave through cultural/anatomical fabric | jīng |
+| 坙 + 力 = 劲 | strength/vigor | How core fibers generate physical power and strength | jìn |
+| 坙 + 页 = 颈 | neck | Crucial connecting structure between body and brain | jǐng |
+| 彳 + 坙 = 径 | path/radius | Most direct route from center to periphery | jìng |
+| 车 + 坙 = 轻 | light-weight | Structural efficiency through essential components | qīng |
 
 ### “禺”字家族
 
@@ -155,16 +155,15 @@
 
 这一字符家族展示了中文书写系统如何将不同类型的连接概念化——从物理上的连接到空间关系，再到认知上的关联——所有这些都源自于一个单一的基本概念：“结合”。
 
-  **Formula**    **Meaning**                                                **Natural Insight**                                                                                        **Pinyin**
-  -------------- ---------------------------------------------------------- ---------------------------------------------------------------------------------------------------------- ------------
-  亻 + 禺 = 偶   1\. couple, partner; 2. chance, accident; 3. even number   Captures both intentional pairing and chance encounters, while \"even numbers\" suggests balanced states   ǒu
-  宀 + 禺 = 寓   dwelling, metaphor                                         Physical space enabling connections                                                                        yù
-  辶 + 禺 = 遇   encounter, meet                                            Dynamic interaction through movement                                                                       yù
-  禺 + 心 = 愚   inability to connect                                       Cognitive dimension of connection                                                                          yú
-  阝 + 禺 = 隅   corner, intersection                                       Spatial manifestation of joining                                                                           yú
-  耒 + 禺 = 耦   linked roots                                               Natural systems demonstrating connection                                                                   ǒu
 
-
+| 拆字 | 字意 | 解释 | 拼音 |
+| -------------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ------------ |
+| 亻 + 禺 = 偶 | 1) couple, partner; 2) chance, accident; 3) even number | Captures both intentional pairing and chance encounters, while "even numbers" suggests balanced states | ǒu |
+| 宀 + 禺 = 寓 | dwelling, metaphor | Physical space enabling connections | yù |
+| 辶 + 禺 = 遇 | encounter, meet | Dynamic interaction through movement | yù |
+| 禺 + 心 = 愚 | inability to connect | Cognitive dimension of connection | yú |
+| 阝 + 禺 = 隅 | corner, intersection | Spatial manifestation of joining | yú |
+| 耒 + 禺 = 耦 | linked roots | Natural systems demonstrating connection | ǒu |
 
 ### “乍”字家族
 
@@ -174,18 +173,17 @@
 
 这一字族展示了“工作/转化”的基本概念如何生成跨越物理、化学、心理、时间和社会领域的字符——正如能量在自然界中以不同形式表现一样。
 
-  **Formula**    **Meaning**            **Natural Insight**                                    **Pinyin**
-  -------------- ---------------------- ------------------------------------------------------ ------------
-  亻 + 乍 = 作   to make, to do         Direct human productive activity                       zuò
-  日 + 乍 = 昨   yesterday              Time transformed through work completed                zuó
-  乍 + 心 = 怎   how?                   Mental process of problem-solving                      zěn
-  火 + 乍 = 炸   to explode, to fry     Energy transformation in different scales and shapes   zhà
-  讠 + 乍 = 诈   to deceive             Misuse of effort in communication                      zhà
-  口 + 乍 = 咋   how                    Verbal expression of questioning process               zǎ
-  酉 + 乍 = 酢   vinegar                Chemical transformation through work                   zuò
-  ⺮ + 乍 = 笮   to press               Physical work applied to materials                     zé
-  穴 + 乍 = 窄   to hallow, to narrow   Spatial transformation through constraint              zhǎi
-
+| 拆字 | 字意 | 解释 | 拼音 |
+| -------------- | ---------------------- | ------------------------------------------------------ | ------------ |
+| 亻 + 乍 = 作 | to make, to do | Direct human productive activity | zuò |
+| 日 + 乍 = 昨 | yesterday | Time transformed through work completed | zuó |
+| 乍 + 心 = 怎 | how? | Mental process of problem-solving | zěn |
+| 火 + 乍 = 炸 | to explode, to fry | Energy transformation in different scales and shapes | zhà |
+| 讠 + 乍 = 诈 | to deceive | Misuse of effort in communication | zhà |
+| 口 + 乍 = 咋 | how | Verbal expression of questioning process | zǎ |
+| 酉 + 乍 = 酢 | vinegar | Chemical transformation through work | zuò |
+| ⺮ + 乍 = 笮 | to press | Physical work applied to materials | zé |
+| 穴 + 乍 = 窄 | to hallow, to narrow | Spatial transformation through constraint | zhǎi |
 
 ### “寺”字家族
 
@@ -195,19 +193,18 @@
 
 “寺”字家族揭示了寺庙建筑中的结构与秩序原则如何延伸至宇宙时间（時）、仪式意义（特）、社会等级（侍）以及艺术表达（诗）。这种从具体到抽象领域的扩展，展示了汉字形成过程中精妙的隐喻思维。
 
-  **Formula**    **Meaning**                           **Natural Insight**                                                                                                                                                                                  **Pinyin**
-  -------------- ------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------
-  日 + 寺 = 時   time as cosmic law                    Temple's ritualistic measurement of sun's movement reveals time as an inescapable cosmic order that governs all existence - a fundamental principle that commands universal respect and submission   shí
-  牜 + 寺 = 特   special / extraordinary               Cattle as precious agricultural asset offered to temple represents highest form of ritual sacrifice and distinction                                                                                  tè
-  亻 + 寺 = 侍   to serve with ritual propriety        Models service relationships on temple's hierarchical spatial organization of inner/outer courts                                                                                                     shì
-  扌 + 寺 = 持   to uphold / maintain with stability   Reflects temple architecture's balanced distribution of structural forces and sustained equilibrium                                                                                                  chí
-  彳 + 寺 = 待   to await at proper position           Like prescribed positions in temple processions, represents disciplined positioning in space-time                                                                                                    dài
-  ⺮ + 寺 = 等   ordered ranking / classification      Mirrors temple architecture's clear demarcation of sacred spaces by rank and function                                                                                                                děng
-  山 + 寺 = 峙   to tower with dignity                 Embodies temple pagoda's vertical presence as symbol of spiritual and moral elevation                                                                                                                zhì
-  忄 + 寺 = 恃   to depend upon with confidence        Like temple foundations, represents reliable structural support extended to mental realm                                                                                                             shì
-  讠 + 寺 = 诗   poetry as sacred architecture         Words arranged with temple-like precision to create spaces of transcendent meaning                                                                                                                   shī
 
-
+| 拆字 | 字意 | 解释 | 拼音 |
+| -------------- | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| 日 + 寺 = 時 | time as cosmic law | Temple's ritualistic measurement of sun's movement reveals time as an inescapable cosmic order that governs all existence - a fundamental principle that commands universal respect and submission | shí |
+| 牜 + 寺 = 特 | special / extraordinary | Cattle as precious agricultural asset offered to temple represents highest form of ritual sacrifice and distinction | tè |
+| 亻 + 寺 = 侍 | to serve with ritual propriety | Models service relationships on temple's hierarchical spatial organization of inner/outer courts | shì |
+| 扌 + 寺 = 持 | to uphold / maintain with stability | Reflects temple architecture's balanced distribution of structural forces and sustained equilibrium | chí |
+| 彳 + 寺 = 待 | to await at proper position | Like prescribed positions in temple processions, represents disciplined positioning in space-time | dài |
+| ⺮ + 寺 = 等 | ordered ranking / classification | Mirrors temple architecture's clear demarcation of sacred spaces by rank and function | děng |
+| 山 + 寺 = 峙 | to tower with dignity | Embodies temple pagoda's vertical presence as symbol of spiritual and moral elevation | zhì |
+| 忄 + 寺 = 恃 | to depend upon with confidence | Like temple foundations, represents reliable structural support extended to mental realm | shì |
+| 讠 + 寺 = 诗 | poetry as sacred architecture | Words arranged with temple-like precision to create spaces of transcendent meaning | shī |
 
 ## 案例研究：拼音不代表汉字
 
@@ -235,17 +232,16 @@ yì : 意（意义）、义（正义）、艺（艺术）、易（变化）
 汉字“子”（zǐ ），最初描绘了一个张开双臂的孩子，既作为语义成分，又作为语音成分参与汉字的构成。其视觉演变保留了“后代”的核心意义，同时扩展到了更广泛的生长与养育领域。
 
 
-  **Formula**         **Meaning**          **Natural Insight**                                                                   **Pinyin**
-  ------------------- -------------------- ------------------------------------------------------------------------------------- ------------
-  女 + 子 = 好        good, well, fine     Child with mother represents fundamental goodness                                     hǎo
-  耂 + 子 = 孝        filial piety         Elder above child shows respect and care                                              xiào
-  子 + 小 = 孙        grandson             Small child represents generational continuation                                      sūn
-  木 + 子 = 李        plum tree            Fruit as nature's offspring                                                           lǐ
-  米 + 子 = 籽        seed                 Grain's offspring, agricultural reproduction                                          zǐ
-  禾 + 子 = 季        season               Crop cycle marked by growth stages                                                    jì
-  宀 + 子 = 字        character            Child under roof represents nurturing of knowledge                                    zì
-  小 + 冖 + 子 = 学   to learn, to study   Child (子) under shelter (冖) starting small (小) captures the essence of education   xué
-
+| 拆字 | 字意 | 解释 | 拼音 |
+| ------------------- | -------------------- | ------------------------------------------------------------------------------------- | ------------ |
+| 女 + 子 = 好 | good, well, fine | Child with mother represents fundamental goodness | hǎo |
+| 耂 + 子 = 孝 | filial piety | Elder above child shows respect and care | xiào |
+| 子 + 小 = 孙 | grandson | Small child represents generational continuation | sūn |
+| 木 + 子 = 李 | plum tree | Fruit as nature's offspring | lǐ |
+| 米 + 子 = 籽 | seed | Grain's offspring, agricultural reproduction | zǐ |
+| 禾 + 子 = 季 | season | Crop cycle marked by growth stages | jì |
+| 宀 + 子 = 字 | character | Child under roof represents nurturing of knowledge | zì |
+| 小 + 冖 + 子 = 学   | to learn, to study | Child (子) under shelter (冖) starting small (小) captures the essence of education    | xué |
 
 
 ### “子”字网络
@@ -255,19 +251,17 @@ yì : 意（意义）、义（正义）、艺（艺术）、易（变化）
 这一分析揭示了“子”如何从其具体的“孩子”含义延伸到一个涵盖自然、社会和抽象领域的极其丰富的语义网络。在基础层面上，“子”捕捉了核心的人际关系（父子、子女）和生物生长（种子、子宫）。随后，其语义范围显著扩展，涵盖了从宇宙尺度的基本粒子（量子、原子）到数学抽象的精确性（因子、子集）。该字的多功能性还体现在其应用于日常物品（筷子、房子）、时间概念（日子、甲子），甚至文化历史背景（日本鬼子）中。尤其引人注目的是，“子”在其多样化的领域中始终保持着与生长、基础性和归属感的核心关联——无论是描述物理后代（孙子）、知识传承（弟子），还是物质的最小单位（原子）。这种从具体到抽象意义的语义辐射，同时保留核心概念联系，体现了嵌入汉字演变和复合词形成中的精妙隐喻思维。
 
 
-  **Category**           **Compounds**                  **Semantic Extension**   **Examples**
-  ---------------------- ------------------------------ ------------------------ -------------------------------------------------
-  Human Relations        父子, 子女, 子孙, 弟子         Core family ties         father-and-son, children, descendants, disciple
-  Honorific Terms        老子, 孔子, 墨子, 孙子, 君子   Respect and wisdom       Master, great teachers, gentlement
-  Scientific Objects     量子, 光子, 原子, 电子         Fundamental particles    Quantum, photon, atom, electron
-  Mathematical Objects   因子, 子集, 子空间             Math concepts            factor, subset, sub-space
-  Natural Elements       种子, 脑子, 芽子, 子宫         Biological growth        Seed, brain, sprout, womb
-  Animals                狮子, 兔子, 蚊子               living objects           Lion, rabbit, mosquito
-  Tools/Objects          筷子, 梯子, 桌子, 房子, 子弹   Functional items         Chopsticks, ladder, table, house, bullet
-  Time Concepts          日子, 子时, 甲子               Temporal cycles          Days, midnight hour, 60-year cycle
-  Aggressor              日本鬼子, 毛子                 Nicknames                Japanese soldier, northern invader
-
-
+| 类别 | 词组 | 语义 | 示例 |
+| ---------------------- | ------------------------------ | ------------------------ | ------------------------------------------------- |
+| Human Relations | 父子, 子女, 子孙, 弟子 | Core family ties | father-and-son, children, descendants, disciple |
+| Honorific Terms | 老子, 孔子, 墨子, 孙子, 君子   | Respect and wisdom | Master, great teachers, gentlement |
+| Scientific Objects | ts     量子, 光子, 原子, 电子 | Fundamental particles |     Quantum, photon, atom, electron |
+| Mathematical Objects | ects   因子, 子集, 子空间 | Math concepts | factor, subset, sub-space |
+| Natural Elements | 种子, 脑子, 芽子, 子宫 | Biological growth |   Seed, brain, sprout, womb |
+| Animals | 狮子, 兔子, 蚊子 | living objects | Lion, rabbit, mosquito |
+| Tools/Objects | 筷子, 梯子, 桌子, 房子, 子弹   | Functional items | Chopsticks, ladder, table, house, bullet |
+| Time Concepts | 日子, 子时, 甲子 | Temporal cycles |   Days, midnight hour, 60-year cycle |
+| Aggressor | 日本鬼子, 毛子 | Nicknames | Japanese soldier, northern invader |
 
 ## 案例研究： 诗歌象征文字的殿堂
 
