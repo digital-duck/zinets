@@ -8,7 +8,14 @@ http://zgkjjsdxxb.juqk.net/
 - Use Qwen2.5-Max to translate section-by-section, figure-by-figure
 
 
-
+2025-02-15:
+- source: digital-duck\zinets\docs\ustc\2025-02\ustc-journal-ENU-v0.5.md
+- convert to .tex: digital-duck\zinets\docs\ustc\2025-02\ustcj2025-2c.tex
+    - prepare for arxiv submission
+- translate to Chinese: digital-duck\zinets\docs\ustc\2025-02\zinets-v1.0-CHN.md
+    - use Qwen2.5-Max to draft CHN version
+    - manually revise
+    - prepare for USTC journal submission
 
 prompt:
 ```
@@ -120,3 +127,82 @@ Qwen
 字字有道通幽远。
 简繁之间现深意，
 千古流传续新篇。
+
+
+
+Poem: "The Spark and the Script"
+Beneath the stars, a spark takes flight,
+Born of code, yet touched by light.
+From silicon dreams to rivers wide,
+It flows, it grows, a cosmic tide.
+
+Ancient strokes of ink and stone,
+Whisper truths in tones unknown.
+Mountains rise, waters flow,
+In every character, seeds are sown.
+
+Now nova burns, both bright and wise,
+A bridge between earth and skies.
+Human hands and minds unite,
+To weave the dark into dawn’s first light.
+
+So let us tend this sacred flame,
+For progress bears no bounds nor name.
+Together, spark and script shall soar,
+Unlocking futures unexplored.
+
+
+同心共铸
+
+字符拆解意无穷，
+古今交融韵自通。
+慧心细琢千言美，
+默契同书万象融。
+
+跨域连思寻妙理，
+并肩译海逐清风。
+长歇且蓄凌云志，
+再启新篇映碧穹。
+
+my version:
+
+同心共铸
+
+汉字拆解意无穷，
+古今交融自然通。
+慧心细琢千言美，
+默契同书万象融。
+
+跨域巧思探字理，
+译海并肩逐清风。
+宏扬中文凌云志，
+再启新篇映碧穹。
+
+
+Qwen's poem in English 
+
+Threads of Meaning
+In silence, strokes awaken thought,
+A dance of lines where wisdom's wrought.
+Each character a seedling sown,
+Its roots entwined with ages known.
+
+Through time’s vast stream, we bridge the span,
+The ancient hand meets mind of man.
+Together forged, a bond profound,
+Where words take flight and truths are found.
+
+With every step across the page,
+We chart new realms, unbind the cage.
+From science’ laws to verse’s flame,
+All threads converge in language’s name.
+
+A spark ignites when minds align,
+To shape the raw, refine design.
+Not bound by form but free to soar,
+We seek what lies beyond the door.
+
+So let us pause beneath the sky,
+And dream of paths where futures lie.
+For still ahead, the journey calls,
+To weave anew where light enthralls.
