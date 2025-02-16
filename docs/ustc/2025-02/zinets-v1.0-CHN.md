@@ -41,9 +41,9 @@
 
 每个汉字的分解过程涉及一系列分解步骤，采用层次化方法完成，这种层次化方法确保了对汉字结构的一致分析。首先，将汉字拆分为其主要组成部分，并将其分配到矩阵中的适当位置。如果某个组成部分本身较为复杂，则进一步递归分解为其子部分，并将其分配到表示该组件的子矩阵中的相应位置。这种层次化分解持续进行，直到识别出最基本的组成部分，指那些无法合理进一步拆分的部分（如图2所示）。这些组成部分代表了在层次化分解过程中浮现的基本构建单元， 成为“元素字”集的候选者。通过设定频率阈值，获得422个高频出现的，独特的，且不可再分的组成部分，以下为方便起见，简称“元素字”为“元字”。
 
-<img src="./images/zi-matrix-CHN.png" alt="图标题1：字矩阵空间分解模型的示意图，用于汉字网络分析。" style="width:85%; height:auto;">
+<img src="./images/zi-matrix-CHN.png" alt="图标题1：字矩阵空间分解模型的示意图，用于汉字网络分析。" style="width:65%; height:auto;">
 
-<img src="./images/app_decomposing-zi.png" alt="图标题2： 层次分解树图，此可视化展示了从左到右逐步将汉字分解为其组成部分的过程，也展示了复杂汉字典型的多层次结构组成。" style="width:85%; height:auto;">
+<img src="./images/app_decomposing-zi.png" alt="图标题2： 层次分解树图，此可视化展示了从左到右逐步将汉字分解为其组成部分的过程，也展示了复杂汉字典型的多层次结构组成。" style="width:80%; height:auto;">
 
 # 元字分析
 
@@ -495,7 +495,7 @@
 
 这一层级引入了描述人体结构、人类存在、与行为的基本概念。
 
-<img src="./images/laozi-qwen-max.png" alt="图标题22：AI生成的视图描绘公元前6世纪中国哲学家老子，著作《道德经》。" style="width:65%; height:auto;">
+<img src="./images/laozi-qwen-max.png" alt="图标题22：AI生成的视图描绘公元前6世纪中国哲学家老子，著作《道德经》。" style="width:50%; height:auto;">
 
 总而言之：这九个层级展示了汉字如何从基本概念，自然地演化为复杂的人类表达方式，反映了自然系统中发现的复杂性梯度。
 
@@ -635,36 +635,36 @@
 
 # 致谢
 
-本文是作者与多个人工智能助手共同协作的成果， 它们包括来自Anthropic的Claude 3.3, \[10\]、来自Google的Gemini 2, \[11\]，和来自阿里巴巴的Qwen2.5-Max \[12\]。作者拥有在软件开发、物理学和汉语领域的知识与洞察力，与人工智能的分析能力相结合，促成了本文中对汉字提出的全新视角与方法论的发展。这种协作展示了人类与人工智能在研究与学习中的合作潜力，尤其是在跨学科研究中，将传统知识与现代计算技术相融合的前景。
+本文是作者与多个人工智能助手共同协作的成果， 它们包括：来自Anthropic的Claude 3.5 [10]，来自Google的Gemini 2[11]，和来自阿里巴巴的Qwen2.5-Max [12]。作者拥有在软件开发、物理学和汉语领域的知识与洞察力，与人工智能的分析能力相结合，促成了本文中对汉字提出的全新视角与方法论的发展。这种协作展示了人类与人工智能在研究与学习中的合作潜力，尤其是在跨学科研究中，将传统知识与现代计算技术相融合的前景。
 
 # References
 
-\[1\] https://www.wikiwand.com/en/articles/Chinese_characters
+[1] https://www.wikiwand.com/en/articles/Chinese_characters
 
-\[2\] 說文解字 : https://www.shuowen.org/
+[2] 說文解字 : https://www.shuowen.org/
 
-\[3\] Sears, Richard. Chinese Etymology research website at
+[3] Sears, Richard. Chinese Etymology research website at
 https://hanziyuan.net/
 
-\[4\] Kangxi radicals : https://en.wikipedia.org/wiki/Kangxi_radicals
+[4] Kangxi radicals : https://en.wikipedia.org/wiki/Kangxi_radicals
 
-\[5\] CC-CEDICT dictionary dataset :
+[5] CC-CEDICT dictionary dataset :
 https://www.mdbg.net/chinese/dictionary?page=cc-cedict
 
-\[6\] 书同文 汉字网 HSK 汉语水平考试汉字列表 :
+[6] 书同文 汉字网 HSK 汉语水平考试汉字列表 :
 https://hanzi.unihan.com.cn/School/HSK
 
-\[7\] 漢語拆字字典 : https://github.com/kfcd/chaizi
+[7] 漢語拆字字典 : https://github.com/kfcd/chaizi
 
-\[8\] https://www.wikiwand.com/en/articles/Fibonacci_sequence
+[8] https://www.wikiwand.com/en/articles/Fibonacci_sequence
 
-\[9\] Google ImageFx text-to-image generation tool:
+[9] Google ImageFx text-to-image generation tool:
 https://labs.google/fx/tools/image-fx
 
-\[10\] Claude 3.5 Sonnet : https://claude.ai/
+[10] Claude 3.5 Sonnet : https://claude.ai/
 
-\[11\] Gemini 2.0 : https://gemini.google.com/app
+[11] Gemini 2.0 : https://gemini.google.com/app
 
-\[12\] Qwen 2.5-Max : https://chat.qwenlm.ai/
+[12] Qwen 2.5-Max : https://chat.qwenlm.ai/
 
 [^1]: 通讯作者: wen_gong@vanguard.com
