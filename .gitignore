@@ -1,6 +1,7 @@
 **/tmp/
 **/*.drawio.bkp
 **/.webui_secret_key
+**/*u8hi*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
