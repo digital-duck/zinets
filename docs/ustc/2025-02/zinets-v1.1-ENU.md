@@ -531,6 +531,7 @@ Chinese language.
   子 + 瓜 = 孤        alone, isolate
   乃 + 子 = 孕        preganant
   子 + 亥 = 孩        child
+  亻 + 子 = 仔       (zǎi) - young animal, kid
 
 ![Evolution of character 子 (child) from oracle bone script to modern
 form, with visual metaphor of a baby with outstretched
