@@ -10,9 +10,9 @@ to extract pinyin and meaning, then use `元字编辑 Editor`
 with where-clause = `phono is null`
 to fill in `phono` field
 
-ToDo: 391 
+ToDo: 295
 
-## 2025-02-17
+## 2025-02-17, 2025-02-18
 https://www.researchgate.net/publication/258546969_Semantic_elements_in_Chinese_Characters_Elements_and_Housing
 
 see "C:\Users\p2p2l\projects\digital-duck\zinets\research\supporting_materials\TaoposterIII.jpg"
