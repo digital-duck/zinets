@@ -1,3 +1,5 @@
+# Conference Submission
+
 题目： 对汉字由简化到深化的新探索
 
 论文提要：
@@ -30,3 +32,23 @@
 
 征稿： 
 https://sjhy.cbpt.cnki.net/WKC/WebPublication/wkTextContent.aspx?contentID=4c5a5b0c-6f00-4d6c-8c80-191a983c3253&mid=sjhy
+
+
+# ToDos
+
+## Key Dates: 
+- 2025-02-19 (email submission)
+- 2025-03-15 (organizer notification)
+- 2025-04-12 to 13 (conference in Hangzhou)
+
+
+## Contacts
+- 会务组联系人：郑崧，邮箱：gjzwjyyj@zjnu.cn；电话：13867985776
+- 秘书组联系人：胡媛，邮箱：shbjb_huiyi@126.com；电话：010-82303689
+
+## prepare slide deck
+
+## build ZiNets app in streamlit for demo
+
+### animate Zi-decomposition
+
