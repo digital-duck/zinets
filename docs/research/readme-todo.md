@@ -1,3 +1,13 @@
+## 2025-02-21
+
+https://www.dingxinwen.cn/detail/130F85E748BC4B78B467953FCFC300
+
+重构中国汉字学学科体系
+李运富 - 郑州大学汉字文明研究中心
+古文字与中华文明传承发展工程协同攻关创新平台
+本文原载《四川大学学报(哲学社会科学版)》2024年第6期
+
+
 ## 2025-02-17
 
 per discussion with Gemin, I should study Pinyin of elemental characters, added column `phono` to table `t_ele_zi`
