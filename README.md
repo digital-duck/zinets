@@ -136,3 +136,15 @@ https://chat.deepseek.com/a/chat/s/6fec3b04-a747-4e50-9d07-c0646073a22e
 In Overleaf, click the Menu button (top-left corner).
 
 Under Settings, change the Compiler to XeLaTeX
+
+
+
+
+---
+
+
+攵殳戈弋式皿厶几且乂爻冈凶卤网斤斥由匕各艮辛冂卜歹其矢缶夂豕豸勺彐刍甘至肙及亢臼佥尤申尧孚辰乃幺戋邑咸亏耒兀聿呙奂奉㐬夆屰柬囟黾曲阜黍
+
+```sql
+delete from t_ele_zi where u_id in (431, 432, 435, 434, 437);
+```
